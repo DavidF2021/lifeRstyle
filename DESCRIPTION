@@ -1,16 +1,22 @@
-Package: lifeRstyle
 Type: Package
-Title: What the Package Does (Title Case)
+Package: lifeRstyle
+Title: Analyse and Plot the Latest Smoking and Alcohol Consumption Data
+    with Reported Heath Status
 Version: 0.1.0
 Authors@R: c(
-    person(
-      "Jane", "Doe",
-      email = "jane@example.com",
-      role = c("aut", "cre")
-    )
+    person("Abigail", "Deegan", , "abigail.deegan.2023@mumail.ie", role = c("aut", "cre")),
+    person("Grace", "Loughrey", , "grace.loughrey.2023@mumail.ie", role = c("aut", "cre")),
+    person("David", "Finnegan", , "david.finnegan.2021@mumail.ie", role = c("aut", "cre")),
+    person("Robert", "Castro", , "robert.castro.2023@mumail.ie", role = c("aut", "cre"))
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: Downloads the latest alcohol and smoking habits/consumption
+    along with a general health status from the CSO. Perform modeling of
+    the data and create plots of the consuption habits with reported
+    health status.
+License: GPL (>= 3)
+URL: https://github.com/DavidF2021/lifeRstyle
+Depends: 
+    R (>= 4.5.0)
 Encoding: UTF-8
 LazyData: true
+Date: 2025-12-03
