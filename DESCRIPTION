@@ -18,5 +18,11 @@ License: GPL (>= 3)
 URL: https://github.com/DavidF2021/lifeRstyle
 Depends: 
     R (>= 4.5.0)
+Imports: 
+    csodata,
+    dplyr,
+    ggplot2,
+    lme4,
+    readr
 Encoding: UTF-8
 LazyData: true
