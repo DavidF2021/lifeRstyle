@@ -39,6 +39,7 @@ download_and_clean_cso <- function(table_id,
   return(df_cleaned)
 }
 
+
 #Function to download, clean, and optionally combine multiple CSO tables
 download_clean_combine_cso <- function(table_ids,
                                        filter_sex = "Both sexes",
@@ -76,7 +77,7 @@ download_clean_combine_cso <- function(table_ids,
 }
 
 #For HIS15
-his15_cleaned <- download_and_clean_cso(
+his15_cleaned <- download_and_clean_cso( # would want to rename this to alcohol_cleaned or just alcohol
   table_id = "HIS15",
   dest_file = "data/clean/HIS15_cleaned.csv"
 )
@@ -85,7 +86,7 @@ his15_cleaned <- download_and_clean_cso(
 head(his15_cleaned)
 
 #For HIS09
-his09_cleaned <- download_and_clean_cso(
+his09_cleaned <- download_and_clean_cso( # would want to rename this to smoking_cleaned or just smoking
   table_id = "HIS09",
   dest_file = "data/clean/HIS09_cleaned.csv"
 )
@@ -94,7 +95,7 @@ his09_cleaned <- download_and_clean_cso(
 head(his09_cleaned)
 
 #For HIS01
-his01_cleaned <- download_and_clean_cso(
+his01_cleaned <- download_and_clean_cso( # would want to rename this to health_cleaned or just health
   table_id = "HIS01",
   dest_file = "data/clean/HIS01_cleaned.csv"
 )
@@ -106,6 +107,9 @@ HSPAO11_cleaned <- download_and_clean_cso(
   dest_file = "data/clean/HSPAO11_cleaned.csv"
 )
 
+## delete this probably, we didnt agree to use this dataset,I dont think we can relate it to
+## alcohol and smoking. we could relate it to general health status though.
+
 #Combined function
 tables <- c("HIS15", "HIS01", "HIS09", "HSPAO11")  # Add more tables as needed
 data_list <- download_clean_combine_cso(tables)
@@ -113,6 +117,8 @@ data_list <- download_clean_combine_cso(tables)
 # Access individual cleaned tables
 his15 <- data_list$individual$HIS15
 his01 <- data_list$individual$HIS01
+
+# like said above, i think these tables need to be renamed, calling them by the table code on CSO is too confusing
 
 # Access combined dataset
 combined_data <- data_list$combined
@@ -141,6 +147,9 @@ ggplot(combined_data, aes(x = table_id, y = value, fill = table_id)) +
   theme_minimal()
 
 
+## what are we trying to show with these plots?? again i think the table_id's need to be changed
+## because it makes the plots quite unreadable
+
 ##Modelling
 #lm to display how Sex, Year, Age Group influence values.
 lm_model <- lm(value ~ Sex + Age.Group + Year, data = his15)
@@ -157,6 +166,6 @@ mixed_model <- lmer(value ~ Sex + Age.Group + (1|table_id), data = combined_data
 summary(mixed_model)
 
 
-
-
+## if we were following the format of the climr3 package, plots were made according
+## to the models fitted.
 

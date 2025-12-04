@@ -2,7 +2,8 @@ Type: Package
 Package: lifeRstyle
 Title: Analyse and Plot the Latest Smoking and Alcohol Consumption Data
     with Reported Heath Status
-Version: 0.1.0
+Version: 0.1.1
+Date: 2025-12-03
 Authors@R: c(
     person("Abigail", "Deegan", , "abigail.deegan.2023@mumail.ie", role = c("aut", "cre")),
     person("Grace", "Loughrey", , "grace.loughrey.2023@mumail.ie", role = c("aut", "cre")),
@@ -19,4 +20,3 @@ Depends:
     R (>= 4.5.0)
 Encoding: UTF-8
 LazyData: true
-Date: 2025-12-03
