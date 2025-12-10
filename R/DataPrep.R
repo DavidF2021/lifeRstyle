@@ -180,4 +180,6 @@ summary(mixed_model)
 
 ## if we were following the format of the climr3 package, plots were made according
 ## to the models fitted.
+#Add scatter plots?
+#Test
 
