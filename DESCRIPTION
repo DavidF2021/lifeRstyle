@@ -25,4 +25,5 @@ Imports:
     lme4,
     readr
 Encoding: UTF-8
+Language: en-GB
 LazyData: true
