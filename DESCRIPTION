@@ -6,9 +6,9 @@ Version: 0.1.1
 Date: 2025-12-03
 Authors@R: c(
     person("Abigail", "Deegan", , "abigail.deegan.2023@mumail.ie", role = c("aut", "cre")),
-    person("Grace", "Loughrey", , "grace.loughrey.2023@mumail.ie", role = c("aut", "cre")),
-    person("David", "Finnegan", , "david.finnegan.2021@mumail.ie", role = c("aut", "cre")),
-    person("Robert", "Castro", , "robert.castro.2023@mumail.ie", role = c("aut", "cre"))
+    person("Grace", "Loughrey", , "grace.loughrey.2023@mumail.ie", role = "aut"),
+    person("David", "Finnegan", , "david.finnegan.2021@mumail.ie", role = "aut"),
+    person("Robert", "Castro", , "robert.castro.2023@mumail.ie", role = "aut")
   )
 Description: Downloads the latest alcohol and smoking habits/consumption
     along with a general health status from the CSO. Perform modeling of
