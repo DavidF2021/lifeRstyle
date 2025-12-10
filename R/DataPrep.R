@@ -7,6 +7,18 @@ library(lme4) # For fitting mixed models
 
 
 # Function to download and clean any table from csodata
+#' Loads in and cleans any specified table from the CSO
+#'
+#' @param table_id
+#' @param dest_file
+#' @param filter_sex
+#' @param filter_age
+#' @param filter_years
+#'
+#' @returns
+#' @export
+#'
+#' @examples
 download_and_clean_cso <- function(table_id,
                                    dest_file = NULL,
                                    filter_sex = "Both sexes",
