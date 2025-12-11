@@ -10,10 +10,10 @@ Authors@R: c(
     person("David", "Finnegan", , "david.finnegan.2021@mumail.ie", role = "aut"),
     person("Robert", "Castro", , "robert.castro.2023@mumail.ie", role = "aut")
   )
-Description: Downloads the latest alcohol and smoking habits/consumption
-    along with a general health status from the CSO. Perform modeling of
-    the data and create plots of the consuption habits with reported
-    health status.
+Description: Downloads any table from the CSO. This package focuses on the
+    latest alcohol consumption and smoking habits along with a general
+    health status from the CSO. Performs modeling of the data and creates
+    plots of the consuption habits with reported health status.
 License: GPL (>= 3)
 URL: https://github.com/DavidF2021/lifeRstyle
 Depends: 
