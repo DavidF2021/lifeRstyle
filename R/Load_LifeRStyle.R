@@ -23,15 +23,14 @@ download_and_clean_cso <- function(table_id,
                                    dest_file = NULL,
                                    filter_sex = "Both sexes",
                                    filter_age = "All ages",
-                                   filter_years = c("2019", "2020", "2025")) {
+                                   filter_years = c("2019", "2020")) {
   message("Downloading table: ", table_id)
 
   # Download table from CSO (tall gives long dataframe)
   df <- cso_get_data(table_id, pivot_format = "tall")
   message("Downloaded table has ", nrow(df), " rows and ", ncol(df), " columns.")
 
-  # Inspect column names (If table structure changes)
-  print(colnames(df))
+
 
   # Clean table: filter out Sex, Age.Group, Year
   df_cleaned <- df %>%
@@ -56,7 +55,7 @@ download_and_clean_cso <- function(table_id,
 download_clean_combine_cso <- function(table_ids,
                                        filter_sex = "Both sexes",
                                        filter_age = "All ages",
-                                       filter_years = c("2019","2020","2025"),
+                                       filter_years = c("2019","2020"),
                                        combine = TRUE,
                                        save_dir = "data/clean") {
   if (!dir.exists(save_dir)) dir.create(save_dir, recursive = TRUE)
@@ -94,34 +93,19 @@ alcohol_cleaned <- download_and_clean_cso(
   dest_file = "data/clean/alcohol_cleaned.csv"
 )
 
-#View first few rows
-head(alcohol_cleaned)
-
 #For HIS09
-his09_cleaned <- download_and_clean_cso( # would want to rename this to smoking_cleaned or just smoking
-  table_id = "HIS09",
-  dest_file = "data/clean/HIS09_cleaned.csv"
+smoking_cleaned <- download_and_clean_cso(
+  table_id = "smoking_cleaned",
+  dest_file = "data/clean/smoking_cleaned.csv"
 )
-
-#View first few rows
-head(his09_cleaned)
 
 #For HIS01
-his01_cleaned <- download_and_clean_cso( # would want to rename this to health_cleaned or just health
-  table_id = "HIS01",
-  dest_file = "data/clean/HIS01_cleaned.csv"
-)
-head(his01_cleaned)
-
-#For HSPAO11
-HSPAO11_cleaned <- download_and_clean_cso(
-  table_id = "HSPAO11",
-  dest_file = "data/clean/HSPAO11_cleaned.csv"
+health_cleaned <- download_and_clean_cso(
+  table_id = "health",
+  dest_file = "data/clean/health_cleaned.csv"
 )
 
-## delete this probably, we didnt agree to use this dataset,I dont think we can relate it to
-## alcohol and smoking. we could relate it to general health status though.
 
 #Combined function
-tables <- c("alcohol_cleaned", "HIS01", "HIS09", "HSPAO11")  # Add more tables as needed
+tables <- c("alcohol_cleaned", "health_cleaned", "smoking_cleaned")  # Add more tables as needed
 data_list <- download_clean_combine_cso(tables)

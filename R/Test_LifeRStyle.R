@@ -1,3 +1,13 @@
+# Inspect column names (If table structure changes)
+print(colnames(df))
+
+#View first few rows
+head(alcohol_cleaned)
+
+#View first few rows
+head(his09_cleaned)
+
+head(health_cleaned)
 
 # Access individual cleaned tables
 his15 <- data_list$individual$HIS15
