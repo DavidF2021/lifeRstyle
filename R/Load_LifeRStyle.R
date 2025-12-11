@@ -89,13 +89,13 @@ download_clean_combine_cso <- function(table_ids,
 }
 
 #For HIS15
-his15_cleaned <- download_and_clean_cso( # would want to rename this to alcohol_cleaned or just alcohol
-  table_id = "HIS15",
-  dest_file = "data/clean/HIS15_cleaned.csv"
+alcohol_cleaned <- download_and_clean_cso(
+  table_id = "alcohol_cleaned",
+  dest_file = "data/clean/alcohol_cleaned.csv"
 )
 
 #View first few rows
-head(his15_cleaned)
+head(alcohol_cleaned)
 
 #For HIS09
 his09_cleaned <- download_and_clean_cso( # would want to rename this to smoking_cleaned or just smoking
@@ -123,5 +123,5 @@ HSPAO11_cleaned <- download_and_clean_cso(
 ## alcohol and smoking. we could relate it to general health status though.
 
 #Combined function
-tables <- c("HIS15", "HIS01", "HIS09", "HSPAO11")  # Add more tables as needed
+tables <- c("alcohol_cleaned", "HIS01", "HIS09", "HSPAO11")  # Add more tables as needed
 data_list <- download_clean_combine_cso(tables)
