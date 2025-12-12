@@ -1,4 +1,19 @@
 Statistic,Year,Sex,Age.Group,value
+Good or very good health status,2015,Both sexes,All ages,85.1
+Good or very good health status,2015,Both sexes,15 - 19 years,92.5
+Good or very good health status,2015,Both sexes,20 - 24 years,90.5
+Good or very good health status,2015,Both sexes,25 - 29 years,93.9
+Good or very good health status,2015,Both sexes,30 - 34 years,90.4
+Good or very good health status,2015,Both sexes,35 - 39 years,92.7
+Good or very good health status,2015,Both sexes,40 - 44 years,89.3
+Good or very good health status,2015,Both sexes,45 - 49 years,87.8
+Good or very good health status,2015,Both sexes,50 - 54 years,84.6
+Good or very good health status,2015,Both sexes,55 - 59 years,81.4
+Good or very good health status,2015,Both sexes,60 - 64 years,77.3
+Good or very good health status,2015,Both sexes,65 - 69 years,74.5
+Good or very good health status,2015,Both sexes,70 - 74 years,69.4
+Good or very good health status,2015,Both sexes,75 years and over,59.6
+Good or very good health status,2015,Male,All ages,85.3
 Good or very good health status,2015,Male,15 - 19 years,93.6
 Good or very good health status,2015,Male,20 - 24 years,89.5
 Good or very good health status,2015,Male,25 - 29 years,95.1
@@ -12,6 +27,7 @@ Good or very good health status,2015,Male,60 - 64 years,78.2
 Good or very good health status,2015,Male,65 - 69 years,74.3
 Good or very good health status,2015,Male,70 - 74 years,68.9
 Good or very good health status,2015,Male,75 years and over,59.7
+Good or very good health status,2015,Female,All ages,84.9
 Good or very good health status,2015,Female,15 - 19 years,91.4
 Good or very good health status,2015,Female,20 - 24 years,91.8
 Good or very good health status,2015,Female,25 - 29 years,92.6
@@ -25,6 +41,21 @@ Good or very good health status,2015,Female,60 - 64 years,76.5
 Good or very good health status,2015,Female,65 - 69 years,74.7
 Good or very good health status,2015,Female,70 - 74 years,69.8
 Good or very good health status,2015,Female,75 years and over,59.4
+Good or very good health status,2016,Both sexes,All ages,83.6
+Good or very good health status,2016,Both sexes,15 - 19 years,94.2
+Good or very good health status,2016,Both sexes,20 - 24 years,90.4
+Good or very good health status,2016,Both sexes,25 - 29 years,93.1
+Good or very good health status,2016,Both sexes,30 - 34 years,89.9
+Good or very good health status,2016,Both sexes,35 - 39 years,90.3
+Good or very good health status,2016,Both sexes,40 - 44 years,89.5
+Good or very good health status,2016,Both sexes,45 - 49 years,81.2
+Good or very good health status,2016,Both sexes,50 - 54 years,83.7
+Good or very good health status,2016,Both sexes,55 - 59 years,78.3
+Good or very good health status,2016,Both sexes,60 - 64 years,77.6
+Good or very good health status,2016,Both sexes,65 - 69 years,76
+Good or very good health status,2016,Both sexes,70 - 74 years,65.2
+Good or very good health status,2016,Both sexes,75 years and over,58.1
+Good or very good health status,2016,Male,All ages,83.2
 Good or very good health status,2016,Male,15 - 19 years,94.1
 Good or very good health status,2016,Male,20 - 24 years,90.5
 Good or very good health status,2016,Male,25 - 29 years,91.8
@@ -38,6 +69,7 @@ Good or very good health status,2016,Male,60 - 64 years,76.8
 Good or very good health status,2016,Male,65 - 69 years,76.1
 Good or very good health status,2016,Male,70 - 74 years,65
 Good or very good health status,2016,Male,75 years and over,58.9
+Good or very good health status,2016,Female,All ages,84
 Good or very good health status,2016,Female,15 - 19 years,94.4
 Good or very good health status,2016,Female,20 - 24 years,90.4
 Good or very good health status,2016,Female,25 - 29 years,94.4
@@ -51,6 +83,21 @@ Good or very good health status,2016,Female,60 - 64 years,78.5
 Good or very good health status,2016,Female,65 - 69 years,76
 Good or very good health status,2016,Female,70 - 74 years,65.3
 Good or very good health status,2016,Female,75 years and over,57.5
+Good or very good health status,2017,Both sexes,All ages,84.1
+Good or very good health status,2017,Both sexes,15 - 19 years,92.8
+Good or very good health status,2017,Both sexes,20 - 24 years,92.5
+Good or very good health status,2017,Both sexes,25 - 29 years,91.9
+Good or very good health status,2017,Both sexes,30 - 34 years,90.2
+Good or very good health status,2017,Both sexes,35 - 39 years,91.8
+Good or very good health status,2017,Both sexes,40 - 44 years,89.7
+Good or very good health status,2017,Both sexes,45 - 49 years,88.2
+Good or very good health status,2017,Both sexes,50 - 54 years,83.9
+Good or very good health status,2017,Both sexes,55 - 59 years,79.7
+Good or very good health status,2017,Both sexes,60 - 64 years,73.3
+Good or very good health status,2017,Both sexes,65 - 69 years,73.1
+Good or very good health status,2017,Both sexes,70 - 74 years,64.5
+Good or very good health status,2017,Both sexes,75 years and over,61
+Good or very good health status,2017,Male,All ages,83.4
 Good or very good health status,2017,Male,15 - 19 years,91.3
 Good or very good health status,2017,Male,20 - 24 years,93.2
 Good or very good health status,2017,Male,25 - 29 years,94.8
@@ -64,6 +111,7 @@ Good or very good health status,2017,Male,60 - 64 years,70.3
 Good or very good health status,2017,Male,65 - 69 years,71.4
 Good or very good health status,2017,Male,70 - 74 years,58.1
 Good or very good health status,2017,Male,75 years and over,60.4
+Good or very good health status,2017,Female,All ages,84.8
 Good or very good health status,2017,Female,15 - 19 years,94.5
 Good or very good health status,2017,Female,20 - 24 years,91.7
 Good or very good health status,2017,Female,25 - 29 years,88.5
@@ -77,6 +125,21 @@ Good or very good health status,2017,Female,60 - 64 years,76.6
 Good or very good health status,2017,Female,65 - 69 years,74.6
 Good or very good health status,2017,Female,70 - 74 years,70.5
 Good or very good health status,2017,Female,75 years and over,61.4
+Good or very good health status,2018,Both sexes,All ages,85
+Good or very good health status,2018,Both sexes,15 - 19 years,95.9
+Good or very good health status,2018,Both sexes,20 - 24 years,90.2
+Good or very good health status,2018,Both sexes,25 - 29 years,91.4
+Good or very good health status,2018,Both sexes,30 - 34 years,95.2
+Good or very good health status,2018,Both sexes,35 - 39 years,89.6
+Good or very good health status,2018,Both sexes,40 - 44 years,87.2
+Good or very good health status,2018,Both sexes,45 - 49 years,91
+Good or very good health status,2018,Both sexes,50 - 54 years,84.9
+Good or very good health status,2018,Both sexes,55 - 59 years,79.2
+Good or very good health status,2018,Both sexes,60 - 64 years,74.1
+Good or very good health status,2018,Both sexes,65 - 69 years,75.8
+Good or very good health status,2018,Both sexes,70 - 74 years,71.4
+Good or very good health status,2018,Both sexes,75 years and over,62
+Good or very good health status,2018,Male,All ages,83.9
 Good or very good health status,2018,Male,15 - 19 years,95.5
 Good or very good health status,2018,Male,20 - 24 years,90.2
 Good or very good health status,2018,Male,25 - 29 years,90.7
@@ -90,6 +153,7 @@ Good or very good health status,2018,Male,60 - 64 years,69.8
 Good or very good health status,2018,Male,65 - 69 years,73.6
 Good or very good health status,2018,Male,70 - 74 years,67.4
 Good or very good health status,2018,Male,75 years and over,62.3
+Good or very good health status,2018,Female,All ages,86
 Good or very good health status,2018,Female,15 - 19 years,96.2
 Good or very good health status,2018,Female,20 - 24 years,90.2
 Good or very good health status,2018,Female,25 - 29 years,92
@@ -103,6 +167,63 @@ Good or very good health status,2018,Female,60 - 64 years,78
 Good or very good health status,2018,Female,65 - 69 years,77.9
 Good or very good health status,2018,Female,70 - 74 years,74.8
 Good or very good health status,2018,Female,75 years and over,61.8
+Good or very good health status,2019,Both sexes,All ages,84.5
+Good or very good health status,2019,Both sexes,15 - 19 years,93.7
+Good or very good health status,2019,Both sexes,20 - 24 years,92
+Good or very good health status,2019,Both sexes,25 - 29 years,91.8
+Good or very good health status,2019,Both sexes,30 - 34 years,92.4
+Good or very good health status,2019,Both sexes,35 - 39 years,92.5
+Good or very good health status,2019,Both sexes,40 - 44 years,91.2
+Good or very good health status,2019,Both sexes,45 - 49 years,85.9
+Good or very good health status,2019,Both sexes,50 - 54 years,82.1
+Good or very good health status,2019,Both sexes,55 - 59 years,78.9
+Good or very good health status,2019,Both sexes,60 - 64 years,74.3
+Good or very good health status,2019,Both sexes,65 - 69 years,76.4
+Good or very good health status,2019,Both sexes,70 - 74 years,70.5
+Good or very good health status,2019,Both sexes,75 years and over,62.3
+Good or very good health status,2019,Male,All ages,84.6
+Good or very good health status,2019,Male,15 - 19 years,94.1
+Good or very good health status,2019,Male,20 - 24 years,92.9
+Good or very good health status,2019,Male,25 - 29 years,91.8
+Good or very good health status,2019,Male,30 - 34 years,92.9
+Good or very good health status,2019,Male,35 - 39 years,93.2
+Good or very good health status,2019,Male,40 - 44 years,93.9
+Good or very good health status,2019,Male,45 - 49 years,85.8
+Good or very good health status,2019,Male,50 - 54 years,83.5
+Good or very good health status,2019,Male,55 - 59 years,75.5
+Good or very good health status,2019,Male,60 - 64 years,72.9
+Good or very good health status,2019,Male,65 - 69 years,70.8
+Good or very good health status,2019,Male,70 - 74 years,70.5
+Good or very good health status,2019,Male,75 years and over,60.4
+Good or very good health status,2019,Female,All ages,84.5
+Good or very good health status,2019,Female,15 - 19 years,93.2
+Good or very good health status,2019,Female,20 - 24 years,91.3
+Good or very good health status,2019,Female,25 - 29 years,91.8
+Good or very good health status,2019,Female,30 - 34 years,92
+Good or very good health status,2019,Female,35 - 39 years,91.7
+Good or very good health status,2019,Female,40 - 44 years,88.9
+Good or very good health status,2019,Female,45 - 49 years,85.9
+Good or very good health status,2019,Female,50 - 54 years,80.8
+Good or very good health status,2019,Female,55 - 59 years,82.5
+Good or very good health status,2019,Female,60 - 64 years,75.7
+Good or very good health status,2019,Female,65 - 69 years,81
+Good or very good health status,2019,Female,70 - 74 years,70.5
+Good or very good health status,2019,Female,75 years and over,64.1
+Good or very good health status,2021,Both sexes,All ages,84
+Good or very good health status,2021,Both sexes,15 - 19 years,89.9
+Good or very good health status,2021,Both sexes,20 - 24 years,90.5
+Good or very good health status,2021,Both sexes,25 - 29 years,93.2
+Good or very good health status,2021,Both sexes,30 - 34 years,92.9
+Good or very good health status,2021,Both sexes,35 - 39 years,89.9
+Good or very good health status,2021,Both sexes,40 - 44 years,88.8
+Good or very good health status,2021,Both sexes,45 - 49 years,84
+Good or very good health status,2021,Both sexes,50 - 54 years,80.9
+Good or very good health status,2021,Both sexes,55 - 59 years,78.3
+Good or very good health status,2021,Both sexes,60 - 64 years,72
+Good or very good health status,2021,Both sexes,65 - 69 years,73.9
+Good or very good health status,2021,Both sexes,70 - 74 years,74.2
+Good or very good health status,2021,Both sexes,75 years and over,68.8
+Good or very good health status,2021,Male,All ages,83.7
 Good or very good health status,2021,Male,15 - 19 years,89.1
 Good or very good health status,2021,Male,20 - 24 years,88.8
 Good or very good health status,2021,Male,25 - 29 years,93.8
@@ -116,6 +237,7 @@ Good or very good health status,2021,Male,60 - 64 years,71.5
 Good or very good health status,2021,Male,65 - 69 years,78.1
 Good or very good health status,2021,Male,70 - 74 years,72.9
 Good or very good health status,2021,Male,75 years and over,68.2
+Good or very good health status,2021,Female,All ages,84.3
 Good or very good health status,2021,Female,15 - 19 years,90.8
 Good or very good health status,2021,Female,20 - 24 years,92.2
 Good or very good health status,2021,Female,25 - 29 years,92.6
@@ -129,6 +251,21 @@ Good or very good health status,2021,Female,60 - 64 years,72.5
 Good or very good health status,2021,Female,65 - 69 years,70.7
 Good or very good health status,2021,Female,70 - 74 years,75.2
 Good or very good health status,2021,Female,75 years and over,69.4
+Good or very good health status,2022,Both sexes,All ages,81.7
+Good or very good health status,2022,Both sexes,15 - 19 years,93.5
+Good or very good health status,2022,Both sexes,20 - 24 years,90.5
+Good or very good health status,2022,Both sexes,25 - 29 years,86.1
+Good or very good health status,2022,Both sexes,30 - 34 years,90.9
+Good or very good health status,2022,Both sexes,35 - 39 years,87.9
+Good or very good health status,2022,Both sexes,40 - 44 years,88.3
+Good or very good health status,2022,Both sexes,45 - 49 years,81.2
+Good or very good health status,2022,Both sexes,50 - 54 years,80.5
+Good or very good health status,2022,Both sexes,55 - 59 years,75.7
+Good or very good health status,2022,Both sexes,60 - 64 years,73.9
+Good or very good health status,2022,Both sexes,65 - 69 years,72.2
+Good or very good health status,2022,Both sexes,70 - 74 years,64.9
+Good or very good health status,2022,Both sexes,75 years and over,64
+Good or very good health status,2022,Male,All ages,82.7
 Good or very good health status,2022,Male,15 - 19 years,93.9
 Good or very good health status,2022,Male,20 - 24 years,91.8
 Good or very good health status,2022,Male,25 - 29 years,86.4
@@ -142,6 +279,7 @@ Good or very good health status,2022,Male,60 - 64 years,74.3
 Good or very good health status,2022,Male,65 - 69 years,74.5
 Good or very good health status,2022,Male,70 - 74 years,68.2
 Good or very good health status,2022,Male,75 years and over,70.4
+Good or very good health status,2022,Female,All ages,80.9
 Good or very good health status,2022,Female,15 - 19 years,92.9
 Good or very good health status,2022,Female,20 - 24 years,89.3
 Good or very good health status,2022,Female,25 - 29 years,85.8
@@ -155,6 +293,21 @@ Good or very good health status,2022,Female,60 - 64 years,73.6
 Good or very good health status,2022,Female,65 - 69 years,70
 Good or very good health status,2022,Female,70 - 74 years,62.2
 Good or very good health status,2022,Female,75 years and over,58
+Good or very good health status,2023,Both sexes,All ages,79.9
+Good or very good health status,2023,Both sexes,15 - 19 years,86.3
+Good or very good health status,2023,Both sexes,20 - 24 years,90.1
+Good or very good health status,2023,Both sexes,25 - 29 years,89.9
+Good or very good health status,2023,Both sexes,30 - 34 years,87.8
+Good or very good health status,2023,Both sexes,35 - 39 years,88.7
+Good or very good health status,2023,Both sexes,40 - 44 years,84.7
+Good or very good health status,2023,Both sexes,45 - 49 years,83.3
+Good or very good health status,2023,Both sexes,50 - 54 years,74.7
+Good or very good health status,2023,Both sexes,55 - 59 years,69.1
+Good or very good health status,2023,Both sexes,60 - 64 years,67.7
+Good or very good health status,2023,Both sexes,65 - 69 years,68.4
+Good or very good health status,2023,Both sexes,70 - 74 years,73.5
+Good or very good health status,2023,Both sexes,75 years and over,65
+Good or very good health status,2023,Male,All ages,81.3
 Good or very good health status,2023,Male,15 - 19 years,96.1
 Good or very good health status,2023,Male,20 - 24 years,90.7
 Good or very good health status,2023,Male,25 - 29 years,91.8
@@ -168,6 +321,7 @@ Good or very good health status,2023,Male,60 - 64 years,71.5
 Good or very good health status,2023,Male,65 - 69 years,66.2
 Good or very good health status,2023,Male,70 - 74 years,73.5
 Good or very good health status,2023,Male,75 years and over,67.2
+Good or very good health status,2023,Female,All ages,78.6
 Good or very good health status,2023,Female,15 - 19 years,75.7
 Good or very good health status,2023,Female,20 - 24 years,89.7
 Good or very good health status,2023,Female,25 - 29 years,88
@@ -181,6 +335,21 @@ Good or very good health status,2023,Female,60 - 64 years,63.9
 Good or very good health status,2023,Female,65 - 69 years,70.4
 Good or very good health status,2023,Female,70 - 74 years,73.5
 Good or very good health status,2023,Female,75 years and over,63.2
+Good or very good health status,2024,Both sexes,All ages,80.6
+Good or very good health status,2024,Both sexes,15 - 19 years,93.1
+Good or very good health status,2024,Both sexes,20 - 24 years,87.2
+Good or very good health status,2024,Both sexes,25 - 29 years,89.5
+Good or very good health status,2024,Both sexes,30 - 34 years,91
+Good or very good health status,2024,Both sexes,35 - 39 years,86.4
+Good or very good health status,2024,Both sexes,40 - 44 years,84.4
+Good or very good health status,2024,Both sexes,45 - 49 years,80
+Good or very good health status,2024,Both sexes,50 - 54 years,78.5
+Good or very good health status,2024,Both sexes,55 - 59 years,70.6
+Good or very good health status,2024,Both sexes,60 - 64 years,73.7
+Good or very good health status,2024,Both sexes,65 - 69 years,73.1
+Good or very good health status,2024,Both sexes,70 - 74 years,66
+Good or very good health status,2024,Both sexes,75 years and over,67.7
+Good or very good health status,2024,Male,All ages,80.7
 Good or very good health status,2024,Male,15 - 19 years,91.6
 Good or very good health status,2024,Male,20 - 24 years,88.1
 Good or very good health status,2024,Male,25 - 29 years,91.3
@@ -194,6 +363,7 @@ Good or very good health status,2024,Male,60 - 64 years,70.9
 Good or very good health status,2024,Male,65 - 69 years,74.2
 Good or very good health status,2024,Male,70 - 74 years,65.6
 Good or very good health status,2024,Male,75 years and over,66.7
+Good or very good health status,2024,Female,All ages,80.6
 Good or very good health status,2024,Female,15 - 19 years,94.9
 Good or very good health status,2024,Female,20 - 24 years,86.3
 Good or very good health status,2024,Female,25 - 29 years,87.8
@@ -207,6 +377,21 @@ Good or very good health status,2024,Female,60 - 64 years,76.4
 Good or very good health status,2024,Female,65 - 69 years,72.2
 Good or very good health status,2024,Female,70 - 74 years,66.5
 Good or very good health status,2024,Female,75 years and over,68.6
+Good or very good health status,2025,Both sexes,All ages,81.8
+Good or very good health status,2025,Both sexes,15 - 19 years,91.8
+Good or very good health status,2025,Both sexes,20 - 24 years,92.4
+Good or very good health status,2025,Both sexes,25 - 29 years,89.5
+Good or very good health status,2025,Both sexes,30 - 34 years,89.8
+Good or very good health status,2025,Both sexes,35 - 39 years,88.5
+Good or very good health status,2025,Both sexes,40 - 44 years,83.6
+Good or very good health status,2025,Both sexes,45 - 49 years,83.3
+Good or very good health status,2025,Both sexes,50 - 54 years,80.2
+Good or very good health status,2025,Both sexes,55 - 59 years,74.5
+Good or very good health status,2025,Both sexes,60 - 64 years,70.4
+Good or very good health status,2025,Both sexes,65 - 69 years,70.5
+Good or very good health status,2025,Both sexes,70 - 74 years,72.5
+Good or very good health status,2025,Both sexes,75 years and over,69.1
+Good or very good health status,2025,Male,All ages,82.3
 Good or very good health status,2025,Male,15 - 19 years,88.8
 Good or very good health status,2025,Male,20 - 24 years,92.5
 Good or very good health status,2025,Male,25 - 29 years,88.9
@@ -220,6 +405,7 @@ Good or very good health status,2025,Male,60 - 64 years,73.8
 Good or very good health status,2025,Male,65 - 69 years,73
 Good or very good health status,2025,Male,70 - 74 years,72.1
 Good or very good health status,2025,Male,75 years and over,72.3
+Good or very good health status,2025,Female,All ages,81.4
 Good or very good health status,2025,Female,15 - 19 years,94.8
 Good or very good health status,2025,Female,20 - 24 years,92.3
 Good or very good health status,2025,Female,25 - 29 years,90.1
@@ -233,6 +419,21 @@ Good or very good health status,2025,Female,60 - 64 years,67.1
 Good or very good health status,2025,Female,65 - 69 years,68.5
 Good or very good health status,2025,Female,70 - 74 years,72.8
 Good or very good health status,2025,Female,75 years and over,66.1
+Bad or very bad health status,2015,Both sexes,All ages,2.4
+Bad or very bad health status,2015,Both sexes,15 - 19 years,0.1
+Bad or very bad health status,2015,Both sexes,20 - 24 years,0.2
+Bad or very bad health status,2015,Both sexes,25 - 29 years,0.5
+Bad or very bad health status,2015,Both sexes,30 - 34 years,1.2
+Bad or very bad health status,2015,Both sexes,35 - 39 years,0.7
+Bad or very bad health status,2015,Both sexes,40 - 44 years,2.5
+Bad or very bad health status,2015,Both sexes,45 - 49 years,1.8
+Bad or very bad health status,2015,Both sexes,50 - 54 years,3.8
+Bad or very bad health status,2015,Both sexes,55 - 59 years,2.6
+Bad or very bad health status,2015,Both sexes,60 - 64 years,5.1
+Bad or very bad health status,2015,Both sexes,65 - 69 years,4
+Bad or very bad health status,2015,Both sexes,70 - 74 years,5.3
+Bad or very bad health status,2015,Both sexes,75 years and over,6.7
+Bad or very bad health status,2015,Male,All ages,2.2
 Bad or very bad health status,2015,Male,15 - 19 years,0
 Bad or very bad health status,2015,Male,20 - 24 years,0.3
 Bad or very bad health status,2015,Male,25 - 29 years,0.3
@@ -246,6 +447,7 @@ Bad or very bad health status,2015,Male,60 - 64 years,7.2
 Bad or very bad health status,2015,Male,65 - 69 years,2.9
 Bad or very bad health status,2015,Male,70 - 74 years,4.1
 Bad or very bad health status,2015,Male,75 years and over,8.3
+Bad or very bad health status,2015,Female,All ages,2.5
 Bad or very bad health status,2015,Female,15 - 19 years,0.2
 Bad or very bad health status,2015,Female,20 - 24 years,0
 Bad or very bad health status,2015,Female,25 - 29 years,0.7
@@ -259,6 +461,21 @@ Bad or very bad health status,2015,Female,60 - 64 years,2.9
 Bad or very bad health status,2015,Female,65 - 69 years,5.1
 Bad or very bad health status,2015,Female,70 - 74 years,6.4
 Bad or very bad health status,2015,Female,75 years and over,5.5
+Bad or very bad health status,2016,Both sexes,All ages,3.1
+Bad or very bad health status,2016,Both sexes,15 - 19 years,0.4
+Bad or very bad health status,2016,Both sexes,20 - 24 years,0.4
+Bad or very bad health status,2016,Both sexes,25 - 29 years,2
+Bad or very bad health status,2016,Both sexes,30 - 34 years,2.1
+Bad or very bad health status,2016,Both sexes,35 - 39 years,2.5
+Bad or very bad health status,2016,Both sexes,40 - 44 years,2.2
+Bad or very bad health status,2016,Both sexes,45 - 49 years,3.5
+Bad or very bad health status,2016,Both sexes,50 - 54 years,3.6
+Bad or very bad health status,2016,Both sexes,55 - 59 years,4.8
+Bad or very bad health status,2016,Both sexes,60 - 64 years,4
+Bad or very bad health status,2016,Both sexes,65 - 69 years,4
+Bad or very bad health status,2016,Both sexes,70 - 74 years,4.1
+Bad or very bad health status,2016,Both sexes,75 years and over,9.2
+Bad or very bad health status,2016,Male,All ages,3.2
 Bad or very bad health status,2016,Male,15 - 19 years,0
 Bad or very bad health status,2016,Male,20 - 24 years,0
 Bad or very bad health status,2016,Male,25 - 29 years,1.7
@@ -272,6 +489,7 @@ Bad or very bad health status,2016,Male,60 - 64 years,5.4
 Bad or very bad health status,2016,Male,65 - 69 years,4.2
 Bad or very bad health status,2016,Male,70 - 74 years,3.6
 Bad or very bad health status,2016,Male,75 years and over,9.2
+Bad or very bad health status,2016,Female,All ages,3.1
 Bad or very bad health status,2016,Female,15 - 19 years,0.8
 Bad or very bad health status,2016,Female,20 - 24 years,0.8
 Bad or very bad health status,2016,Female,25 - 29 years,2.3
@@ -285,6 +503,21 @@ Bad or very bad health status,2016,Female,60 - 64 years,2.4
 Bad or very bad health status,2016,Female,65 - 69 years,3.7
 Bad or very bad health status,2016,Female,70 - 74 years,4.6
 Bad or very bad health status,2016,Female,75 years and over,9.1
+Bad or very bad health status,2017,Both sexes,All ages,3.1
+Bad or very bad health status,2017,Both sexes,15 - 19 years,0.2
+Bad or very bad health status,2017,Both sexes,20 - 24 years,1
+Bad or very bad health status,2017,Both sexes,25 - 29 years,1.8
+Bad or very bad health status,2017,Both sexes,30 - 34 years,0.7
+Bad or very bad health status,2017,Both sexes,35 - 39 years,2.8
+Bad or very bad health status,2017,Both sexes,40 - 44 years,1.9
+Bad or very bad health status,2017,Both sexes,45 - 49 years,2.9
+Bad or very bad health status,2017,Both sexes,50 - 54 years,3.2
+Bad or very bad health status,2017,Both sexes,55 - 59 years,4.7
+Bad or very bad health status,2017,Both sexes,60 - 64 years,5.8
+Bad or very bad health status,2017,Both sexes,65 - 69 years,5.4
+Bad or very bad health status,2017,Both sexes,70 - 74 years,6.3
+Bad or very bad health status,2017,Both sexes,75 years and over,8.4
+Bad or very bad health status,2017,Male,All ages,3
 Bad or very bad health status,2017,Male,15 - 19 years,0
 Bad or very bad health status,2017,Male,20 - 24 years,0.6
 Bad or very bad health status,2017,Male,25 - 29 years,0.3
@@ -298,6 +531,7 @@ Bad or very bad health status,2017,Male,60 - 64 years,6.8
 Bad or very bad health status,2017,Male,65 - 69 years,7.9
 Bad or very bad health status,2017,Male,70 - 74 years,9.6
 Bad or very bad health status,2017,Male,75 years and over,7.9
+Bad or very bad health status,2017,Female,All ages,3.3
 Bad or very bad health status,2017,Female,15 - 19 years,0.4
 Bad or very bad health status,2017,Female,20 - 24 years,1.5
 Bad or very bad health status,2017,Female,25 - 29 years,3.5
@@ -311,6 +545,21 @@ Bad or very bad health status,2017,Female,60 - 64 years,4.8
 Bad or very bad health status,2017,Female,65 - 69 years,3.3
 Bad or very bad health status,2017,Female,70 - 74 years,3.1
 Bad or very bad health status,2017,Female,75 years and over,8.7
+Bad or very bad health status,2018,Both sexes,All ages,3.2
+Bad or very bad health status,2018,Both sexes,15 - 19 years,0
+Bad or very bad health status,2018,Both sexes,20 - 24 years,0
+Bad or very bad health status,2018,Both sexes,25 - 29 years,1.8
+Bad or very bad health status,2018,Both sexes,30 - 34 years,1.4
+Bad or very bad health status,2018,Both sexes,35 - 39 years,2.3
+Bad or very bad health status,2018,Both sexes,40 - 44 years,2.9
+Bad or very bad health status,2018,Both sexes,45 - 49 years,1.4
+Bad or very bad health status,2018,Both sexes,50 - 54 years,3.6
+Bad or very bad health status,2018,Both sexes,55 - 59 years,5.6
+Bad or very bad health status,2018,Both sexes,60 - 64 years,5.9
+Bad or very bad health status,2018,Both sexes,65 - 69 years,6
+Bad or very bad health status,2018,Both sexes,70 - 74 years,6.5
+Bad or very bad health status,2018,Both sexes,75 years and over,7.9
+Bad or very bad health status,2018,Male,All ages,3.6
 Bad or very bad health status,2018,Male,15 - 19 years,0
 Bad or very bad health status,2018,Male,20 - 24 years,0
 Bad or very bad health status,2018,Male,25 - 29 years,2.1
@@ -324,6 +573,7 @@ Bad or very bad health status,2018,Male,60 - 64 years,7.1
 Bad or very bad health status,2018,Male,65 - 69 years,6.4
 Bad or very bad health status,2018,Male,70 - 74 years,7
 Bad or very bad health status,2018,Male,75 years and over,9.1
+Bad or very bad health status,2018,Female,All ages,2.8
 Bad or very bad health status,2018,Female,15 - 19 years,0
 Bad or very bad health status,2018,Female,20 - 24 years,0
 Bad or very bad health status,2018,Female,25 - 29 years,1.4
@@ -337,6 +587,63 @@ Bad or very bad health status,2018,Female,60 - 64 years,4.7
 Bad or very bad health status,2018,Female,65 - 69 years,5.5
 Bad or very bad health status,2018,Female,70 - 74 years,6.1
 Bad or very bad health status,2018,Female,75 years and over,6.9
+Bad or very bad health status,2019,Both sexes,All ages,2.7
+Bad or very bad health status,2019,Both sexes,15 - 19 years,0.4
+Bad or very bad health status,2019,Both sexes,20 - 24 years,1.2
+Bad or very bad health status,2019,Both sexes,25 - 29 years,1
+Bad or very bad health status,2019,Both sexes,30 - 34 years,1.7
+Bad or very bad health status,2019,Both sexes,35 - 39 years,0.9
+Bad or very bad health status,2019,Both sexes,40 - 44 years,1.2
+Bad or very bad health status,2019,Both sexes,45 - 49 years,1.7
+Bad or very bad health status,2019,Both sexes,50 - 54 years,4.5
+Bad or very bad health status,2019,Both sexes,55 - 59 years,3.5
+Bad or very bad health status,2019,Both sexes,60 - 64 years,6
+Bad or very bad health status,2019,Both sexes,65 - 69 years,3.6
+Bad or very bad health status,2019,Both sexes,70 - 74 years,4.6
+Bad or very bad health status,2019,Both sexes,75 years and over,7.7
+Bad or very bad health status,2019,Male,All ages,2.4
+Bad or very bad health status,2019,Male,15 - 19 years,0
+Bad or very bad health status,2019,Male,20 - 24 years,0
+Bad or very bad health status,2019,Male,25 - 29 years,1.1
+Bad or very bad health status,2019,Male,30 - 34 years,0.3
+Bad or very bad health status,2019,Male,35 - 39 years,0.8
+Bad or very bad health status,2019,Male,40 - 44 years,1.4
+Bad or very bad health status,2019,Male,45 - 49 years,2
+Bad or very bad health status,2019,Male,50 - 54 years,3.4
+Bad or very bad health status,2019,Male,55 - 59 years,3.3
+Bad or very bad health status,2019,Male,60 - 64 years,5.6
+Bad or very bad health status,2019,Male,65 - 69 years,5
+Bad or very bad health status,2019,Male,70 - 74 years,4.7
+Bad or very bad health status,2019,Male,75 years and over,7.6
+Bad or very bad health status,2019,Female,All ages,3.1
+Bad or very bad health status,2019,Female,15 - 19 years,0.9
+Bad or very bad health status,2019,Female,20 - 24 years,2.2
+Bad or very bad health status,2019,Female,25 - 29 years,0.8
+Bad or very bad health status,2019,Female,30 - 34 years,2.9
+Bad or very bad health status,2019,Female,35 - 39 years,1
+Bad or very bad health status,2019,Female,40 - 44 years,1
+Bad or very bad health status,2019,Female,45 - 49 years,1.5
+Bad or very bad health status,2019,Female,50 - 54 years,5.5
+Bad or very bad health status,2019,Female,55 - 59 years,3.8
+Bad or very bad health status,2019,Female,60 - 64 years,6.4
+Bad or very bad health status,2019,Female,65 - 69 years,2.5
+Bad or very bad health status,2019,Female,70 - 74 years,4.4
+Bad or very bad health status,2019,Female,75 years and over,7.8
+Bad or very bad health status,2021,Both sexes,All ages,2.9
+Bad or very bad health status,2021,Both sexes,15 - 19 years,1.9
+Bad or very bad health status,2021,Both sexes,20 - 24 years,1
+Bad or very bad health status,2021,Both sexes,25 - 29 years,0.9
+Bad or very bad health status,2021,Both sexes,30 - 34 years,0.8
+Bad or very bad health status,2021,Both sexes,35 - 39 years,1.5
+Bad or very bad health status,2021,Both sexes,40 - 44 years,1.1
+Bad or very bad health status,2021,Both sexes,45 - 49 years,2.3
+Bad or very bad health status,2021,Both sexes,50 - 54 years,3.4
+Bad or very bad health status,2021,Both sexes,55 - 59 years,6.4
+Bad or very bad health status,2021,Both sexes,60 - 64 years,7.8
+Bad or very bad health status,2021,Both sexes,65 - 69 years,5.6
+Bad or very bad health status,2021,Both sexes,70 - 74 years,5.5
+Bad or very bad health status,2021,Both sexes,75 years and over,3.2
+Bad or very bad health status,2021,Male,All ages,2.4
 Bad or very bad health status,2021,Male,15 - 19 years,0.5
 Bad or very bad health status,2021,Male,20 - 24 years,1.1
 Bad or very bad health status,2021,Male,25 - 29 years,0
@@ -350,6 +657,7 @@ Bad or very bad health status,2021,Male,60 - 64 years,7.3
 Bad or very bad health status,2021,Male,65 - 69 years,3.4
 Bad or very bad health status,2021,Male,70 - 74 years,7.1
 Bad or very bad health status,2021,Male,75 years and over,3.3
+Bad or very bad health status,2021,Female,All ages,3.3
 Bad or very bad health status,2021,Female,15 - 19 years,3.3
 Bad or very bad health status,2021,Female,20 - 24 years,0.9
 Bad or very bad health status,2021,Female,25 - 29 years,1.7
@@ -363,6 +671,21 @@ Bad or very bad health status,2021,Female,60 - 64 years,8.3
 Bad or very bad health status,2021,Female,65 - 69 years,7.2
 Bad or very bad health status,2021,Female,70 - 74 years,4.2
 Bad or very bad health status,2021,Female,75 years and over,3.1
+Bad or very bad health status,2022,Both sexes,All ages,3.5
+Bad or very bad health status,2022,Both sexes,15 - 19 years,0.5
+Bad or very bad health status,2022,Both sexes,20 - 24 years,1.6
+Bad or very bad health status,2022,Both sexes,25 - 29 years,3.8
+Bad or very bad health status,2022,Both sexes,30 - 34 years,2.4
+Bad or very bad health status,2022,Both sexes,35 - 39 years,1.9
+Bad or very bad health status,2022,Both sexes,40 - 44 years,1.6
+Bad or very bad health status,2022,Both sexes,45 - 49 years,4.7
+Bad or very bad health status,2022,Both sexes,50 - 54 years,4.2
+Bad or very bad health status,2022,Both sexes,55 - 59 years,5.1
+Bad or very bad health status,2022,Both sexes,60 - 64 years,5.7
+Bad or very bad health status,2022,Both sexes,65 - 69 years,3.9
+Bad or very bad health status,2022,Both sexes,70 - 74 years,5.4
+Bad or very bad health status,2022,Both sexes,75 years and over,6.2
+Bad or very bad health status,2022,Male,All ages,3.3
 Bad or very bad health status,2022,Male,15 - 19 years,1
 Bad or very bad health status,2022,Male,20 - 24 years,1.7
 Bad or very bad health status,2022,Male,25 - 29 years,4.7
@@ -376,6 +699,7 @@ Bad or very bad health status,2022,Male,60 - 64 years,5.6
 Bad or very bad health status,2022,Male,65 - 69 years,3.2
 Bad or very bad health status,2022,Male,70 - 74 years,3.9
 Bad or very bad health status,2022,Male,75 years and over,4
+Bad or very bad health status,2022,Female,All ages,3.6
 Bad or very bad health status,2022,Female,15 - 19 years,0
 Bad or very bad health status,2022,Female,20 - 24 years,1.5
 Bad or very bad health status,2022,Female,25 - 29 years,2.8
@@ -389,6 +713,21 @@ Bad or very bad health status,2022,Female,60 - 64 years,5.8
 Bad or very bad health status,2022,Female,65 - 69 years,4.6
 Bad or very bad health status,2022,Female,70 - 74 years,6.7
 Bad or very bad health status,2022,Female,75 years and over,8.2
+Bad or very bad health status,2023,Both sexes,All ages,3.5
+Bad or very bad health status,2023,Both sexes,15 - 19 years,2
+Bad or very bad health status,2023,Both sexes,20 - 24 years,2.3
+Bad or very bad health status,2023,Both sexes,25 - 29 years,1.8
+Bad or very bad health status,2023,Both sexes,30 - 34 years,2.7
+Bad or very bad health status,2023,Both sexes,35 - 39 years,2.1
+Bad or very bad health status,2023,Both sexes,40 - 44 years,2.8
+Bad or very bad health status,2023,Both sexes,45 - 49 years,2.4
+Bad or very bad health status,2023,Both sexes,50 - 54 years,5.3
+Bad or very bad health status,2023,Both sexes,55 - 59 years,6.7
+Bad or very bad health status,2023,Both sexes,60 - 64 years,5.4
+Bad or very bad health status,2023,Both sexes,65 - 69 years,5.9
+Bad or very bad health status,2023,Both sexes,70 - 74 years,1.7
+Bad or very bad health status,2023,Both sexes,75 years and over,5.1
+Bad or very bad health status,2023,Male,All ages,3.3
 Bad or very bad health status,2023,Male,15 - 19 years,0
 Bad or very bad health status,2023,Male,20 - 24 years,1.9
 Bad or very bad health status,2023,Male,25 - 29 years,0.3
@@ -402,6 +741,7 @@ Bad or very bad health status,2023,Male,60 - 64 years,4.7
 Bad or very bad health status,2023,Male,65 - 69 years,5.8
 Bad or very bad health status,2023,Male,70 - 74 years,1.3
 Bad or very bad health status,2023,Male,75 years and over,6.4
+Bad or very bad health status,2023,Female,All ages,3.8
 Bad or very bad health status,2023,Female,15 - 19 years,4.2
 Bad or very bad health status,2023,Female,20 - 24 years,2.7
 Bad or very bad health status,2023,Female,25 - 29 years,3.4
@@ -415,6 +755,21 @@ Bad or very bad health status,2023,Female,60 - 64 years,6.1
 Bad or very bad health status,2023,Female,65 - 69 years,6
 Bad or very bad health status,2023,Female,70 - 74 years,2.1
 Bad or very bad health status,2023,Female,75 years and over,4.1
+Bad or very bad health status,2024,Both sexes,All ages,3.3
+Bad or very bad health status,2024,Both sexes,15 - 19 years,1.6
+Bad or very bad health status,2024,Both sexes,20 - 24 years,1.4
+Bad or very bad health status,2024,Both sexes,25 - 29 years,1.4
+Bad or very bad health status,2024,Both sexes,30 - 34 years,1.3
+Bad or very bad health status,2024,Both sexes,35 - 39 years,1.9
+Bad or very bad health status,2024,Both sexes,40 - 44 years,2.1
+Bad or very bad health status,2024,Both sexes,45 - 49 years,2.8
+Bad or very bad health status,2024,Both sexes,50 - 54 years,6.1
+Bad or very bad health status,2024,Both sexes,55 - 59 years,7.1
+Bad or very bad health status,2024,Both sexes,60 - 64 years,4.7
+Bad or very bad health status,2024,Both sexes,65 - 69 years,3.3
+Bad or very bad health status,2024,Both sexes,70 - 74 years,5.8
+Bad or very bad health status,2024,Both sexes,75 years and over,5.3
+Bad or very bad health status,2024,Male,All ages,3.7
 Bad or very bad health status,2024,Male,15 - 19 years,1.3
 Bad or very bad health status,2024,Male,20 - 24 years,2.8
 Bad or very bad health status,2024,Male,25 - 29 years,1.6
@@ -428,6 +783,7 @@ Bad or very bad health status,2024,Male,60 - 64 years,8.3
 Bad or very bad health status,2024,Male,65 - 69 years,3.3
 Bad or very bad health status,2024,Male,70 - 74 years,5.8
 Bad or very bad health status,2024,Male,75 years and over,5.1
+Bad or very bad health status,2024,Female,All ages,3
 Bad or very bad health status,2024,Female,15 - 19 years,2
 Bad or very bad health status,2024,Female,20 - 24 years,0
 Bad or very bad health status,2024,Female,25 - 29 years,1.2
@@ -441,6 +797,21 @@ Bad or very bad health status,2024,Female,60 - 64 years,1.1
 Bad or very bad health status,2024,Female,65 - 69 years,3.3
 Bad or very bad health status,2024,Female,70 - 74 years,5.8
 Bad or very bad health status,2024,Female,75 years and over,5.4
+Bad or very bad health status,2025,Both sexes,All ages,3.1
+Bad or very bad health status,2025,Both sexes,15 - 19 years,0
+Bad or very bad health status,2025,Both sexes,20 - 24 years,0.7
+Bad or very bad health status,2025,Both sexes,25 - 29 years,1.1
+Bad or very bad health status,2025,Both sexes,30 - 34 years,1.9
+Bad or very bad health status,2025,Both sexes,35 - 39 years,1.4
+Bad or very bad health status,2025,Both sexes,40 - 44 years,2.8
+Bad or very bad health status,2025,Both sexes,45 - 49 years,4.6
+Bad or very bad health status,2025,Both sexes,50 - 54 years,3.1
+Bad or very bad health status,2025,Both sexes,55 - 59 years,5.7
+Bad or very bad health status,2025,Both sexes,60 - 64 years,5.1
+Bad or very bad health status,2025,Both sexes,65 - 69 years,7.3
+Bad or very bad health status,2025,Both sexes,70 - 74 years,3.5
+Bad or very bad health status,2025,Both sexes,75 years and over,4.1
+Bad or very bad health status,2025,Male,All ages,3.2
 Bad or very bad health status,2025,Male,15 - 19 years,0
 Bad or very bad health status,2025,Male,20 - 24 years,1
 Bad or very bad health status,2025,Male,25 - 29 years,0
@@ -454,6 +825,7 @@ Bad or very bad health status,2025,Male,60 - 64 years,5.6
 Bad or very bad health status,2025,Male,65 - 69 years,4.2
 Bad or very bad health status,2025,Male,70 - 74 years,5.3
 Bad or very bad health status,2025,Male,75 years and over,4.7
+Bad or very bad health status,2025,Female,All ages,2.9
 Bad or very bad health status,2025,Female,15 - 19 years,0
 Bad or very bad health status,2025,Female,20 - 24 years,0.4
 Bad or very bad health status,2025,Female,25 - 29 years,2.2

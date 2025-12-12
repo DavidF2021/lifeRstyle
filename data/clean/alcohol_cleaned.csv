@@ -1,4 +1,19 @@
 Statistic,Year,Sex,Age.Group,value
+Persons who drink more than once per week,2015,Both sexes,All ages,24.2
+Persons who drink more than once per week,2015,Both sexes,15 - 19 years,5.3
+Persons who drink more than once per week,2015,Both sexes,20 - 24 years,22.3
+Persons who drink more than once per week,2015,Both sexes,25 - 29 years,19.7
+Persons who drink more than once per week,2015,Both sexes,30 - 34 years,21.1
+Persons who drink more than once per week,2015,Both sexes,35 - 39 years,21.4
+Persons who drink more than once per week,2015,Both sexes,40 - 44 years,28.3
+Persons who drink more than once per week,2015,Both sexes,45 - 49 years,30.2
+Persons who drink more than once per week,2015,Both sexes,50 - 54 years,31.8
+Persons who drink more than once per week,2015,Both sexes,55 - 59 years,33.6
+Persons who drink more than once per week,2015,Both sexes,60 - 64 years,31.6
+Persons who drink more than once per week,2015,Both sexes,65 - 69 years,28.8
+Persons who drink more than once per week,2015,Both sexes,70 - 74 years,28.1
+Persons who drink more than once per week,2015,Both sexes,75 years and over,18.9
+Persons who drink more than once per week,2015,Male,All ages,29.7
 Persons who drink more than once per week,2015,Male,15 - 19 years,5.3
 Persons who drink more than once per week,2015,Male,20 - 24 years,24.7
 Persons who drink more than once per week,2015,Male,25 - 29 years,23.7
@@ -12,6 +27,7 @@ Persons who drink more than once per week,2015,Male,60 - 64 years,38.7
 Persons who drink more than once per week,2015,Male,65 - 69 years,36.7
 Persons who drink more than once per week,2015,Male,70 - 74 years,39.7
 Persons who drink more than once per week,2015,Male,75 years and over,26.1
+Persons who drink more than once per week,2015,Female,All ages,19
 Persons who drink more than once per week,2015,Female,15 - 19 years,5.3
 Persons who drink more than once per week,2015,Female,20 - 24 years,19.5
 Persons who drink more than once per week,2015,Female,25 - 29 years,15.3
@@ -25,6 +41,21 @@ Persons who drink more than once per week,2015,Female,60 - 64 years,24.4
 Persons who drink more than once per week,2015,Female,65 - 69 years,21.1
 Persons who drink more than once per week,2015,Female,70 - 74 years,18
 Persons who drink more than once per week,2015,Female,75 years and over,13.4
+Persons who drink more than once per week,2016,Both sexes,All ages,24
+Persons who drink more than once per week,2016,Both sexes,15 - 19 years,9.1
+Persons who drink more than once per week,2016,Both sexes,20 - 24 years,20.8
+Persons who drink more than once per week,2016,Both sexes,25 - 29 years,15.2
+Persons who drink more than once per week,2016,Both sexes,30 - 34 years,22.5
+Persons who drink more than once per week,2016,Both sexes,35 - 39 years,26.3
+Persons who drink more than once per week,2016,Both sexes,40 - 44 years,27.3
+Persons who drink more than once per week,2016,Both sexes,45 - 49 years,32.6
+Persons who drink more than once per week,2016,Both sexes,50 - 54 years,27.5
+Persons who drink more than once per week,2016,Both sexes,55 - 59 years,31.3
+Persons who drink more than once per week,2016,Both sexes,60 - 64 years,31.3
+Persons who drink more than once per week,2016,Both sexes,65 - 69 years,24.8
+Persons who drink more than once per week,2016,Both sexes,70 - 74 years,25.5
+Persons who drink more than once per week,2016,Both sexes,75 years and over,18.7
+Persons who drink more than once per week,2016,Male,All ages,30.1
 Persons who drink more than once per week,2016,Male,15 - 19 years,10.5
 Persons who drink more than once per week,2016,Male,20 - 24 years,23.1
 Persons who drink more than once per week,2016,Male,25 - 29 years,20.9
@@ -38,6 +69,7 @@ Persons who drink more than once per week,2016,Male,60 - 64 years,40
 Persons who drink more than once per week,2016,Male,65 - 69 years,33
 Persons who drink more than once per week,2016,Male,70 - 74 years,30.8
 Persons who drink more than once per week,2016,Male,75 years and over,24.6
+Persons who drink more than once per week,2016,Female,All ages,18.2
 Persons who drink more than once per week,2016,Female,15 - 19 years,7.5
 Persons who drink more than once per week,2016,Female,20 - 24 years,18.5
 Persons who drink more than once per week,2016,Female,25 - 29 years,9.5
@@ -51,6 +83,21 @@ Persons who drink more than once per week,2016,Female,60 - 64 years,21.4
 Persons who drink more than once per week,2016,Female,65 - 69 years,17.7
 Persons who drink more than once per week,2016,Female,70 - 74 years,20.1
 Persons who drink more than once per week,2016,Female,75 years and over,14.3
+Persons who drink more than once per week,2017,Both sexes,All ages,24.6
+Persons who drink more than once per week,2017,Both sexes,15 - 19 years,5.6
+Persons who drink more than once per week,2017,Both sexes,20 - 24 years,18.1
+Persons who drink more than once per week,2017,Both sexes,25 - 29 years,22.6
+Persons who drink more than once per week,2017,Both sexes,30 - 34 years,19.5
+Persons who drink more than once per week,2017,Both sexes,35 - 39 years,25.2
+Persons who drink more than once per week,2017,Both sexes,40 - 44 years,27.5
+Persons who drink more than once per week,2017,Both sexes,45 - 49 years,30.7
+Persons who drink more than once per week,2017,Both sexes,50 - 54 years,35.4
+Persons who drink more than once per week,2017,Both sexes,55 - 59 years,26.7
+Persons who drink more than once per week,2017,Both sexes,60 - 64 years,35.7
+Persons who drink more than once per week,2017,Both sexes,65 - 69 years,28.3
+Persons who drink more than once per week,2017,Both sexes,70 - 74 years,25.5
+Persons who drink more than once per week,2017,Both sexes,75 years and over,21.9
+Persons who drink more than once per week,2017,Male,All ages,30.6
 Persons who drink more than once per week,2017,Male,15 - 19 years,6.5
 Persons who drink more than once per week,2017,Male,20 - 24 years,24.6
 Persons who drink more than once per week,2017,Male,25 - 29 years,33.2
@@ -64,6 +111,7 @@ Persons who drink more than once per week,2017,Male,60 - 64 years,44.6
 Persons who drink more than once per week,2017,Male,65 - 69 years,37.7
 Persons who drink more than once per week,2017,Male,70 - 74 years,33.8
 Persons who drink more than once per week,2017,Male,75 years and over,29.7
+Persons who drink more than once per week,2017,Female,All ages,18.9
 Persons who drink more than once per week,2017,Female,15 - 19 years,4.6
 Persons who drink more than once per week,2017,Female,20 - 24 years,11.9
 Persons who drink more than once per week,2017,Female,25 - 29 years,10.3
@@ -77,6 +125,21 @@ Persons who drink more than once per week,2017,Female,60 - 64 years,26
 Persons who drink more than once per week,2017,Female,65 - 69 years,20.2
 Persons who drink more than once per week,2017,Female,70 - 74 years,17.7
 Persons who drink more than once per week,2017,Female,75 years and over,15.5
+Persons who drink more than once per week,2018,Both sexes,All ages,22.8
+Persons who drink more than once per week,2018,Both sexes,15 - 19 years,4.6
+Persons who drink more than once per week,2018,Both sexes,20 - 24 years,16.2
+Persons who drink more than once per week,2018,Both sexes,25 - 29 years,20.6
+Persons who drink more than once per week,2018,Both sexes,30 - 34 years,22
+Persons who drink more than once per week,2018,Both sexes,35 - 39 years,20.2
+Persons who drink more than once per week,2018,Both sexes,40 - 44 years,26.8
+Persons who drink more than once per week,2018,Both sexes,45 - 49 years,26.4
+Persons who drink more than once per week,2018,Both sexes,50 - 54 years,32.6
+Persons who drink more than once per week,2018,Both sexes,55 - 59 years,29.1
+Persons who drink more than once per week,2018,Both sexes,60 - 64 years,30.8
+Persons who drink more than once per week,2018,Both sexes,65 - 69 years,29.2
+Persons who drink more than once per week,2018,Both sexes,70 - 74 years,23.3
+Persons who drink more than once per week,2018,Both sexes,75 years and over,18
+Persons who drink more than once per week,2018,Male,All ages,28
 Persons who drink more than once per week,2018,Male,15 - 19 years,7.2
 Persons who drink more than once per week,2018,Male,20 - 24 years,18.9
 Persons who drink more than once per week,2018,Male,25 - 29 years,31.4
@@ -90,6 +153,7 @@ Persons who drink more than once per week,2018,Male,60 - 64 years,35.9
 Persons who drink more than once per week,2018,Male,65 - 69 years,39.1
 Persons who drink more than once per week,2018,Male,70 - 74 years,31.5
 Persons who drink more than once per week,2018,Male,75 years and over,22.7
+Persons who drink more than once per week,2018,Female,All ages,17.9
 Persons who drink more than once per week,2018,Female,15 - 19 years,1.9
 Persons who drink more than once per week,2018,Female,20 - 24 years,13.4
 Persons who drink more than once per week,2018,Female,25 - 29 years,9.3
@@ -103,6 +167,21 @@ Persons who drink more than once per week,2018,Female,60 - 64 years,26.1
 Persons who drink more than once per week,2018,Female,65 - 69 years,20.2
 Persons who drink more than once per week,2018,Female,70 - 74 years,16.3
 Persons who drink more than once per week,2018,Female,75 years and over,14
+Persons who drink more than once per week,2021,Both sexes,All ages,22
+Persons who drink more than once per week,2021,Both sexes,15 - 19 years,7.3
+Persons who drink more than once per week,2021,Both sexes,20 - 24 years,13.8
+Persons who drink more than once per week,2021,Both sexes,25 - 29 years,17.7
+Persons who drink more than once per week,2021,Both sexes,30 - 34 years,19.8
+Persons who drink more than once per week,2021,Both sexes,35 - 39 years,22.6
+Persons who drink more than once per week,2021,Both sexes,40 - 44 years,27
+Persons who drink more than once per week,2021,Both sexes,45 - 49 years,27.1
+Persons who drink more than once per week,2021,Both sexes,50 - 54 years,26.6
+Persons who drink more than once per week,2021,Both sexes,55 - 59 years,27.9
+Persons who drink more than once per week,2021,Both sexes,60 - 64 years,26.6
+Persons who drink more than once per week,2021,Both sexes,65 - 69 years,24.1
+Persons who drink more than once per week,2021,Both sexes,70 - 74 years,23.1
+Persons who drink more than once per week,2021,Both sexes,75 years and over,21.8
+Persons who drink more than once per week,2021,Male,All ages,25.6
 Persons who drink more than once per week,2021,Male,15 - 19 years,11
 Persons who drink more than once per week,2021,Male,20 - 24 years,19.2
 Persons who drink more than once per week,2021,Male,25 - 29 years,19.6
@@ -116,6 +195,7 @@ Persons who drink more than once per week,2021,Male,60 - 64 years,29.3
 Persons who drink more than once per week,2021,Male,65 - 69 years,25.3
 Persons who drink more than once per week,2021,Male,70 - 74 years,28.7
 Persons who drink more than once per week,2021,Male,75 years and over,28.2
+Persons who drink more than once per week,2021,Female,All ages,18.5
 Persons who drink more than once per week,2021,Female,15 - 19 years,3.3
 Persons who drink more than once per week,2021,Female,20 - 24 years,8.4
 Persons who drink more than once per week,2021,Female,25 - 29 years,15.9
@@ -129,6 +209,21 @@ Persons who drink more than once per week,2021,Female,60 - 64 years,24
 Persons who drink more than once per week,2021,Female,65 - 69 years,23.2
 Persons who drink more than once per week,2021,Female,70 - 74 years,18.4
 Persons who drink more than once per week,2021,Female,75 years and over,14.9
+Persons who drink more than once per week,2022,Both sexes,All ages,21.4
+Persons who drink more than once per week,2022,Both sexes,15 - 19 years,9.6
+Persons who drink more than once per week,2022,Both sexes,20 - 24 years,16.7
+Persons who drink more than once per week,2022,Both sexes,25 - 29 years,15.9
+Persons who drink more than once per week,2022,Both sexes,30 - 34 years,15.9
+Persons who drink more than once per week,2022,Both sexes,35 - 39 years,16.1
+Persons who drink more than once per week,2022,Both sexes,40 - 44 years,20.2
+Persons who drink more than once per week,2022,Both sexes,45 - 49 years,27
+Persons who drink more than once per week,2022,Both sexes,50 - 54 years,26.3
+Persons who drink more than once per week,2022,Both sexes,55 - 59 years,27.5
+Persons who drink more than once per week,2022,Both sexes,60 - 64 years,29.6
+Persons who drink more than once per week,2022,Both sexes,65 - 69 years,26.4
+Persons who drink more than once per week,2022,Both sexes,70 - 74 years,24.8
+Persons who drink more than once per week,2022,Both sexes,75 years and over,24.9
+Persons who drink more than once per week,2022,Male,All ages,25.3
 Persons who drink more than once per week,2022,Male,15 - 19 years,8.7
 Persons who drink more than once per week,2022,Male,20 - 24 years,19.6
 Persons who drink more than once per week,2022,Male,25 - 29 years,23.3
@@ -142,6 +237,7 @@ Persons who drink more than once per week,2022,Male,60 - 64 years,35.7
 Persons who drink more than once per week,2022,Male,65 - 69 years,31.6
 Persons who drink more than once per week,2022,Male,70 - 74 years,33.3
 Persons who drink more than once per week,2022,Male,75 years and over,35.6
+Persons who drink more than once per week,2022,Female,All ages,17.6
 Persons who drink more than once per week,2022,Female,15 - 19 years,10.8
 Persons who drink more than once per week,2022,Female,20 - 24 years,14
 Persons who drink more than once per week,2022,Female,25 - 29 years,8
@@ -155,6 +251,21 @@ Persons who drink more than once per week,2022,Female,60 - 64 years,24.2
 Persons who drink more than once per week,2022,Female,65 - 69 years,21.4
 Persons who drink more than once per week,2022,Female,70 - 74 years,18.4
 Persons who drink more than once per week,2022,Female,75 years and over,14.9
+Persons who drink more than once per week,2023,Both sexes,All ages,20.8
+Persons who drink more than once per week,2023,Both sexes,15 - 19 years,6.1
+Persons who drink more than once per week,2023,Both sexes,20 - 24 years,10.2
+Persons who drink more than once per week,2023,Both sexes,25 - 29 years,11.5
+Persons who drink more than once per week,2023,Both sexes,30 - 34 years,14.9
+Persons who drink more than once per week,2023,Both sexes,35 - 39 years,17.7
+Persons who drink more than once per week,2023,Both sexes,40 - 44 years,24
+Persons who drink more than once per week,2023,Both sexes,45 - 49 years,22.6
+Persons who drink more than once per week,2023,Both sexes,50 - 54 years,26.4
+Persons who drink more than once per week,2023,Both sexes,55 - 59 years,28.6
+Persons who drink more than once per week,2023,Both sexes,60 - 64 years,31
+Persons who drink more than once per week,2023,Both sexes,65 - 69 years,29.6
+Persons who drink more than once per week,2023,Both sexes,70 - 74 years,27.1
+Persons who drink more than once per week,2023,Both sexes,75 years and over,22.9
+Persons who drink more than once per week,2023,Male,All ages,24.3
 Persons who drink more than once per week,2023,Male,15 - 19 years,8.3
 Persons who drink more than once per week,2023,Male,20 - 24 years,13.3
 Persons who drink more than once per week,2023,Male,25 - 29 years,14
@@ -168,6 +279,7 @@ Persons who drink more than once per week,2023,Male,60 - 64 years,33.4
 Persons who drink more than once per week,2023,Male,65 - 69 years,34
 Persons who drink more than once per week,2023,Male,70 - 74 years,35.8
 Persons who drink more than once per week,2023,Male,75 years and over,31.7
+Persons who drink more than once per week,2023,Female,All ages,17.5
 Persons who drink more than once per week,2023,Female,15 - 19 years,3.7
 Persons who drink more than once per week,2023,Female,20 - 24 years,7.1
 Persons who drink more than once per week,2023,Female,25 - 29 years,9
@@ -181,6 +293,21 @@ Persons who drink more than once per week,2023,Female,60 - 64 years,28.6
 Persons who drink more than once per week,2023,Female,65 - 69 years,25.8
 Persons who drink more than once per week,2023,Female,70 - 74 years,18
 Persons who drink more than once per week,2023,Female,75 years and over,15.8
+Persons who drink more than once per week,2024,Both sexes,All ages,21.8
+Persons who drink more than once per week,2024,Both sexes,15 - 19 years,13.3
+Persons who drink more than once per week,2024,Both sexes,20 - 24 years,13
+Persons who drink more than once per week,2024,Both sexes,25 - 29 years,15.1
+Persons who drink more than once per week,2024,Both sexes,30 - 34 years,14.8
+Persons who drink more than once per week,2024,Both sexes,35 - 39 years,15.1
+Persons who drink more than once per week,2024,Both sexes,40 - 44 years,19.4
+Persons who drink more than once per week,2024,Both sexes,45 - 49 years,27.5
+Persons who drink more than once per week,2024,Both sexes,50 - 54 years,29.3
+Persons who drink more than once per week,2024,Both sexes,55 - 59 years,28.7
+Persons who drink more than once per week,2024,Both sexes,60 - 64 years,32.9
+Persons who drink more than once per week,2024,Both sexes,65 - 69 years,31.5
+Persons who drink more than once per week,2024,Both sexes,70 - 74 years,23.4
+Persons who drink more than once per week,2024,Both sexes,75 years and over,23.7
+Persons who drink more than once per week,2024,Male,All ages,26.6
 Persons who drink more than once per week,2024,Male,15 - 19 years,16.8
 Persons who drink more than once per week,2024,Male,20 - 24 years,14.2
 Persons who drink more than once per week,2024,Male,25 - 29 years,17.3
@@ -194,6 +321,7 @@ Persons who drink more than once per week,2024,Male,60 - 64 years,36.8
 Persons who drink more than once per week,2024,Male,65 - 69 years,33.3
 Persons who drink more than once per week,2024,Male,70 - 74 years,32.9
 Persons who drink more than once per week,2024,Male,75 years and over,31.8
+Persons who drink more than once per week,2024,Female,All ages,17.2
 Persons who drink more than once per week,2024,Female,15 - 19 years,8.9
 Persons who drink more than once per week,2024,Female,20 - 24 years,11.8
 Persons who drink more than once per week,2024,Female,25 - 29 years,13.1
@@ -207,6 +335,21 @@ Persons who drink more than once per week,2024,Female,60 - 64 years,28.9
 Persons who drink more than once per week,2024,Female,65 - 69 years,30
 Persons who drink more than once per week,2024,Female,70 - 74 years,14.2
 Persons who drink more than once per week,2024,Female,75 years and over,16.7
+Persons who drink more than once per week,2025,Both sexes,All ages,20.3
+Persons who drink more than once per week,2025,Both sexes,15 - 19 years,9.9
+Persons who drink more than once per week,2025,Both sexes,20 - 24 years,13.1
+Persons who drink more than once per week,2025,Both sexes,25 - 29 years,10.3
+Persons who drink more than once per week,2025,Both sexes,30 - 34 years,12.2
+Persons who drink more than once per week,2025,Both sexes,35 - 39 years,12.5
+Persons who drink more than once per week,2025,Both sexes,40 - 44 years,17.1
+Persons who drink more than once per week,2025,Both sexes,45 - 49 years,24.5
+Persons who drink more than once per week,2025,Both sexes,50 - 54 years,26.5
+Persons who drink more than once per week,2025,Both sexes,55 - 59 years,29.7
+Persons who drink more than once per week,2025,Both sexes,60 - 64 years,32.4
+Persons who drink more than once per week,2025,Both sexes,65 - 69 years,26.8
+Persons who drink more than once per week,2025,Both sexes,70 - 74 years,30.5
+Persons who drink more than once per week,2025,Both sexes,75 years and over,23.9
+Persons who drink more than once per week,2025,Male,All ages,23.7
 Persons who drink more than once per week,2025,Male,15 - 19 years,8.8
 Persons who drink more than once per week,2025,Male,20 - 24 years,14.8
 Persons who drink more than once per week,2025,Male,25 - 29 years,11.9
@@ -220,6 +363,7 @@ Persons who drink more than once per week,2025,Male,60 - 64 years,35.5
 Persons who drink more than once per week,2025,Male,65 - 69 years,33.4
 Persons who drink more than once per week,2025,Male,70 - 74 years,41.5
 Persons who drink more than once per week,2025,Male,75 years and over,32.3
+Persons who drink more than once per week,2025,Female,All ages,17
 Persons who drink more than once per week,2025,Female,15 - 19 years,9.6
 Persons who drink more than once per week,2025,Female,20 - 24 years,11.3
 Persons who drink more than once per week,2025,Female,25 - 29 years,8.7
@@ -233,6 +377,21 @@ Persons who drink more than once per week,2025,Female,60 - 64 years,29.4
 Persons who drink more than once per week,2025,Female,65 - 69 years,21.3
 Persons who drink more than once per week,2025,Female,70 - 74 years,21
 Persons who drink more than once per week,2025,Female,75 years and over,15.9
+Persons who drink only once per week,2015,Both sexes,All ages,16.6
+Persons who drink only once per week,2015,Both sexes,15 - 19 years,7.1
+Persons who drink only once per week,2015,Both sexes,20 - 24 years,24.9
+Persons who drink only once per week,2015,Both sexes,25 - 29 years,21.7
+Persons who drink only once per week,2015,Both sexes,30 - 34 years,20.3
+Persons who drink only once per week,2015,Both sexes,35 - 39 years,15.3
+Persons who drink only once per week,2015,Both sexes,40 - 44 years,19.6
+Persons who drink only once per week,2015,Both sexes,45 - 49 years,19
+Persons who drink only once per week,2015,Both sexes,50 - 54 years,15.9
+Persons who drink only once per week,2015,Both sexes,55 - 59 years,20.2
+Persons who drink only once per week,2015,Both sexes,60 - 64 years,13
+Persons who drink only once per week,2015,Both sexes,65 - 69 years,13.5
+Persons who drink only once per week,2015,Both sexes,70 - 74 years,10.6
+Persons who drink only once per week,2015,Both sexes,75 years and over,10
+Persons who drink only once per week,2015,Male,All ages,18.1
 Persons who drink only once per week,2015,Male,15 - 19 years,8.1
 Persons who drink only once per week,2015,Male,20 - 24 years,26.9
 Persons who drink only once per week,2015,Male,25 - 29 years,26.3
@@ -246,6 +405,7 @@ Persons who drink only once per week,2015,Male,60 - 64 years,13.6
 Persons who drink only once per week,2015,Male,65 - 69 years,13.5
 Persons who drink only once per week,2015,Male,70 - 74 years,9.6
 Persons who drink only once per week,2015,Male,75 years and over,13.6
+Persons who drink only once per week,2015,Female,All ages,15.1
 Persons who drink only once per week,2015,Female,15 - 19 years,6.2
 Persons who drink only once per week,2015,Female,20 - 24 years,22.5
 Persons who drink only once per week,2015,Female,25 - 29 years,16.7
@@ -259,6 +419,21 @@ Persons who drink only once per week,2015,Female,60 - 64 years,12.4
 Persons who drink only once per week,2015,Female,65 - 69 years,13.6
 Persons who drink only once per week,2015,Female,70 - 74 years,11.5
 Persons who drink only once per week,2015,Female,75 years and over,7.3
+Persons who drink only once per week,2016,Both sexes,All ages,17.3
+Persons who drink only once per week,2016,Both sexes,15 - 19 years,8.2
+Persons who drink only once per week,2016,Both sexes,20 - 24 years,25.9
+Persons who drink only once per week,2016,Both sexes,25 - 29 years,18.6
+Persons who drink only once per week,2016,Both sexes,30 - 34 years,20.1
+Persons who drink only once per week,2016,Both sexes,35 - 39 years,16.5
+Persons who drink only once per week,2016,Both sexes,40 - 44 years,21.6
+Persons who drink only once per week,2016,Both sexes,45 - 49 years,15.6
+Persons who drink only once per week,2016,Both sexes,50 - 54 years,19.6
+Persons who drink only once per week,2016,Both sexes,55 - 59 years,18.6
+Persons who drink only once per week,2016,Both sexes,60 - 64 years,21
+Persons who drink only once per week,2016,Both sexes,65 - 69 years,15
+Persons who drink only once per week,2016,Both sexes,70 - 74 years,13
+Persons who drink only once per week,2016,Both sexes,75 years and over,9.7
+Persons who drink only once per week,2016,Male,All ages,19.1
 Persons who drink only once per week,2016,Male,15 - 19 years,10.3
 Persons who drink only once per week,2016,Male,20 - 24 years,30.1
 Persons who drink only once per week,2016,Male,25 - 29 years,19.9
@@ -272,6 +447,7 @@ Persons who drink only once per week,2016,Male,60 - 64 years,24.6
 Persons who drink only once per week,2016,Male,65 - 69 years,18.6
 Persons who drink only once per week,2016,Male,70 - 74 years,17.3
 Persons who drink only once per week,2016,Male,75 years and over,14.2
+Persons who drink only once per week,2016,Female,All ages,15.5
 Persons who drink only once per week,2016,Female,15 - 19 years,5.8
 Persons who drink only once per week,2016,Female,20 - 24 years,21.9
 Persons who drink only once per week,2016,Female,25 - 29 years,17.4
@@ -285,6 +461,21 @@ Persons who drink only once per week,2016,Female,60 - 64 years,17
 Persons who drink only once per week,2016,Female,65 - 69 years,11.8
 Persons who drink only once per week,2016,Female,70 - 74 years,8.6
 Persons who drink only once per week,2016,Female,75 years and over,6.4
+Persons who drink only once per week,2017,Both sexes,All ages,16.6
+Persons who drink only once per week,2017,Both sexes,15 - 19 years,7.4
+Persons who drink only once per week,2017,Both sexes,20 - 24 years,23.7
+Persons who drink only once per week,2017,Both sexes,25 - 29 years,17.9
+Persons who drink only once per week,2017,Both sexes,30 - 34 years,18.7
+Persons who drink only once per week,2017,Both sexes,35 - 39 years,20.3
+Persons who drink only once per week,2017,Both sexes,40 - 44 years,17.5
+Persons who drink only once per week,2017,Both sexes,45 - 49 years,19.9
+Persons who drink only once per week,2017,Both sexes,50 - 54 years,18.2
+Persons who drink only once per week,2017,Both sexes,55 - 59 years,18.6
+Persons who drink only once per week,2017,Both sexes,60 - 64 years,13.6
+Persons who drink only once per week,2017,Both sexes,65 - 69 years,14.8
+Persons who drink only once per week,2017,Both sexes,70 - 74 years,12.7
+Persons who drink only once per week,2017,Both sexes,75 years and over,9.1
+Persons who drink only once per week,2017,Male,All ages,17.8
 Persons who drink only once per week,2017,Male,15 - 19 years,8.6
 Persons who drink only once per week,2017,Male,20 - 24 years,24.9
 Persons who drink only once per week,2017,Male,25 - 29 years,18.3
@@ -298,6 +489,7 @@ Persons who drink only once per week,2017,Male,60 - 64 years,15.5
 Persons who drink only once per week,2017,Male,65 - 69 years,15.3
 Persons who drink only once per week,2017,Male,70 - 74 years,14.7
 Persons who drink only once per week,2017,Male,75 years and over,12.4
+Persons who drink only once per week,2017,Female,All ages,15.5
 Persons who drink only once per week,2017,Female,15 - 19 years,6.2
 Persons who drink only once per week,2017,Female,20 - 24 years,22.5
 Persons who drink only once per week,2017,Female,25 - 29 years,17.5
@@ -311,6 +503,21 @@ Persons who drink only once per week,2017,Female,60 - 64 years,11.6
 Persons who drink only once per week,2017,Female,65 - 69 years,14.4
 Persons who drink only once per week,2017,Female,70 - 74 years,10.7
 Persons who drink only once per week,2017,Female,75 years and over,6.3
+Persons who drink only once per week,2018,Both sexes,All ages,18.7
+Persons who drink only once per week,2018,Both sexes,15 - 19 years,7.8
+Persons who drink only once per week,2018,Both sexes,20 - 24 years,25.4
+Persons who drink only once per week,2018,Both sexes,25 - 29 years,22.7
+Persons who drink only once per week,2018,Both sexes,30 - 34 years,22.5
+Persons who drink only once per week,2018,Both sexes,35 - 39 years,20.3
+Persons who drink only once per week,2018,Both sexes,40 - 44 years,21.3
+Persons who drink only once per week,2018,Both sexes,45 - 49 years,22.4
+Persons who drink only once per week,2018,Both sexes,50 - 54 years,17.6
+Persons who drink only once per week,2018,Both sexes,55 - 59 years,21.5
+Persons who drink only once per week,2018,Both sexes,60 - 64 years,17.3
+Persons who drink only once per week,2018,Both sexes,65 - 69 years,16.3
+Persons who drink only once per week,2018,Both sexes,70 - 74 years,13.6
+Persons who drink only once per week,2018,Both sexes,75 years and over,10.2
+Persons who drink only once per week,2018,Male,All ages,20.5
 Persons who drink only once per week,2018,Male,15 - 19 years,8.5
 Persons who drink only once per week,2018,Male,20 - 24 years,29.3
 Persons who drink only once per week,2018,Male,25 - 29 years,17.9
@@ -324,6 +531,7 @@ Persons who drink only once per week,2018,Male,60 - 64 years,22.7
 Persons who drink only once per week,2018,Male,65 - 69 years,18.1
 Persons who drink only once per week,2018,Male,70 - 74 years,17.5
 Persons who drink only once per week,2018,Male,75 years and over,13.1
+Persons who drink only once per week,2018,Female,All ages,17
 Persons who drink only once per week,2018,Female,15 - 19 years,7
 Persons who drink only once per week,2018,Female,20 - 24 years,21.5
 Persons who drink only once per week,2018,Female,25 - 29 years,27.7
@@ -337,6 +545,21 @@ Persons who drink only once per week,2018,Female,60 - 64 years,12.4
 Persons who drink only once per week,2018,Female,65 - 69 years,14.7
 Persons who drink only once per week,2018,Female,70 - 74 years,10.3
 Persons who drink only once per week,2018,Female,75 years and over,7.8
+Persons who drink only once per week,2021,Both sexes,All ages,15.6
+Persons who drink only once per week,2021,Both sexes,15 - 19 years,7.2
+Persons who drink only once per week,2021,Both sexes,20 - 24 years,17.2
+Persons who drink only once per week,2021,Both sexes,25 - 29 years,20.5
+Persons who drink only once per week,2021,Both sexes,30 - 34 years,19.4
+Persons who drink only once per week,2021,Both sexes,35 - 39 years,18.7
+Persons who drink only once per week,2021,Both sexes,40 - 44 years,15.2
+Persons who drink only once per week,2021,Both sexes,45 - 49 years,19.3
+Persons who drink only once per week,2021,Both sexes,50 - 54 years,16.8
+Persons who drink only once per week,2021,Both sexes,55 - 59 years,14.6
+Persons who drink only once per week,2021,Both sexes,60 - 64 years,15.4
+Persons who drink only once per week,2021,Both sexes,65 - 69 years,12.9
+Persons who drink only once per week,2021,Both sexes,70 - 74 years,13.1
+Persons who drink only once per week,2021,Both sexes,75 years and over,7.3
+Persons who drink only once per week,2021,Male,All ages,16.1
 Persons who drink only once per week,2021,Male,15 - 19 years,10.9
 Persons who drink only once per week,2021,Male,20 - 24 years,18.3
 Persons who drink only once per week,2021,Male,25 - 29 years,19.8
@@ -350,6 +573,7 @@ Persons who drink only once per week,2021,Male,60 - 64 years,16.9
 Persons who drink only once per week,2021,Male,65 - 69 years,15.8
 Persons who drink only once per week,2021,Male,70 - 74 years,15.4
 Persons who drink only once per week,2021,Male,75 years and over,8.4
+Persons who drink only once per week,2021,Female,All ages,15.2
 Persons who drink only once per week,2021,Female,15 - 19 years,3.2
 Persons who drink only once per week,2021,Female,20 - 24 years,16.1
 Persons who drink only once per week,2021,Female,25 - 29 years,21.2
@@ -363,6 +587,21 @@ Persons who drink only once per week,2021,Female,60 - 64 years,14
 Persons who drink only once per week,2021,Female,65 - 69 years,10.7
 Persons who drink only once per week,2021,Female,70 - 74 years,11.2
 Persons who drink only once per week,2021,Female,75 years and over,6.2
+Persons who drink only once per week,2022,Both sexes,All ages,16
+Persons who drink only once per week,2022,Both sexes,15 - 19 years,8
+Persons who drink only once per week,2022,Both sexes,20 - 24 years,17.4
+Persons who drink only once per week,2022,Both sexes,25 - 29 years,19.4
+Persons who drink only once per week,2022,Both sexes,30 - 34 years,18.3
+Persons who drink only once per week,2022,Both sexes,35 - 39 years,15.5
+Persons who drink only once per week,2022,Both sexes,40 - 44 years,19.7
+Persons who drink only once per week,2022,Both sexes,45 - 49 years,13
+Persons who drink only once per week,2022,Both sexes,50 - 54 years,20.2
+Persons who drink only once per week,2022,Both sexes,55 - 59 years,16.7
+Persons who drink only once per week,2022,Both sexes,60 - 64 years,17.5
+Persons who drink only once per week,2022,Both sexes,65 - 69 years,15.5
+Persons who drink only once per week,2022,Both sexes,70 - 74 years,12.1
+Persons who drink only once per week,2022,Both sexes,75 years and over,10.1
+Persons who drink only once per week,2022,Male,All ages,16.6
 Persons who drink only once per week,2022,Male,15 - 19 years,6.7
 Persons who drink only once per week,2022,Male,20 - 24 years,17
 Persons who drink only once per week,2022,Male,25 - 29 years,21.3
@@ -376,6 +615,7 @@ Persons who drink only once per week,2022,Male,60 - 64 years,17.4
 Persons who drink only once per week,2022,Male,65 - 69 years,12.9
 Persons who drink only once per week,2022,Male,70 - 74 years,14.8
 Persons who drink only once per week,2022,Male,75 years and over,17.3
+Persons who drink only once per week,2022,Female,All ages,15.4
 Persons who drink only once per week,2022,Female,15 - 19 years,9.5
 Persons who drink only once per week,2022,Female,20 - 24 years,17.8
 Persons who drink only once per week,2022,Female,25 - 29 years,17.6
@@ -389,6 +629,21 @@ Persons who drink only once per week,2022,Female,60 - 64 years,17.6
 Persons who drink only once per week,2022,Female,65 - 69 years,18
 Persons who drink only once per week,2022,Female,70 - 74 years,10.1
 Persons who drink only once per week,2022,Female,75 years and over,3.4
+Persons who drink only once per week,2023,Both sexes,All ages,17.3
+Persons who drink only once per week,2023,Both sexes,15 - 19 years,16.8
+Persons who drink only once per week,2023,Both sexes,20 - 24 years,20.9
+Persons who drink only once per week,2023,Both sexes,25 - 29 years,13.6
+Persons who drink only once per week,2023,Both sexes,30 - 34 years,19.3
+Persons who drink only once per week,2023,Both sexes,35 - 39 years,17.3
+Persons who drink only once per week,2023,Both sexes,40 - 44 years,17
+Persons who drink only once per week,2023,Both sexes,45 - 49 years,19.9
+Persons who drink only once per week,2023,Both sexes,50 - 54 years,17.5
+Persons who drink only once per week,2023,Both sexes,55 - 59 years,17.1
+Persons who drink only once per week,2023,Both sexes,60 - 64 years,18.7
+Persons who drink only once per week,2023,Both sexes,65 - 69 years,15
+Persons who drink only once per week,2023,Both sexes,70 - 74 years,15.3
+Persons who drink only once per week,2023,Both sexes,75 years and over,13.3
+Persons who drink only once per week,2023,Male,All ages,18.5
 Persons who drink only once per week,2023,Male,15 - 19 years,21.9
 Persons who drink only once per week,2023,Male,20 - 24 years,21.2
 Persons who drink only once per week,2023,Male,25 - 29 years,14.4
@@ -402,6 +657,7 @@ Persons who drink only once per week,2023,Male,60 - 64 years,21.7
 Persons who drink only once per week,2023,Male,65 - 69 years,20.5
 Persons who drink only once per week,2023,Male,70 - 74 years,16.6
 Persons who drink only once per week,2023,Male,75 years and over,11.8
+Persons who drink only once per week,2023,Female,All ages,16.1
 Persons who drink only once per week,2023,Female,15 - 19 years,11.3
 Persons who drink only once per week,2023,Female,20 - 24 years,20.7
 Persons who drink only once per week,2023,Female,25 - 29 years,12.8
@@ -415,6 +671,21 @@ Persons who drink only once per week,2023,Female,60 - 64 years,15.7
 Persons who drink only once per week,2023,Female,65 - 69 years,10.3
 Persons who drink only once per week,2023,Female,70 - 74 years,14
 Persons who drink only once per week,2023,Female,75 years and over,14.6
+Persons who drink only once per week,2024,Both sexes,All ages,15.9
+Persons who drink only once per week,2024,Both sexes,15 - 19 years,8.9
+Persons who drink only once per week,2024,Both sexes,20 - 24 years,20.3
+Persons who drink only once per week,2024,Both sexes,25 - 29 years,15.8
+Persons who drink only once per week,2024,Both sexes,30 - 34 years,16.4
+Persons who drink only once per week,2024,Both sexes,35 - 39 years,14.1
+Persons who drink only once per week,2024,Both sexes,40 - 44 years,17.3
+Persons who drink only once per week,2024,Both sexes,45 - 49 years,15.2
+Persons who drink only once per week,2024,Both sexes,50 - 54 years,17.4
+Persons who drink only once per week,2024,Both sexes,55 - 59 years,18.8
+Persons who drink only once per week,2024,Both sexes,60 - 64 years,16
+Persons who drink only once per week,2024,Both sexes,65 - 69 years,16.2
+Persons who drink only once per week,2024,Both sexes,70 - 74 years,14.9
+Persons who drink only once per week,2024,Both sexes,75 years and over,10.3
+Persons who drink only once per week,2024,Male,All ages,16.2
 Persons who drink only once per week,2024,Male,15 - 19 years,5.3
 Persons who drink only once per week,2024,Male,20 - 24 years,21.1
 Persons who drink only once per week,2024,Male,25 - 29 years,21.3
@@ -428,6 +699,7 @@ Persons who drink only once per week,2024,Male,60 - 64 years,17.9
 Persons who drink only once per week,2024,Male,65 - 69 years,18.7
 Persons who drink only once per week,2024,Male,70 - 74 years,14.7
 Persons who drink only once per week,2024,Male,75 years and over,12.5
+Persons who drink only once per week,2024,Female,All ages,15.6
 Persons who drink only once per week,2024,Female,15 - 19 years,13.3
 Persons who drink only once per week,2024,Female,20 - 24 years,19.6
 Persons who drink only once per week,2024,Female,25 - 29 years,10.2
@@ -441,6 +713,21 @@ Persons who drink only once per week,2024,Female,60 - 64 years,14.1
 Persons who drink only once per week,2024,Female,65 - 69 years,14.1
 Persons who drink only once per week,2024,Female,70 - 74 years,15
 Persons who drink only once per week,2024,Female,75 years and over,8.4
+Persons who drink only once per week,2025,Both sexes,All ages,15.3
+Persons who drink only once per week,2025,Both sexes,15 - 19 years,13.5
+Persons who drink only once per week,2025,Both sexes,20 - 24 years,17.5
+Persons who drink only once per week,2025,Both sexes,25 - 29 years,13.8
+Persons who drink only once per week,2025,Both sexes,30 - 34 years,14.1
+Persons who drink only once per week,2025,Both sexes,35 - 39 years,14.1
+Persons who drink only once per week,2025,Both sexes,40 - 44 years,19.5
+Persons who drink only once per week,2025,Both sexes,45 - 49 years,14.6
+Persons who drink only once per week,2025,Both sexes,50 - 54 years,14.8
+Persons who drink only once per week,2025,Both sexes,55 - 59 years,16.4
+Persons who drink only once per week,2025,Both sexes,60 - 64 years,15.5
+Persons who drink only once per week,2025,Both sexes,65 - 69 years,12.5
+Persons who drink only once per week,2025,Both sexes,70 - 74 years,15.1
+Persons who drink only once per week,2025,Both sexes,75 years and over,13.5
+Persons who drink only once per week,2025,Male,All ages,16.4
 Persons who drink only once per week,2025,Male,15 - 19 years,13.6
 Persons who drink only once per week,2025,Male,20 - 24 years,21.3
 Persons who drink only once per week,2025,Male,25 - 29 years,16.8
@@ -454,6 +741,7 @@ Persons who drink only once per week,2025,Male,60 - 64 years,13.1
 Persons who drink only once per week,2025,Male,65 - 69 years,13.4
 Persons who drink only once per week,2025,Male,70 - 74 years,16.1
 Persons who drink only once per week,2025,Male,75 years and over,15.2
+Persons who drink only once per week,2025,Female,All ages,14.1
 Persons who drink only once per week,2025,Female,15 - 19 years,13.6
 Persons who drink only once per week,2025,Female,20 - 24 years,13.3
 Persons who drink only once per week,2025,Female,25 - 29 years,10.6
@@ -467,6 +755,21 @@ Persons who drink only once per week,2025,Female,60 - 64 years,17.9
 Persons who drink only once per week,2025,Female,65 - 69 years,11.8
 Persons who drink only once per week,2025,Female,70 - 74 years,14.3
 Persons who drink only once per week,2025,Female,75 years and over,11.8
+Persons who drink 1 to 3 times per month,2015,Both sexes,All ages,20.5
+Persons who drink 1 to 3 times per month,2015,Both sexes,15 - 19 years,27.1
+Persons who drink 1 to 3 times per month,2015,Both sexes,20 - 24 years,29.4
+Persons who drink 1 to 3 times per month,2015,Both sexes,25 - 29 years,28.6
+Persons who drink 1 to 3 times per month,2015,Both sexes,30 - 34 years,28.9
+Persons who drink 1 to 3 times per month,2015,Both sexes,35 - 39 years,27.2
+Persons who drink 1 to 3 times per month,2015,Both sexes,40 - 44 years,22.3
+Persons who drink 1 to 3 times per month,2015,Both sexes,45 - 49 years,18.2
+Persons who drink 1 to 3 times per month,2015,Both sexes,50 - 54 years,14.9
+Persons who drink 1 to 3 times per month,2015,Both sexes,55 - 59 years,10.3
+Persons who drink 1 to 3 times per month,2015,Both sexes,60 - 64 years,12.7
+Persons who drink 1 to 3 times per month,2015,Both sexes,65 - 69 years,13.8
+Persons who drink 1 to 3 times per month,2015,Both sexes,70 - 74 years,9.1
+Persons who drink 1 to 3 times per month,2015,Both sexes,75 years and over,8.3
+Persons who drink 1 to 3 times per month,2015,Male,All ages,20.1
 Persons who drink 1 to 3 times per month,2015,Male,15 - 19 years,29.9
 Persons who drink 1 to 3 times per month,2015,Male,20 - 24 years,26.8
 Persons who drink 1 to 3 times per month,2015,Male,25 - 29 years,24.3
@@ -480,6 +783,7 @@ Persons who drink 1 to 3 times per month,2015,Male,60 - 64 years,12.5
 Persons who drink 1 to 3 times per month,2015,Male,65 - 69 years,12.4
 Persons who drink 1 to 3 times per month,2015,Male,70 - 74 years,8.9
 Persons who drink 1 to 3 times per month,2015,Male,75 years and over,10
+Persons who drink 1 to 3 times per month,2015,Female,All ages,21
 Persons who drink 1 to 3 times per month,2015,Female,15 - 19 years,24.3
 Persons who drink 1 to 3 times per month,2015,Female,20 - 24 years,32.4
 Persons who drink 1 to 3 times per month,2015,Female,25 - 29 years,33.3
@@ -493,6 +797,21 @@ Persons who drink 1 to 3 times per month,2015,Female,60 - 64 years,13
 Persons who drink 1 to 3 times per month,2015,Female,65 - 69 years,15.1
 Persons who drink 1 to 3 times per month,2015,Female,70 - 74 years,9.3
 Persons who drink 1 to 3 times per month,2015,Female,75 years and over,7.1
+Persons who drink 1 to 3 times per month,2016,Both sexes,All ages,19.4
+Persons who drink 1 to 3 times per month,2016,Both sexes,15 - 19 years,18.3
+Persons who drink 1 to 3 times per month,2016,Both sexes,20 - 24 years,30.3
+Persons who drink 1 to 3 times per month,2016,Both sexes,25 - 29 years,32.8
+Persons who drink 1 to 3 times per month,2016,Both sexes,30 - 34 years,24.7
+Persons who drink 1 to 3 times per month,2016,Both sexes,35 - 39 years,22.5
+Persons who drink 1 to 3 times per month,2016,Both sexes,40 - 44 years,21.9
+Persons who drink 1 to 3 times per month,2016,Both sexes,45 - 49 years,15.2
+Persons who drink 1 to 3 times per month,2016,Both sexes,50 - 54 years,18.8
+Persons who drink 1 to 3 times per month,2016,Both sexes,55 - 59 years,14.2
+Persons who drink 1 to 3 times per month,2016,Both sexes,60 - 64 years,12.5
+Persons who drink 1 to 3 times per month,2016,Both sexes,65 - 69 years,12.6
+Persons who drink 1 to 3 times per month,2016,Both sexes,70 - 74 years,10.8
+Persons who drink 1 to 3 times per month,2016,Both sexes,75 years and over,8.3
+Persons who drink 1 to 3 times per month,2016,Male,All ages,17.3
 Persons who drink 1 to 3 times per month,2016,Male,15 - 19 years,17.1
 Persons who drink 1 to 3 times per month,2016,Male,20 - 24 years,27
 Persons who drink 1 to 3 times per month,2016,Male,25 - 29 years,29.3
@@ -506,6 +825,7 @@ Persons who drink 1 to 3 times per month,2016,Male,60 - 64 years,8.7
 Persons who drink 1 to 3 times per month,2016,Male,65 - 69 years,11.6
 Persons who drink 1 to 3 times per month,2016,Male,70 - 74 years,10.1
 Persons who drink 1 to 3 times per month,2016,Male,75 years and over,8.8
+Persons who drink 1 to 3 times per month,2016,Female,All ages,21.4
 Persons who drink 1 to 3 times per month,2016,Female,15 - 19 years,19.6
 Persons who drink 1 to 3 times per month,2016,Female,20 - 24 years,33.5
 Persons who drink 1 to 3 times per month,2016,Female,25 - 29 years,36.2
@@ -519,6 +839,21 @@ Persons who drink 1 to 3 times per month,2016,Female,60 - 64 years,16.8
 Persons who drink 1 to 3 times per month,2016,Female,65 - 69 years,13.4
 Persons who drink 1 to 3 times per month,2016,Female,70 - 74 years,11.4
 Persons who drink 1 to 3 times per month,2016,Female,75 years and over,7.9
+Persons who drink 1 to 3 times per month,2017,Both sexes,All ages,20.8
+Persons who drink 1 to 3 times per month,2017,Both sexes,15 - 19 years,25.1
+Persons who drink 1 to 3 times per month,2017,Both sexes,20 - 24 years,34
+Persons who drink 1 to 3 times per month,2017,Both sexes,25 - 29 years,30.5
+Persons who drink 1 to 3 times per month,2017,Both sexes,30 - 34 years,27.8
+Persons who drink 1 to 3 times per month,2017,Both sexes,35 - 39 years,25.8
+Persons who drink 1 to 3 times per month,2017,Both sexes,40 - 44 years,22.8
+Persons who drink 1 to 3 times per month,2017,Both sexes,45 - 49 years,17.7
+Persons who drink 1 to 3 times per month,2017,Both sexes,50 - 54 years,15.7
+Persons who drink 1 to 3 times per month,2017,Both sexes,55 - 59 years,17.2
+Persons who drink 1 to 3 times per month,2017,Both sexes,60 - 64 years,13
+Persons who drink 1 to 3 times per month,2017,Both sexes,65 - 69 years,9.6
+Persons who drink 1 to 3 times per month,2017,Both sexes,70 - 74 years,9.9
+Persons who drink 1 to 3 times per month,2017,Both sexes,75 years and over,8.7
+Persons who drink 1 to 3 times per month,2017,Male,All ages,19.2
 Persons who drink 1 to 3 times per month,2017,Male,15 - 19 years,25.5
 Persons who drink 1 to 3 times per month,2017,Male,20 - 24 years,24.6
 Persons who drink 1 to 3 times per month,2017,Male,25 - 29 years,27.7
@@ -532,6 +867,7 @@ Persons who drink 1 to 3 times per month,2017,Male,60 - 64 years,12.2
 Persons who drink 1 to 3 times per month,2017,Male,65 - 69 years,7.9
 Persons who drink 1 to 3 times per month,2017,Male,70 - 74 years,6.4
 Persons who drink 1 to 3 times per month,2017,Male,75 years and over,9.3
+Persons who drink 1 to 3 times per month,2017,Female,All ages,22.3
 Persons who drink 1 to 3 times per month,2017,Female,15 - 19 years,24.6
 Persons who drink 1 to 3 times per month,2017,Female,20 - 24 years,43
 Persons who drink 1 to 3 times per month,2017,Female,25 - 29 years,33.7
@@ -545,6 +881,21 @@ Persons who drink 1 to 3 times per month,2017,Female,60 - 64 years,13.9
 Persons who drink 1 to 3 times per month,2017,Female,65 - 69 years,11.1
 Persons who drink 1 to 3 times per month,2017,Female,70 - 74 years,13.2
 Persons who drink 1 to 3 times per month,2017,Female,75 years and over,8.3
+Persons who drink 1 to 3 times per month,2018,Both sexes,All ages,20.6
+Persons who drink 1 to 3 times per month,2018,Both sexes,15 - 19 years,20.4
+Persons who drink 1 to 3 times per month,2018,Both sexes,20 - 24 years,38.6
+Persons who drink 1 to 3 times per month,2018,Both sexes,25 - 29 years,26.6
+Persons who drink 1 to 3 times per month,2018,Both sexes,30 - 34 years,26.3
+Persons who drink 1 to 3 times per month,2018,Both sexes,35 - 39 years,23.4
+Persons who drink 1 to 3 times per month,2018,Both sexes,40 - 44 years,21.2
+Persons who drink 1 to 3 times per month,2018,Both sexes,45 - 49 years,21
+Persons who drink 1 to 3 times per month,2018,Both sexes,50 - 54 years,18.8
+Persons who drink 1 to 3 times per month,2018,Both sexes,55 - 59 years,16.3
+Persons who drink 1 to 3 times per month,2018,Both sexes,60 - 64 years,12.5
+Persons who drink 1 to 3 times per month,2018,Both sexes,65 - 69 years,11.4
+Persons who drink 1 to 3 times per month,2018,Both sexes,70 - 74 years,12.7
+Persons who drink 1 to 3 times per month,2018,Both sexes,75 years and over,9.8
+Persons who drink 1 to 3 times per month,2018,Male,All ages,19.7
 Persons who drink 1 to 3 times per month,2018,Male,15 - 19 years,22.6
 Persons who drink 1 to 3 times per month,2018,Male,20 - 24 years,35.8
 Persons who drink 1 to 3 times per month,2018,Male,25 - 29 years,25.8
@@ -558,6 +909,7 @@ Persons who drink 1 to 3 times per month,2018,Male,60 - 64 years,9.6
 Persons who drink 1 to 3 times per month,2018,Male,65 - 69 years,9.4
 Persons who drink 1 to 3 times per month,2018,Male,70 - 74 years,11.9
 Persons who drink 1 to 3 times per month,2018,Male,75 years and over,12.6
+Persons who drink 1 to 3 times per month,2018,Female,All ages,21.5
 Persons who drink 1 to 3 times per month,2018,Female,15 - 19 years,18.2
 Persons who drink 1 to 3 times per month,2018,Female,20 - 24 years,41.5
 Persons who drink 1 to 3 times per month,2018,Female,25 - 29 years,27.4
@@ -571,6 +923,21 @@ Persons who drink 1 to 3 times per month,2018,Female,60 - 64 years,15
 Persons who drink 1 to 3 times per month,2018,Female,65 - 69 years,13.3
 Persons who drink 1 to 3 times per month,2018,Female,70 - 74 years,13.4
 Persons who drink 1 to 3 times per month,2018,Female,75 years and over,7.3
+Persons who drink 1 to 3 times per month,2021,Both sexes,All ages,17.7
+Persons who drink 1 to 3 times per month,2021,Both sexes,15 - 19 years,29.4
+Persons who drink 1 to 3 times per month,2021,Both sexes,20 - 24 years,35.3
+Persons who drink 1 to 3 times per month,2021,Both sexes,25 - 29 years,23.5
+Persons who drink 1 to 3 times per month,2021,Both sexes,30 - 34 years,21.1
+Persons who drink 1 to 3 times per month,2021,Both sexes,35 - 39 years,18.4
+Persons who drink 1 to 3 times per month,2021,Both sexes,40 - 44 years,16.5
+Persons who drink 1 to 3 times per month,2021,Both sexes,45 - 49 years,14
+Persons who drink 1 to 3 times per month,2021,Both sexes,50 - 54 years,11.5
+Persons who drink 1 to 3 times per month,2021,Both sexes,55 - 59 years,12.2
+Persons who drink 1 to 3 times per month,2021,Both sexes,60 - 64 years,10.1
+Persons who drink 1 to 3 times per month,2021,Both sexes,65 - 69 years,10.5
+Persons who drink 1 to 3 times per month,2021,Both sexes,70 - 74 years,12.1
+Persons who drink 1 to 3 times per month,2021,Both sexes,75 years and over,8.5
+Persons who drink 1 to 3 times per month,2021,Male,All ages,17.2
 Persons who drink 1 to 3 times per month,2021,Male,15 - 19 years,32.2
 Persons who drink 1 to 3 times per month,2021,Male,20 - 24 years,29.6
 Persons who drink 1 to 3 times per month,2021,Male,25 - 29 years,22.9
@@ -584,6 +951,7 @@ Persons who drink 1 to 3 times per month,2021,Male,60 - 64 years,10.5
 Persons who drink 1 to 3 times per month,2021,Male,65 - 69 years,11.3
 Persons who drink 1 to 3 times per month,2021,Male,70 - 74 years,9.9
 Persons who drink 1 to 3 times per month,2021,Male,75 years and over,7.5
+Persons who drink 1 to 3 times per month,2021,Female,All ages,18.2
 Persons who drink 1 to 3 times per month,2021,Female,15 - 19 years,26.5
 Persons who drink 1 to 3 times per month,2021,Female,20 - 24 years,41.1
 Persons who drink 1 to 3 times per month,2021,Female,25 - 29 years,24.1
@@ -597,6 +965,21 @@ Persons who drink 1 to 3 times per month,2021,Female,60 - 64 years,9.7
 Persons who drink 1 to 3 times per month,2021,Female,65 - 69 years,9.9
 Persons who drink 1 to 3 times per month,2021,Female,70 - 74 years,14.1
 Persons who drink 1 to 3 times per month,2021,Female,75 years and over,9.4
+Persons who drink 1 to 3 times per month,2022,Both sexes,All ages,20.1
+Persons who drink 1 to 3 times per month,2022,Both sexes,15 - 19 years,27.4
+Persons who drink 1 to 3 times per month,2022,Both sexes,20 - 24 years,34
+Persons who drink 1 to 3 times per month,2022,Both sexes,25 - 29 years,25.5
+Persons who drink 1 to 3 times per month,2022,Both sexes,30 - 34 years,26.7
+Persons who drink 1 to 3 times per month,2022,Both sexes,35 - 39 years,20.6
+Persons who drink 1 to 3 times per month,2022,Both sexes,40 - 44 years,23.4
+Persons who drink 1 to 3 times per month,2022,Both sexes,45 - 49 years,18.5
+Persons who drink 1 to 3 times per month,2022,Both sexes,50 - 54 years,15.8
+Persons who drink 1 to 3 times per month,2022,Both sexes,55 - 59 years,14.6
+Persons who drink 1 to 3 times per month,2022,Both sexes,60 - 64 years,14
+Persons who drink 1 to 3 times per month,2022,Both sexes,65 - 69 years,11.9
+Persons who drink 1 to 3 times per month,2022,Both sexes,70 - 74 years,14.5
+Persons who drink 1 to 3 times per month,2022,Both sexes,75 years and over,6
+Persons who drink 1 to 3 times per month,2022,Male,All ages,18.8
 Persons who drink 1 to 3 times per month,2022,Male,15 - 19 years,29.9
 Persons who drink 1 to 3 times per month,2022,Male,20 - 24 years,30.2
 Persons who drink 1 to 3 times per month,2022,Male,25 - 29 years,23.4
@@ -610,6 +993,7 @@ Persons who drink 1 to 3 times per month,2022,Male,60 - 64 years,13.4
 Persons who drink 1 to 3 times per month,2022,Male,65 - 69 years,7.7
 Persons who drink 1 to 3 times per month,2022,Male,70 - 74 years,15.8
 Persons who drink 1 to 3 times per month,2022,Male,75 years and over,5.9
+Persons who drink 1 to 3 times per month,2022,Female,All ages,21.4
 Persons who drink 1 to 3 times per month,2022,Female,15 - 19 years,24.6
 Persons who drink 1 to 3 times per month,2022,Female,20 - 24 years,37.7
 Persons who drink 1 to 3 times per month,2022,Female,25 - 29 years,27.8
@@ -623,6 +1007,21 @@ Persons who drink 1 to 3 times per month,2022,Female,60 - 64 years,14.6
 Persons who drink 1 to 3 times per month,2022,Female,65 - 69 years,16
 Persons who drink 1 to 3 times per month,2022,Female,70 - 74 years,13.6
 Persons who drink 1 to 3 times per month,2022,Female,75 years and over,6.1
+Persons who drink 1 to 3 times per month,2023,Both sexes,All ages,21.8
+Persons who drink 1 to 3 times per month,2023,Both sexes,15 - 19 years,35.3
+Persons who drink 1 to 3 times per month,2023,Both sexes,20 - 24 years,35.9
+Persons who drink 1 to 3 times per month,2023,Both sexes,25 - 29 years,35.7
+Persons who drink 1 to 3 times per month,2023,Both sexes,30 - 34 years,25.2
+Persons who drink 1 to 3 times per month,2023,Both sexes,35 - 39 years,24.8
+Persons who drink 1 to 3 times per month,2023,Both sexes,40 - 44 years,21.4
+Persons who drink 1 to 3 times per month,2023,Both sexes,45 - 49 years,20.9
+Persons who drink 1 to 3 times per month,2023,Both sexes,50 - 54 years,19.1
+Persons who drink 1 to 3 times per month,2023,Both sexes,55 - 59 years,17.4
+Persons who drink 1 to 3 times per month,2023,Both sexes,60 - 64 years,10.7
+Persons who drink 1 to 3 times per month,2023,Both sexes,65 - 69 years,9.6
+Persons who drink 1 to 3 times per month,2023,Both sexes,70 - 74 years,11.5
+Persons who drink 1 to 3 times per month,2023,Both sexes,75 years and over,8.9
+Persons who drink 1 to 3 times per month,2023,Male,All ages,21.8
 Persons who drink 1 to 3 times per month,2023,Male,15 - 19 years,28.9
 Persons who drink 1 to 3 times per month,2023,Male,20 - 24 years,36.6
 Persons who drink 1 to 3 times per month,2023,Male,25 - 29 years,36.3
@@ -636,6 +1035,7 @@ Persons who drink 1 to 3 times per month,2023,Male,60 - 64 years,10.5
 Persons who drink 1 to 3 times per month,2023,Male,65 - 69 years,8.7
 Persons who drink 1 to 3 times per month,2023,Male,70 - 74 years,12
 Persons who drink 1 to 3 times per month,2023,Male,75 years and over,9
+Persons who drink 1 to 3 times per month,2023,Female,All ages,21.7
 Persons who drink 1 to 3 times per month,2023,Female,15 - 19 years,42.2
 Persons who drink 1 to 3 times per month,2023,Female,20 - 24 years,34.9
 Persons who drink 1 to 3 times per month,2023,Female,25 - 29 years,35.1
@@ -649,6 +1049,21 @@ Persons who drink 1 to 3 times per month,2023,Female,60 - 64 years,10.8
 Persons who drink 1 to 3 times per month,2023,Female,65 - 69 years,10.4
 Persons who drink 1 to 3 times per month,2023,Female,70 - 74 years,11
 Persons who drink 1 to 3 times per month,2023,Female,75 years and over,8.8
+Persons who drink 1 to 3 times per month,2024,Both sexes,All ages,22.9
+Persons who drink 1 to 3 times per month,2024,Both sexes,15 - 19 years,32
+Persons who drink 1 to 3 times per month,2024,Both sexes,20 - 24 years,34
+Persons who drink 1 to 3 times per month,2024,Both sexes,25 - 29 years,32.6
+Persons who drink 1 to 3 times per month,2024,Both sexes,30 - 34 years,30.1
+Persons who drink 1 to 3 times per month,2024,Both sexes,35 - 39 years,29.3
+Persons who drink 1 to 3 times per month,2024,Both sexes,40 - 44 years,25
+Persons who drink 1 to 3 times per month,2024,Both sexes,45 - 49 years,22.2
+Persons who drink 1 to 3 times per month,2024,Both sexes,50 - 54 years,19.3
+Persons who drink 1 to 3 times per month,2024,Both sexes,55 - 59 years,17.3
+Persons who drink 1 to 3 times per month,2024,Both sexes,60 - 64 years,13
+Persons who drink 1 to 3 times per month,2024,Both sexes,65 - 69 years,11.7
+Persons who drink 1 to 3 times per month,2024,Both sexes,70 - 74 years,15.4
+Persons who drink 1 to 3 times per month,2024,Both sexes,75 years and over,7.6
+Persons who drink 1 to 3 times per month,2024,Male,All ages,22.8
 Persons who drink 1 to 3 times per month,2024,Male,15 - 19 years,36.7
 Persons who drink 1 to 3 times per month,2024,Male,20 - 24 years,30.9
 Persons who drink 1 to 3 times per month,2024,Male,25 - 29 years,34.5
@@ -662,6 +1077,7 @@ Persons who drink 1 to 3 times per month,2024,Male,60 - 64 years,11.2
 Persons who drink 1 to 3 times per month,2024,Male,65 - 69 years,11.6
 Persons who drink 1 to 3 times per month,2024,Male,70 - 74 years,14.2
 Persons who drink 1 to 3 times per month,2024,Male,75 years and over,7
+Persons who drink 1 to 3 times per month,2024,Female,All ages,23
 Persons who drink 1 to 3 times per month,2024,Female,15 - 19 years,26.2
 Persons who drink 1 to 3 times per month,2024,Female,20 - 24 years,37
 Persons who drink 1 to 3 times per month,2024,Female,25 - 29 years,31.1
@@ -675,6 +1091,21 @@ Persons who drink 1 to 3 times per month,2024,Female,60 - 64 years,14.9
 Persons who drink 1 to 3 times per month,2024,Female,65 - 69 years,11.8
 Persons who drink 1 to 3 times per month,2024,Female,70 - 74 years,16.6
 Persons who drink 1 to 3 times per month,2024,Female,75 years and over,8.2
+Persons who drink 1 to 3 times per month,2025,Both sexes,All ages,22.8
+Persons who drink 1 to 3 times per month,2025,Both sexes,15 - 19 years,32.5
+Persons who drink 1 to 3 times per month,2025,Both sexes,20 - 24 years,38.6
+Persons who drink 1 to 3 times per month,2025,Both sexes,25 - 29 years,32.8
+Persons who drink 1 to 3 times per month,2025,Both sexes,30 - 34 years,27.8
+Persons who drink 1 to 3 times per month,2025,Both sexes,35 - 39 years,26.1
+Persons who drink 1 to 3 times per month,2025,Both sexes,40 - 44 years,24.5
+Persons who drink 1 to 3 times per month,2025,Both sexes,45 - 49 years,22.1
+Persons who drink 1 to 3 times per month,2025,Both sexes,50 - 54 years,19.6
+Persons who drink 1 to 3 times per month,2025,Both sexes,55 - 59 years,16.2
+Persons who drink 1 to 3 times per month,2025,Both sexes,60 - 64 years,13.4
+Persons who drink 1 to 3 times per month,2025,Both sexes,65 - 69 years,14.3
+Persons who drink 1 to 3 times per month,2025,Both sexes,70 - 74 years,10.7
+Persons who drink 1 to 3 times per month,2025,Both sexes,75 years and over,9.1
+Persons who drink 1 to 3 times per month,2025,Male,All ages,22.1
 Persons who drink 1 to 3 times per month,2025,Male,15 - 19 years,32.3
 Persons who drink 1 to 3 times per month,2025,Male,20 - 24 years,32.5
 Persons who drink 1 to 3 times per month,2025,Male,25 - 29 years,33.5
@@ -688,6 +1119,7 @@ Persons who drink 1 to 3 times per month,2025,Male,60 - 64 years,10.9
 Persons who drink 1 to 3 times per month,2025,Male,65 - 69 years,11.8
 Persons who drink 1 to 3 times per month,2025,Male,70 - 74 years,5.6
 Persons who drink 1 to 3 times per month,2025,Male,75 years and over,11.8
+Persons who drink 1 to 3 times per month,2025,Female,All ages,23.5
 Persons who drink 1 to 3 times per month,2025,Female,15 - 19 years,33.1
 Persons who drink 1 to 3 times per month,2025,Female,20 - 24 years,45.2
 Persons who drink 1 to 3 times per month,2025,Female,25 - 29 years,32.1
@@ -701,6 +1133,21 @@ Persons who drink 1 to 3 times per month,2025,Female,60 - 64 years,15.9
 Persons who drink 1 to 3 times per month,2025,Female,65 - 69 years,16.3
 Persons who drink 1 to 3 times per month,2025,Female,70 - 74 years,15.1
 Persons who drink 1 to 3 times per month,2025,Female,75 years and over,6.5
+Persons who have not drank in a month or longer,2015,Both sexes,All ages,19.9
+Persons who have not drank in a month or longer,2015,Both sexes,15 - 19 years,13.4
+Persons who have not drank in a month or longer,2015,Both sexes,20 - 24 years,14
+Persons who have not drank in a month or longer,2015,Both sexes,25 - 29 years,17.3
+Persons who have not drank in a month or longer,2015,Both sexes,30 - 34 years,18.1
+Persons who have not drank in a month or longer,2015,Both sexes,35 - 39 years,22
+Persons who have not drank in a month or longer,2015,Both sexes,40 - 44 years,19
+Persons who have not drank in a month or longer,2015,Both sexes,45 - 49 years,20.6
+Persons who have not drank in a month or longer,2015,Both sexes,50 - 54 years,21.7
+Persons who have not drank in a month or longer,2015,Both sexes,55 - 59 years,21
+Persons who have not drank in a month or longer,2015,Both sexes,60 - 64 years,25.6
+Persons who have not drank in a month or longer,2015,Both sexes,65 - 69 years,22.1
+Persons who have not drank in a month or longer,2015,Both sexes,70 - 74 years,23.1
+Persons who have not drank in a month or longer,2015,Both sexes,75 years and over,24.4
+Persons who have not drank in a month or longer,2015,Male,All ages,16.9
 Persons who have not drank in a month or longer,2015,Male,15 - 19 years,13.5
 Persons who have not drank in a month or longer,2015,Male,20 - 24 years,12.1
 Persons who have not drank in a month or longer,2015,Male,25 - 29 years,17.6
@@ -714,6 +1161,7 @@ Persons who have not drank in a month or longer,2015,Male,60 - 64 years,20.8
 Persons who have not drank in a month or longer,2015,Male,65 - 69 years,18.4
 Persons who have not drank in a month or longer,2015,Male,70 - 74 years,22.6
 Persons who have not drank in a month or longer,2015,Male,75 years and over,23.8
+Persons who have not drank in a month or longer,2015,Female,All ages,22.8
 Persons who have not drank in a month or longer,2015,Female,15 - 19 years,13.4
 Persons who have not drank in a month or longer,2015,Female,20 - 24 years,16.3
 Persons who have not drank in a month or longer,2015,Female,25 - 29 years,17
@@ -727,6 +1175,21 @@ Persons who have not drank in a month or longer,2015,Female,60 - 64 years,30.6
 Persons who have not drank in a month or longer,2015,Female,65 - 69 years,25.7
 Persons who have not drank in a month or longer,2015,Female,70 - 74 years,23.6
 Persons who have not drank in a month or longer,2015,Female,75 years and over,24.7
+Persons who have not drank in a month or longer,2016,Both sexes,All ages,18.4
+Persons who have not drank in a month or longer,2016,Both sexes,15 - 19 years,16.9
+Persons who have not drank in a month or longer,2016,Both sexes,20 - 24 years,10.9
+Persons who have not drank in a month or longer,2016,Both sexes,25 - 29 years,15.8
+Persons who have not drank in a month or longer,2016,Both sexes,30 - 34 years,21
+Persons who have not drank in a month or longer,2016,Both sexes,35 - 39 years,18.3
+Persons who have not drank in a month or longer,2016,Both sexes,40 - 44 years,15.6
+Persons who have not drank in a month or longer,2016,Both sexes,45 - 49 years,20.4
+Persons who have not drank in a month or longer,2016,Both sexes,50 - 54 years,19
+Persons who have not drank in a month or longer,2016,Both sexes,55 - 59 years,20.4
+Persons who have not drank in a month or longer,2016,Both sexes,60 - 64 years,16.9
+Persons who have not drank in a month or longer,2016,Both sexes,65 - 69 years,22.3
+Persons who have not drank in a month or longer,2016,Both sexes,70 - 74 years,20.2
+Persons who have not drank in a month or longer,2016,Both sexes,75 years and over,22.1
+Persons who have not drank in a month or longer,2016,Male,All ages,16.5
 Persons who have not drank in a month or longer,2016,Male,15 - 19 years,19
 Persons who have not drank in a month or longer,2016,Male,20 - 24 years,11.7
 Persons who have not drank in a month or longer,2016,Male,25 - 29 years,14
@@ -740,6 +1203,7 @@ Persons who have not drank in a month or longer,2016,Male,60 - 64 years,16.5
 Persons who have not drank in a month or longer,2016,Male,65 - 69 years,16.8
 Persons who have not drank in a month or longer,2016,Male,70 - 74 years,21.8
 Persons who have not drank in a month or longer,2016,Male,75 years and over,20.7
+Persons who have not drank in a month or longer,2016,Female,All ages,20.2
 Persons who have not drank in a month or longer,2016,Female,15 - 19 years,14.5
 Persons who have not drank in a month or longer,2016,Female,20 - 24 years,10.1
 Persons who have not drank in a month or longer,2016,Female,25 - 29 years,17.6
@@ -753,6 +1217,21 @@ Persons who have not drank in a month or longer,2016,Female,60 - 64 years,17.4
 Persons who have not drank in a month or longer,2016,Female,65 - 69 years,27.2
 Persons who have not drank in a month or longer,2016,Female,70 - 74 years,18.5
 Persons who have not drank in a month or longer,2016,Female,75 years and over,23.1
+Persons who have not drank in a month or longer,2017,Both sexes,All ages,18.9
+Persons who have not drank in a month or longer,2017,Both sexes,15 - 19 years,16.8
+Persons who have not drank in a month or longer,2017,Both sexes,20 - 24 years,12.5
+Persons who have not drank in a month or longer,2017,Both sexes,25 - 29 years,17
+Persons who have not drank in a month or longer,2017,Both sexes,30 - 34 years,22.2
+Persons who have not drank in a month or longer,2017,Both sexes,35 - 39 years,18.6
+Persons who have not drank in a month or longer,2017,Both sexes,40 - 44 years,18.4
+Persons who have not drank in a month or longer,2017,Both sexes,45 - 49 years,17.5
+Persons who have not drank in a month or longer,2017,Both sexes,50 - 54 years,19.2
+Persons who have not drank in a month or longer,2017,Both sexes,55 - 59 years,18.9
+Persons who have not drank in a month or longer,2017,Both sexes,60 - 64 years,19.9
+Persons who have not drank in a month or longer,2017,Both sexes,65 - 69 years,23.9
+Persons who have not drank in a month or longer,2017,Both sexes,70 - 74 years,19.6
+Persons who have not drank in a month or longer,2017,Both sexes,75 years and over,22.4
+Persons who have not drank in a month or longer,2017,Male,All ages,16
 Persons who have not drank in a month or longer,2017,Male,15 - 19 years,14.8
 Persons who have not drank in a month or longer,2017,Male,20 - 24 years,11.5
 Persons who have not drank in a month or longer,2017,Male,25 - 29 years,12.3
@@ -766,6 +1245,7 @@ Persons who have not drank in a month or longer,2017,Male,60 - 64 years,15
 Persons who have not drank in a month or longer,2017,Male,65 - 69 years,22.9
 Persons who have not drank in a month or longer,2017,Male,70 - 74 years,22.2
 Persons who have not drank in a month or longer,2017,Male,75 years and over,20.6
+Persons who have not drank in a month or longer,2017,Female,All ages,21.7
 Persons who have not drank in a month or longer,2017,Female,15 - 19 years,19
 Persons who have not drank in a month or longer,2017,Female,20 - 24 years,13.4
 Persons who have not drank in a month or longer,2017,Female,25 - 29 years,22.6
@@ -779,6 +1259,21 @@ Persons who have not drank in a month or longer,2017,Female,60 - 64 years,25.1
 Persons who have not drank in a month or longer,2017,Female,65 - 69 years,24.6
 Persons who have not drank in a month or longer,2017,Female,70 - 74 years,17.1
 Persons who have not drank in a month or longer,2017,Female,75 years and over,23.8
+Persons who have not drank in a month or longer,2018,Both sexes,All ages,17.4
+Persons who have not drank in a month or longer,2018,Both sexes,15 - 19 years,13
+Persons who have not drank in a month or longer,2018,Both sexes,20 - 24 years,9.6
+Persons who have not drank in a month or longer,2018,Both sexes,25 - 29 years,15.8
+Persons who have not drank in a month or longer,2018,Both sexes,30 - 34 years,18.1
+Persons who have not drank in a month or longer,2018,Both sexes,35 - 39 years,20.3
+Persons who have not drank in a month or longer,2018,Both sexes,40 - 44 years,17.5
+Persons who have not drank in a month or longer,2018,Both sexes,45 - 49 years,15.4
+Persons who have not drank in a month or longer,2018,Both sexes,50 - 54 years,14.1
+Persons who have not drank in a month or longer,2018,Both sexes,55 - 59 years,15
+Persons who have not drank in a month or longer,2018,Both sexes,60 - 64 years,21.2
+Persons who have not drank in a month or longer,2018,Both sexes,65 - 69 years,22.7
+Persons who have not drank in a month or longer,2018,Both sexes,70 - 74 years,19.9
+Persons who have not drank in a month or longer,2018,Both sexes,75 years and over,26.1
+Persons who have not drank in a month or longer,2018,Male,All ages,14.3
 Persons who have not drank in a month or longer,2018,Male,15 - 19 years,12.4
 Persons who have not drank in a month or longer,2018,Male,20 - 24 years,8.2
 Persons who have not drank in a month or longer,2018,Male,25 - 29 years,13.4
@@ -792,6 +1287,7 @@ Persons who have not drank in a month or longer,2018,Male,60 - 64 years,18.6
 Persons who have not drank in a month or longer,2018,Male,65 - 69 years,17.3
 Persons who have not drank in a month or longer,2018,Male,70 - 74 years,14.4
 Persons who have not drank in a month or longer,2018,Male,75 years and over,25.8
+Persons who have not drank in a month or longer,2018,Female,All ages,20.4
 Persons who have not drank in a month or longer,2018,Female,15 - 19 years,13.7
 Persons who have not drank in a month or longer,2018,Female,20 - 24 years,11.2
 Persons who have not drank in a month or longer,2018,Female,25 - 29 years,18.2
@@ -805,6 +1301,21 @@ Persons who have not drank in a month or longer,2018,Female,60 - 64 years,23.6
 Persons who have not drank in a month or longer,2018,Female,65 - 69 years,27.6
 Persons who have not drank in a month or longer,2018,Female,70 - 74 years,24.6
 Persons who have not drank in a month or longer,2018,Female,75 years and over,26.4
+Persons who have not drank in a month or longer,2021,Both sexes,All ages,23.4
+Persons who have not drank in a month or longer,2021,Both sexes,15 - 19 years,20.2
+Persons who have not drank in a month or longer,2021,Both sexes,20 - 24 years,18.5
+Persons who have not drank in a month or longer,2021,Both sexes,25 - 29 years,21.3
+Persons who have not drank in a month or longer,2021,Both sexes,30 - 34 years,21.4
+Persons who have not drank in a month or longer,2021,Both sexes,35 - 39 years,24
+Persons who have not drank in a month or longer,2021,Both sexes,40 - 44 years,22.4
+Persons who have not drank in a month or longer,2021,Both sexes,45 - 49 years,20.9
+Persons who have not drank in a month or longer,2021,Both sexes,50 - 54 years,28.2
+Persons who have not drank in a month or longer,2021,Both sexes,55 - 59 years,24.5
+Persons who have not drank in a month or longer,2021,Both sexes,60 - 64 years,26
+Persons who have not drank in a month or longer,2021,Both sexes,65 - 69 years,26.9
+Persons who have not drank in a month or longer,2021,Both sexes,70 - 74 years,24.9
+Persons who have not drank in a month or longer,2021,Both sexes,75 years and over,28
+Persons who have not drank in a month or longer,2021,Male,All ages,23.2
 Persons who have not drank in a month or longer,2021,Male,15 - 19 years,15.3
 Persons who have not drank in a month or longer,2021,Male,20 - 24 years,18.5
 Persons who have not drank in a month or longer,2021,Male,25 - 29 years,19.1
@@ -818,6 +1329,7 @@ Persons who have not drank in a month or longer,2021,Male,60 - 64 years,26.8
 Persons who have not drank in a month or longer,2021,Male,65 - 69 years,30.9
 Persons who have not drank in a month or longer,2021,Male,70 - 74 years,26.7
 Persons who have not drank in a month or longer,2021,Male,75 years and over,28.3
+Persons who have not drank in a month or longer,2021,Female,All ages,23.7
 Persons who have not drank in a month or longer,2021,Female,15 - 19 years,25.5
 Persons who have not drank in a month or longer,2021,Female,20 - 24 years,18.5
 Persons who have not drank in a month or longer,2021,Female,25 - 29 years,23.3
@@ -831,6 +1343,21 @@ Persons who have not drank in a month or longer,2021,Female,60 - 64 years,25.2
 Persons who have not drank in a month or longer,2021,Female,65 - 69 years,24
 Persons who have not drank in a month or longer,2021,Female,70 - 74 years,23.4
 Persons who have not drank in a month or longer,2021,Female,75 years and over,27.7
+Persons who have not drank in a month or longer,2022,Both sexes,All ages,20.4
+Persons who have not drank in a month or longer,2022,Both sexes,15 - 19 years,16.1
+Persons who have not drank in a month or longer,2022,Both sexes,20 - 24 years,15.5
+Persons who have not drank in a month or longer,2022,Both sexes,25 - 29 years,19.3
+Persons who have not drank in a month or longer,2022,Both sexes,30 - 34 years,20.4
+Persons who have not drank in a month or longer,2022,Both sexes,35 - 39 years,25.5
+Persons who have not drank in a month or longer,2022,Both sexes,40 - 44 years,20.8
+Persons who have not drank in a month or longer,2022,Both sexes,45 - 49 years,22.3
+Persons who have not drank in a month or longer,2022,Both sexes,50 - 54 years,23.8
+Persons who have not drank in a month or longer,2022,Both sexes,55 - 59 years,19.4
+Persons who have not drank in a month or longer,2022,Both sexes,60 - 64 years,19
+Persons who have not drank in a month or longer,2022,Both sexes,65 - 69 years,18
+Persons who have not drank in a month or longer,2022,Both sexes,70 - 74 years,24.9
+Persons who have not drank in a month or longer,2022,Both sexes,75 years and over,19.2
+Persons who have not drank in a month or longer,2022,Male,All ages,19.7
 Persons who have not drank in a month or longer,2022,Male,15 - 19 years,11.6
 Persons who have not drank in a month or longer,2022,Male,20 - 24 years,16.2
 Persons who have not drank in a month or longer,2022,Male,25 - 29 years,18.4
@@ -844,6 +1371,7 @@ Persons who have not drank in a month or longer,2022,Male,60 - 64 years,17
 Persons who have not drank in a month or longer,2022,Male,65 - 69 years,19.4
 Persons who have not drank in a month or longer,2022,Male,70 - 74 years,20.3
 Persons who have not drank in a month or longer,2022,Male,75 years and over,18.2
+Persons who have not drank in a month or longer,2022,Female,All ages,21.2
 Persons who have not drank in a month or longer,2022,Female,15 - 19 years,21.3
 Persons who have not drank in a month or longer,2022,Female,20 - 24 years,14.8
 Persons who have not drank in a month or longer,2022,Female,25 - 29 years,20.2
@@ -857,6 +1385,21 @@ Persons who have not drank in a month or longer,2022,Female,60 - 64 years,20.9
 Persons who have not drank in a month or longer,2022,Female,65 - 69 years,16.6
 Persons who have not drank in a month or longer,2022,Female,70 - 74 years,28.6
 Persons who have not drank in a month or longer,2022,Female,75 years and over,20.3
+Persons who have not drank in a month or longer,2023,Both sexes,All ages,20
+Persons who have not drank in a month or longer,2023,Both sexes,15 - 19 years,15.1
+Persons who have not drank in a month or longer,2023,Both sexes,20 - 24 years,17
+Persons who have not drank in a month or longer,2023,Both sexes,25 - 29 years,18.9
+Persons who have not drank in a month or longer,2023,Both sexes,30 - 34 years,21.9
+Persons who have not drank in a month or longer,2023,Both sexes,35 - 39 years,22.9
+Persons who have not drank in a month or longer,2023,Both sexes,40 - 44 years,22.6
+Persons who have not drank in a month or longer,2023,Both sexes,45 - 49 years,19.2
+Persons who have not drank in a month or longer,2023,Both sexes,50 - 54 years,20.3
+Persons who have not drank in a month or longer,2023,Both sexes,55 - 59 years,16
+Persons who have not drank in a month or longer,2023,Both sexes,60 - 64 years,20.1
+Persons who have not drank in a month or longer,2023,Both sexes,65 - 69 years,24.3
+Persons who have not drank in a month or longer,2023,Both sexes,70 - 74 years,18.1
+Persons who have not drank in a month or longer,2023,Both sexes,75 years and over,21.5
+Persons who have not drank in a month or longer,2023,Male,All ages,17.7
 Persons who have not drank in a month or longer,2023,Male,15 - 19 years,14
 Persons who have not drank in a month or longer,2023,Male,20 - 24 years,11.8
 Persons who have not drank in a month or longer,2023,Male,25 - 29 years,14.8
@@ -870,6 +1413,7 @@ Persons who have not drank in a month or longer,2023,Male,60 - 64 years,20.1
 Persons who have not drank in a month or longer,2023,Male,65 - 69 years,23.4
 Persons who have not drank in a month or longer,2023,Male,70 - 74 years,18.2
 Persons who have not drank in a month or longer,2023,Male,75 years and over,19.9
+Persons who have not drank in a month or longer,2023,Female,All ages,22.3
 Persons who have not drank in a month or longer,2023,Female,15 - 19 years,16.3
 Persons who have not drank in a month or longer,2023,Female,20 - 24 years,22.2
 Persons who have not drank in a month or longer,2023,Female,25 - 29 years,23.3
@@ -883,6 +1427,21 @@ Persons who have not drank in a month or longer,2023,Female,60 - 64 years,20
 Persons who have not drank in a month or longer,2023,Female,65 - 69 years,25.1
 Persons who have not drank in a month or longer,2023,Female,70 - 74 years,17.9
 Persons who have not drank in a month or longer,2023,Female,75 years and over,22.7
+Persons who have not drank in a month or longer,2024,Both sexes,All ages,19.3
+Persons who have not drank in a month or longer,2024,Both sexes,15 - 19 years,9.4
+Persons who have not drank in a month or longer,2024,Both sexes,20 - 24 years,17.9
+Persons who have not drank in a month or longer,2024,Both sexes,25 - 29 years,18.8
+Persons who have not drank in a month or longer,2024,Both sexes,30 - 34 years,22.6
+Persons who have not drank in a month or longer,2024,Both sexes,35 - 39 years,24
+Persons who have not drank in a month or longer,2024,Both sexes,40 - 44 years,18.5
+Persons who have not drank in a month or longer,2024,Both sexes,45 - 49 years,20.2
+Persons who have not drank in a month or longer,2024,Both sexes,50 - 54 years,17.5
+Persons who have not drank in a month or longer,2024,Both sexes,55 - 59 years,17.8
+Persons who have not drank in a month or longer,2024,Both sexes,60 - 64 years,18.4
+Persons who have not drank in a month or longer,2024,Both sexes,65 - 69 years,18.7
+Persons who have not drank in a month or longer,2024,Both sexes,70 - 74 years,18.9
+Persons who have not drank in a month or longer,2024,Both sexes,75 years and over,25.7
+Persons who have not drank in a month or longer,2024,Male,All ages,17.2
 Persons who have not drank in a month or longer,2024,Male,15 - 19 years,3.8
 Persons who have not drank in a month or longer,2024,Male,20 - 24 years,18.1
 Persons who have not drank in a month or longer,2024,Male,25 - 29 years,13.3
@@ -896,6 +1455,7 @@ Persons who have not drank in a month or longer,2024,Male,60 - 64 years,14.6
 Persons who have not drank in a month or longer,2024,Male,65 - 69 years,20.1
 Persons who have not drank in a month or longer,2024,Male,70 - 74 years,20
 Persons who have not drank in a month or longer,2024,Male,75 years and over,21.5
+Persons who have not drank in a month or longer,2024,Female,All ages,21.4
 Persons who have not drank in a month or longer,2024,Female,15 - 19 years,16.3
 Persons who have not drank in a month or longer,2024,Female,20 - 24 years,17.6
 Persons who have not drank in a month or longer,2024,Female,25 - 29 years,24
@@ -909,6 +1469,21 @@ Persons who have not drank in a month or longer,2024,Female,60 - 64 years,22.4
 Persons who have not drank in a month or longer,2024,Female,65 - 69 years,17.5
 Persons who have not drank in a month or longer,2024,Female,70 - 74 years,17.8
 Persons who have not drank in a month or longer,2024,Female,75 years and over,29.4
+Persons who have not drank in a month or longer,2025,Both sexes,All ages,21.2
+Persons who have not drank in a month or longer,2025,Both sexes,15 - 19 years,14.2
+Persons who have not drank in a month or longer,2025,Both sexes,20 - 24 years,17.1
+Persons who have not drank in a month or longer,2025,Both sexes,25 - 29 years,22.2
+Persons who have not drank in a month or longer,2025,Both sexes,30 - 34 years,23
+Persons who have not drank in a month or longer,2025,Both sexes,35 - 39 years,25.7
+Persons who have not drank in a month or longer,2025,Both sexes,40 - 44 years,22.9
+Persons who have not drank in a month or longer,2025,Both sexes,45 - 49 years,21.1
+Persons who have not drank in a month or longer,2025,Both sexes,50 - 54 years,20.6
+Persons who have not drank in a month or longer,2025,Both sexes,55 - 59 years,22.8
+Persons who have not drank in a month or longer,2025,Both sexes,60 - 64 years,20
+Persons who have not drank in a month or longer,2025,Both sexes,65 - 69 years,24.2
+Persons who have not drank in a month or longer,2025,Both sexes,70 - 74 years,18.9
+Persons who have not drank in a month or longer,2025,Both sexes,75 years and over,21.9
+Persons who have not drank in a month or longer,2025,Male,All ages,19.1
 Persons who have not drank in a month or longer,2025,Male,15 - 19 years,12.7
 Persons who have not drank in a month or longer,2025,Male,20 - 24 years,16.2
 Persons who have not drank in a month or longer,2025,Male,25 - 29 years,19.8
@@ -922,6 +1497,7 @@ Persons who have not drank in a month or longer,2025,Male,60 - 64 years,18.5
 Persons who have not drank in a month or longer,2025,Male,65 - 69 years,19.8
 Persons who have not drank in a month or longer,2025,Male,70 - 74 years,18.4
 Persons who have not drank in a month or longer,2025,Male,75 years and over,21.1
+Persons who have not drank in a month or longer,2025,Female,All ages,23.3
 Persons who have not drank in a month or longer,2025,Female,15 - 19 years,16
 Persons who have not drank in a month or longer,2025,Female,20 - 24 years,18
 Persons who have not drank in a month or longer,2025,Female,25 - 29 years,24.5
@@ -935,6 +1511,21 @@ Persons who have not drank in a month or longer,2025,Female,60 - 64 years,21.4
 Persons who have not drank in a month or longer,2025,Female,65 - 69 years,27.8
 Persons who have not drank in a month or longer,2025,Female,70 - 74 years,19.4
 Persons who have not drank in a month or longer,2025,Female,75 years and over,22.7
+Persons who have never drank or have only had a few sips,2015,Both sexes,All ages,18.4
+Persons who have never drank or have only had a few sips,2015,Both sexes,15 - 19 years,47.1
+Persons who have never drank or have only had a few sips,2015,Both sexes,20 - 24 years,8.8
+Persons who have never drank or have only had a few sips,2015,Both sexes,25 - 29 years,12
+Persons who have never drank or have only had a few sips,2015,Both sexes,30 - 34 years,10.6
+Persons who have never drank or have only had a few sips,2015,Both sexes,35 - 39 years,13.8
+Persons who have never drank or have only had a few sips,2015,Both sexes,40 - 44 years,10.8
+Persons who have never drank or have only had a few sips,2015,Both sexes,45 - 49 years,11.6
+Persons who have never drank or have only had a few sips,2015,Both sexes,50 - 54 years,15.4
+Persons who have never drank or have only had a few sips,2015,Both sexes,55 - 59 years,14.9
+Persons who have never drank or have only had a few sips,2015,Both sexes,60 - 64 years,17
+Persons who have never drank or have only had a few sips,2015,Both sexes,65 - 69 years,21
+Persons who have never drank or have only had a few sips,2015,Both sexes,70 - 74 years,28.8
+Persons who have never drank or have only had a few sips,2015,Both sexes,75 years and over,38.7
+Persons who have never drank or have only had a few sips,2015,Male,All ages,14.9
 Persons who have never drank or have only had a few sips,2015,Male,15 - 19 years,43.2
 Persons who have never drank or have only had a few sips,2015,Male,20 - 24 years,9
 Persons who have never drank or have only had a few sips,2015,Male,25 - 29 years,8.2
@@ -948,6 +1539,7 @@ Persons who have never drank or have only had a few sips,2015,Male,60 - 64 years
 Persons who have never drank or have only had a few sips,2015,Male,65 - 69 years,18.1
 Persons who have never drank or have only had a few sips,2015,Male,70 - 74 years,18.6
 Persons who have never drank or have only had a few sips,2015,Male,75 years and over,26
+Persons who have never drank or have only had a few sips,2015,Female,All ages,21.7
 Persons who have never drank or have only had a few sips,2015,Female,15 - 19 years,50.8
 Persons who have never drank or have only had a few sips,2015,Female,20 - 24 years,8.5
 Persons who have never drank or have only had a few sips,2015,Female,25 - 29 years,16.2
@@ -961,6 +1553,21 @@ Persons who have never drank or have only had a few sips,2015,Female,60 - 64 yea
 Persons who have never drank or have only had a few sips,2015,Female,65 - 69 years,23.9
 Persons who have never drank or have only had a few sips,2015,Female,70 - 74 years,37.6
 Persons who have never drank or have only had a few sips,2015,Female,75 years and over,48.3
+Persons who have never drank or have only had a few sips,2016,Both sexes,All ages,20.7
+Persons who have never drank or have only had a few sips,2016,Both sexes,15 - 19 years,47.5
+Persons who have never drank or have only had a few sips,2016,Both sexes,20 - 24 years,11.9
+Persons who have never drank or have only had a few sips,2016,Both sexes,25 - 29 years,16.4
+Persons who have never drank or have only had a few sips,2016,Both sexes,30 - 34 years,11
+Persons who have never drank or have only had a few sips,2016,Both sexes,35 - 39 years,16.2
+Persons who have never drank or have only had a few sips,2016,Both sexes,40 - 44 years,13.5
+Persons who have never drank or have only had a few sips,2016,Both sexes,45 - 49 years,15.6
+Persons who have never drank or have only had a few sips,2016,Both sexes,50 - 54 years,14.8
+Persons who have never drank or have only had a few sips,2016,Both sexes,55 - 59 years,15.5
+Persons who have never drank or have only had a few sips,2016,Both sexes,60 - 64 years,18.8
+Persons who have never drank or have only had a few sips,2016,Both sexes,65 - 69 years,25.2
+Persons who have never drank or have only had a few sips,2016,Both sexes,70 - 74 years,30.6
+Persons who have never drank or have only had a few sips,2016,Both sexes,75 years and over,41.5
+Persons who have never drank or have only had a few sips,2016,Male,All ages,16.9
 Persons who have never drank or have only had a few sips,2016,Male,15 - 19 years,43.1
 Persons who have never drank or have only had a few sips,2016,Male,20 - 24 years,7.7
 Persons who have never drank or have only had a few sips,2016,Male,25 - 29 years,14.5
@@ -974,6 +1581,7 @@ Persons who have never drank or have only had a few sips,2016,Male,60 - 64 years
 Persons who have never drank or have only had a few sips,2016,Male,65 - 69 years,20
 Persons who have never drank or have only had a few sips,2016,Male,70 - 74 years,19.9
 Persons who have never drank or have only had a few sips,2016,Male,75 years and over,32.4
+Persons who have never drank or have only had a few sips,2016,Female,All ages,24.4
 Persons who have never drank or have only had a few sips,2016,Female,15 - 19 years,52.6
 Persons who have never drank or have only had a few sips,2016,Female,20 - 24 years,16
 Persons who have never drank or have only had a few sips,2016,Female,25 - 29 years,18.4
@@ -987,6 +1595,21 @@ Persons who have never drank or have only had a few sips,2016,Female,60 - 64 yea
 Persons who have never drank or have only had a few sips,2016,Female,65 - 69 years,29.7
 Persons who have never drank or have only had a few sips,2016,Female,70 - 74 years,41.4
 Persons who have never drank or have only had a few sips,2016,Female,75 years and over,48.4
+Persons who have never drank or have only had a few sips,2017,Both sexes,All ages,18.5
+Persons who have never drank or have only had a few sips,2017,Both sexes,15 - 19 years,45.1
+Persons who have never drank or have only had a few sips,2017,Both sexes,20 - 24 years,11.4
+Persons who have never drank or have only had a few sips,2017,Both sexes,25 - 29 years,11.2
+Persons who have never drank or have only had a few sips,2017,Both sexes,30 - 34 years,11
+Persons who have never drank or have only had a few sips,2017,Both sexes,35 - 39 years,9
+Persons who have never drank or have only had a few sips,2017,Both sexes,40 - 44 years,12.8
+Persons who have never drank or have only had a few sips,2017,Both sexes,45 - 49 years,13.7
+Persons who have never drank or have only had a few sips,2017,Both sexes,50 - 54 years,10.7
+Persons who have never drank or have only had a few sips,2017,Both sexes,55 - 59 years,18.5
+Persons who have never drank or have only had a few sips,2017,Both sexes,60 - 64 years,17.8
+Persons who have never drank or have only had a few sips,2017,Both sexes,65 - 69 years,23.1
+Persons who have never drank or have only had a few sips,2017,Both sexes,70 - 74 years,31.5
+Persons who have never drank or have only had a few sips,2017,Both sexes,75 years and over,37.8
+Persons who have never drank or have only had a few sips,2017,Male,All ages,15.8
 Persons who have never drank or have only had a few sips,2017,Male,15 - 19 years,44.6
 Persons who have never drank or have only had a few sips,2017,Male,20 - 24 years,13.8
 Persons who have never drank or have only had a few sips,2017,Male,25 - 29 years,8.1
@@ -1000,6 +1623,7 @@ Persons who have never drank or have only had a few sips,2017,Male,60 - 64 years
 Persons who have never drank or have only had a few sips,2017,Male,65 - 69 years,15.5
 Persons who have never drank or have only had a few sips,2017,Male,70 - 74 years,22
 Persons who have never drank or have only had a few sips,2017,Male,75 years and over,27.7
+Persons who have never drank or have only had a few sips,2017,Female,All ages,21.2
 Persons who have never drank or have only had a few sips,2017,Female,15 - 19 years,45.6
 Persons who have never drank or have only had a few sips,2017,Female,20 - 24 years,9.1
 Persons who have never drank or have only had a few sips,2017,Female,25 - 29 years,14.8
@@ -1013,6 +1637,21 @@ Persons who have never drank or have only had a few sips,2017,Female,60 - 64 yea
 Persons who have never drank or have only had a few sips,2017,Female,65 - 69 years,29.6
 Persons who have never drank or have only had a few sips,2017,Female,70 - 74 years,40.4
 Persons who have never drank or have only had a few sips,2017,Female,75 years and over,46.1
+Persons who have never drank or have only had a few sips,2018,Both sexes,All ages,20
+Persons who have never drank or have only had a few sips,2018,Both sexes,15 - 19 years,53.9
+Persons who have never drank or have only had a few sips,2018,Both sexes,20 - 24 years,9.6
+Persons who have never drank or have only had a few sips,2018,Both sexes,25 - 29 years,13.6
+Persons who have never drank or have only had a few sips,2018,Both sexes,30 - 34 years,10.7
+Persons who have never drank or have only had a few sips,2018,Both sexes,35 - 39 years,15.3
+Persons who have never drank or have only had a few sips,2018,Both sexes,40 - 44 years,12.6
+Persons who have never drank or have only had a few sips,2018,Both sexes,45 - 49 years,14.5
+Persons who have never drank or have only had a few sips,2018,Both sexes,50 - 54 years,16.6
+Persons who have never drank or have only had a few sips,2018,Both sexes,55 - 59 years,18.5
+Persons who have never drank or have only had a few sips,2018,Both sexes,60 - 64 years,17.2
+Persons who have never drank or have only had a few sips,2018,Both sexes,65 - 69 years,20
+Persons who have never drank or have only had a few sips,2018,Both sexes,70 - 74 years,30
+Persons who have never drank or have only had a few sips,2018,Both sexes,75 years and over,35.5
+Persons who have never drank or have only had a few sips,2018,Male,All ages,16.9
 Persons who have never drank or have only had a few sips,2018,Male,15 - 19 years,49.4
 Persons who have never drank or have only had a few sips,2018,Male,20 - 24 years,6.7
 Persons who have never drank or have only had a few sips,2018,Male,25 - 29 years,11.1
@@ -1026,6 +1665,7 @@ Persons who have never drank or have only had a few sips,2018,Male,60 - 64 years
 Persons who have never drank or have only had a few sips,2018,Male,65 - 69 years,15.3
 Persons who have never drank or have only had a few sips,2018,Male,70 - 74 years,23.6
 Persons who have never drank or have only had a few sips,2018,Male,75 years and over,25.3
+Persons who have never drank or have only had a few sips,2018,Female,All ages,23
 Persons who have never drank or have only had a few sips,2018,Female,15 - 19 years,58.6
 Persons who have never drank or have only had a few sips,2018,Female,20 - 24 years,12.5
 Persons who have never drank or have only had a few sips,2018,Female,25 - 29 years,16.1
@@ -1039,6 +1679,21 @@ Persons who have never drank or have only had a few sips,2018,Female,60 - 64 yea
 Persons who have never drank or have only had a few sips,2018,Female,65 - 69 years,24.3
 Persons who have never drank or have only had a few sips,2018,Female,70 - 74 years,35.4
 Persons who have never drank or have only had a few sips,2018,Female,75 years and over,44.3
+Persons who have never drank or have only had a few sips,2021,Both sexes,All ages,21.5
+Persons who have never drank or have only had a few sips,2021,Both sexes,15 - 19 years,35.9
+Persons who have never drank or have only had a few sips,2021,Both sexes,20 - 24 years,15.1
+Persons who have never drank or have only had a few sips,2021,Both sexes,25 - 29 years,17.9
+Persons who have never drank or have only had a few sips,2021,Both sexes,30 - 34 years,18.4
+Persons who have never drank or have only had a few sips,2021,Both sexes,35 - 39 years,16.8
+Persons who have never drank or have only had a few sips,2021,Both sexes,40 - 44 years,19.2
+Persons who have never drank or have only had a few sips,2021,Both sexes,45 - 49 years,18.9
+Persons who have never drank or have only had a few sips,2021,Both sexes,50 - 54 years,17.5
+Persons who have never drank or have only had a few sips,2021,Both sexes,55 - 59 years,20.8
+Persons who have never drank or have only had a few sips,2021,Both sexes,60 - 64 years,22.2
+Persons who have never drank or have only had a few sips,2021,Both sexes,65 - 69 years,25.6
+Persons who have never drank or have only had a few sips,2021,Both sexes,70 - 74 years,26.8
+Persons who have never drank or have only had a few sips,2021,Both sexes,75 years and over,34.7
+Persons who have never drank or have only had a few sips,2021,Male,All ages,18.2
 Persons who have never drank or have only had a few sips,2021,Male,15 - 19 years,30.6
 Persons who have never drank or have only had a few sips,2021,Male,20 - 24 years,14.4
 Persons who have never drank or have only had a few sips,2021,Male,25 - 29 years,19.4
@@ -1052,6 +1707,7 @@ Persons who have never drank or have only had a few sips,2021,Male,60 - 64 years
 Persons who have never drank or have only had a few sips,2021,Male,65 - 69 years,16.7
 Persons who have never drank or have only had a few sips,2021,Male,70 - 74 years,19.3
 Persons who have never drank or have only had a few sips,2021,Male,75 years and over,28.1
+Persons who have never drank or have only had a few sips,2021,Female,All ages,24.7
 Persons who have never drank or have only had a few sips,2021,Female,15 - 19 years,41.6
 Persons who have never drank or have only had a few sips,2021,Female,20 - 24 years,15.9
 Persons who have never drank or have only had a few sips,2021,Female,25 - 29 years,16.6
@@ -1065,6 +1721,21 @@ Persons who have never drank or have only had a few sips,2021,Female,60 - 64 yea
 Persons who have never drank or have only had a few sips,2021,Female,65 - 69 years,32.2
 Persons who have never drank or have only had a few sips,2021,Female,70 - 74 years,33
 Persons who have never drank or have only had a few sips,2021,Female,75 years and over,41.7
+Persons who have never drank or have only had a few sips,2022,Both sexes,All ages,22.9
+Persons who have never drank or have only had a few sips,2022,Both sexes,15 - 19 years,38.8
+Persons who have never drank or have only had a few sips,2022,Both sexes,20 - 24 years,16.7
+Persons who have never drank or have only had a few sips,2022,Both sexes,25 - 29 years,22.4
+Persons who have never drank or have only had a few sips,2022,Both sexes,30 - 34 years,19.8
+Persons who have never drank or have only had a few sips,2022,Both sexes,35 - 39 years,22.4
+Persons who have never drank or have only had a few sips,2022,Both sexes,40 - 44 years,17
+Persons who have never drank or have only had a few sips,2022,Both sexes,45 - 49 years,19.6
+Persons who have never drank or have only had a few sips,2022,Both sexes,50 - 54 years,18.1
+Persons who have never drank or have only had a few sips,2022,Both sexes,55 - 59 years,21.9
+Persons who have never drank or have only had a few sips,2022,Both sexes,60 - 64 years,19.8
+Persons who have never drank or have only had a few sips,2022,Both sexes,65 - 69 years,28.2
+Persons who have never drank or have only had a few sips,2022,Both sexes,70 - 74 years,23.7
+Persons who have never drank or have only had a few sips,2022,Both sexes,75 years and over,39.7
+Persons who have never drank or have only had a few sips,2022,Male,All ages,20.8
 Persons who have never drank or have only had a few sips,2022,Male,15 - 19 years,43.1
 Persons who have never drank or have only had a few sips,2022,Male,20 - 24 years,17.7
 Persons who have never drank or have only had a few sips,2022,Male,25 - 29 years,18.5
@@ -1078,6 +1749,7 @@ Persons who have never drank or have only had a few sips,2022,Male,60 - 64 years
 Persons who have never drank or have only had a few sips,2022,Male,65 - 69 years,28.4
 Persons who have never drank or have only had a few sips,2022,Male,70 - 74 years,15.8
 Persons who have never drank or have only had a few sips,2022,Male,75 years and over,23.1
+Persons who have never drank or have only had a few sips,2022,Female,All ages,24.9
 Persons who have never drank or have only had a few sips,2022,Female,15 - 19 years,33.8
 Persons who have never drank or have only had a few sips,2022,Female,20 - 24 years,15.8
 Persons who have never drank or have only had a few sips,2022,Female,25 - 29 years,26.4
@@ -1091,6 +1763,21 @@ Persons who have never drank or have only had a few sips,2022,Female,60 - 64 yea
 Persons who have never drank or have only had a few sips,2022,Female,65 - 69 years,28
 Persons who have never drank or have only had a few sips,2022,Female,70 - 74 years,29.4
 Persons who have never drank or have only had a few sips,2022,Female,75 years and over,55.3
+Persons who have never drank or have only had a few sips,2023,Both sexes,All ages,20.2
+Persons who have never drank or have only had a few sips,2023,Both sexes,15 - 19 years,26.7
+Persons who have never drank or have only had a few sips,2023,Both sexes,20 - 24 years,16.1
+Persons who have never drank or have only had a few sips,2023,Both sexes,25 - 29 years,20.2
+Persons who have never drank or have only had a few sips,2023,Both sexes,30 - 34 years,19
+Persons who have never drank or have only had a few sips,2023,Both sexes,35 - 39 years,17.6
+Persons who have never drank or have only had a few sips,2023,Both sexes,40 - 44 years,15
+Persons who have never drank or have only had a few sips,2023,Both sexes,45 - 49 years,17.4
+Persons who have never drank or have only had a few sips,2023,Both sexes,50 - 54 years,16.8
+Persons who have never drank or have only had a few sips,2023,Both sexes,55 - 59 years,20.9
+Persons who have never drank or have only had a few sips,2023,Both sexes,60 - 64 years,19.6
+Persons who have never drank or have only had a few sips,2023,Both sexes,65 - 69 years,21.7
+Persons who have never drank or have only had a few sips,2023,Both sexes,70 - 74 years,28.4
+Persons who have never drank or have only had a few sips,2023,Both sexes,75 years and over,33.3
+Persons who have never drank or have only had a few sips,2023,Male,All ages,17.8
 Persons who have never drank or have only had a few sips,2023,Male,15 - 19 years,26.8
 Persons who have never drank or have only had a few sips,2023,Male,20 - 24 years,17.1
 Persons who have never drank or have only had a few sips,2023,Male,25 - 29 years,20.5
@@ -1104,6 +1791,7 @@ Persons who have never drank or have only had a few sips,2023,Male,60 - 64 years
 Persons who have never drank or have only had a few sips,2023,Male,65 - 69 years,14.1
 Persons who have never drank or have only had a few sips,2023,Male,70 - 74 years,17.4
 Persons who have never drank or have only had a few sips,2023,Male,75 years and over,27.5
+Persons who have never drank or have only had a few sips,2023,Female,All ages,22.5
 Persons who have never drank or have only had a few sips,2023,Female,15 - 19 years,26.5
 Persons who have never drank or have only had a few sips,2023,Female,20 - 24 years,15.1
 Persons who have never drank or have only had a few sips,2023,Female,25 - 29 years,19.9
@@ -1117,6 +1805,21 @@ Persons who have never drank or have only had a few sips,2023,Female,60 - 64 yea
 Persons who have never drank or have only had a few sips,2023,Female,65 - 69 years,28.4
 Persons who have never drank or have only had a few sips,2023,Female,70 - 74 years,39.8
 Persons who have never drank or have only had a few sips,2023,Female,75 years and over,38.1
+Persons who have never drank or have only had a few sips,2024,Both sexes,All ages,20.4
+Persons who have never drank or have only had a few sips,2024,Both sexes,15 - 19 years,36.5
+Persons who have never drank or have only had a few sips,2024,Both sexes,20 - 24 years,14.8
+Persons who have never drank or have only had a few sips,2024,Both sexes,25 - 29 years,17.7
+Persons who have never drank or have only had a few sips,2024,Both sexes,30 - 34 years,16.1
+Persons who have never drank or have only had a few sips,2024,Both sexes,35 - 39 years,17.5
+Persons who have never drank or have only had a few sips,2024,Both sexes,40 - 44 years,20.1
+Persons who have never drank or have only had a few sips,2024,Both sexes,45 - 49 years,15.5
+Persons who have never drank or have only had a few sips,2024,Both sexes,50 - 54 years,17.2
+Persons who have never drank or have only had a few sips,2024,Both sexes,55 - 59 years,17.8
+Persons who have never drank or have only had a few sips,2024,Both sexes,60 - 64 years,19.9
+Persons who have never drank or have only had a few sips,2024,Both sexes,65 - 69 years,21.9
+Persons who have never drank or have only had a few sips,2024,Both sexes,70 - 74 years,27.5
+Persons who have never drank or have only had a few sips,2024,Both sexes,75 years and over,33.4
+Persons who have never drank or have only had a few sips,2024,Male,All ages,17.7
 Persons who have never drank or have only had a few sips,2024,Male,15 - 19 years,37.4
 Persons who have never drank or have only had a few sips,2024,Male,20 - 24 years,15.6
 Persons who have never drank or have only had a few sips,2024,Male,25 - 29 years,13.5
@@ -1130,6 +1833,7 @@ Persons who have never drank or have only had a few sips,2024,Male,60 - 64 years
 Persons who have never drank or have only had a few sips,2024,Male,65 - 69 years,16.3
 Persons who have never drank or have only had a few sips,2024,Male,70 - 74 years,18.3
 Persons who have never drank or have only had a few sips,2024,Male,75 years and over,28.9
+Persons who have never drank or have only had a few sips,2024,Female,All ages,23
 Persons who have never drank or have only had a few sips,2024,Female,15 - 19 years,35.4
 Persons who have never drank or have only had a few sips,2024,Female,20 - 24 years,13.9
 Persons who have never drank or have only had a few sips,2024,Female,25 - 29 years,21.6
@@ -1143,6 +1847,21 @@ Persons who have never drank or have only had a few sips,2024,Female,60 - 64 yea
 Persons who have never drank or have only had a few sips,2024,Female,65 - 69 years,26.6
 Persons who have never drank or have only had a few sips,2024,Female,70 - 74 years,36.4
 Persons who have never drank or have only had a few sips,2024,Female,75 years and over,37.2
+Persons who have never drank or have only had a few sips,2025,Both sexes,All ages,20.8
+Persons who have never drank or have only had a few sips,2025,Both sexes,15 - 19 years,29.9
+Persons who have never drank or have only had a few sips,2025,Both sexes,20 - 24 years,13.8
+Persons who have never drank or have only had a few sips,2025,Both sexes,25 - 29 years,21.9
+Persons who have never drank or have only had a few sips,2025,Both sexes,30 - 34 years,22.9
+Persons who have never drank or have only had a few sips,2025,Both sexes,35 - 39 years,21.7
+Persons who have never drank or have only had a few sips,2025,Both sexes,40 - 44 years,16.9
+Persons who have never drank or have only had a few sips,2025,Both sexes,45 - 49 years,17.7
+Persons who have never drank or have only had a few sips,2025,Both sexes,50 - 54 years,18.5
+Persons who have never drank or have only had a few sips,2025,Both sexes,55 - 59 years,14.9
+Persons who have never drank or have only had a few sips,2025,Both sexes,60 - 64 years,18.9
+Persons who have never drank or have only had a few sips,2025,Both sexes,65 - 69 years,23
+Persons who have never drank or have only had a few sips,2025,Both sexes,70 - 74 years,25
+Persons who have never drank or have only had a few sips,2025,Both sexes,75 years and over,33.3
+Persons who have never drank or have only had a few sips,2025,Male,All ages,19.4
 Persons who have never drank or have only had a few sips,2025,Male,15 - 19 years,32.6
 Persons who have never drank or have only had a few sips,2025,Male,20 - 24 years,15.2
 Persons who have never drank or have only had a few sips,2025,Male,25 - 29 years,19.9
@@ -1156,6 +1875,7 @@ Persons who have never drank or have only had a few sips,2025,Male,60 - 64 years
 Persons who have never drank or have only had a few sips,2025,Male,65 - 69 years,23.2
 Persons who have never drank or have only had a few sips,2025,Male,70 - 74 years,18.9
 Persons who have never drank or have only had a few sips,2025,Male,75 years and over,23.1
+Persons who have never drank or have only had a few sips,2025,Female,All ages,22.1
 Persons who have never drank or have only had a few sips,2025,Female,15 - 19 years,27.6
 Persons who have never drank or have only had a few sips,2025,Female,20 - 24 years,12.2
 Persons who have never drank or have only had a few sips,2025,Female,25 - 29 years,24

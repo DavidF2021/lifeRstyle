@@ -3,66 +3,62 @@ library(csodata)
 library(dplyr)
 library(readr)
 library(ggplot2)
-library(lme4) # For fitting mixed models
+library(lme4) # For mixed models
 
-
-# Function to download and clean any table from csodata
-#' Loads in and cleans any specified table from the CSO
-#'
-#' @param table_id
-#' @param dest_file
-#' @param filter_sex
-#' @param filter_age
-#' @param filter_years
-#'
-#' @returns
-#' @export
-#'
-#' @examples
+# Function to download and clean any table from CSO
 download_and_clean_cso <- function(table_id,
                                    dest_file = NULL,
-                                   filter_sex = "Both sexes",
-                                   filter_age = "All ages",
-                                   filter_years = c("2019", "2020")) {
+                                   filter_sex = NULL,
+                                   filter_age = NULL,
+                                   filter_years = NULL) {
   message("Downloading table: ", table_id)
 
-  # Download table from CSO (tall gives long dataframe)
+  # Download table from CSO (tall format)
   df <- cso_get_data(table_id, pivot_format = "tall")
   message("Downloaded table has ", nrow(df), " rows and ", ncol(df), " columns.")
 
+  # Apply filters only if specified
+  if (!is.null(filter_sex)) {
+    df <- df %>% filter(Sex %in% filter_sex)
+  }
+  if (!is.null(filter_age)) {
+    df <- df %>% filter(Age.Group %in% filter_age)
+  }
+  if (!is.null(filter_years)) {
+    df <- df %>% filter(Year %in% filter_years)
+  }
 
+  message("After cleaning: ", nrow(df), " rows remain.")
 
-  # Clean table: filter out Sex, Age.Group, Year
-  df_cleaned <- df %>%
-    filter(!Sex %in% filter_sex) %>%
-    filter(!Age.Group %in% filter_age) %>%
-    filter(!Year %in% filter_years)
-
-  message("After cleaning: ", nrow(df_cleaned), " rows remain.")
-
-  # Save to CSV
+  # Save to CSV if requested
   if (!is.null(dest_file)) {
     if (!dir.exists(dirname(dest_file))) dir.create(dirname(dest_file), recursive = TRUE)
-    readr::write_csv(df_cleaned, dest_file)
+    readr::write_csv(df, dest_file)
     message("Cleaned data saved to: ", dest_file)
   }
 
-  return(df_cleaned)
+  return(df)
 }
 
-
-#Function to download, clean, and optionally combine multiple CSO tables
+# Function to download, clean, and combine multiple CSO tables
 download_clean_combine_cso <- function(table_ids,
-                                       filter_sex = "Both sexes",
-                                       filter_age = "All ages",
-                                       filter_years = c("2019","2020"),
+                                       filter_sex = NULL,
+                                       filter_age = NULL,
+                                       filter_years = NULL,
                                        combine = TRUE,
                                        save_dir = "data/clean") {
+
   if (!dir.exists(save_dir)) dir.create(save_dir, recursive = TRUE)
 
-  #Download and clean each table
-  cleaned_list <- lapply(table_ids, function(tid) {
-    dest_file <- file.path(save_dir, paste0(tid, "_cleaned.csv"))
+  # Ensure table_ids have names
+  if (is.null(names(table_ids))) {
+    names(table_ids) <- table_ids
+  }
+
+  # Download and clean each table
+  cleaned_list <- lapply(names(table_ids), function(name) {
+    tid <- table_ids[[name]]
+    dest_file <- file.path(save_dir, paste0(name, "_cleaned.csv"))
     df <- download_and_clean_cso(
       table_id = tid,
       dest_file = dest_file,
@@ -73,12 +69,13 @@ download_clean_combine_cso <- function(table_ids,
     return(df)
   })
 
-  names(cleaned_list) <- table_ids
+  # Name the list properly
+  names(cleaned_list) <- names(table_ids)
 
-  #Combine datasets
+  # Combine if requested
   combined_df <- NULL
   if (combine) {
-    combined_df <- dplyr::bind_rows(cleaned_list, .id = "table_id")
+    combined_df <- dplyr::bind_rows(cleaned_list, .id = "table_name")
     combined_file <- file.path(save_dir, "combined_cleaned.csv")
     readr::write_csv(combined_df, combined_file)
     message("Saved combined cleaned dataset with ", nrow(combined_df), " rows.")
@@ -87,25 +84,20 @@ download_clean_combine_cso <- function(table_ids,
   return(list(individual = cleaned_list, combined = combined_df))
 }
 
-#For HIS15
-alcohol_cleaned <- download_and_clean_cso(
-  table_id = "alcohol_cleaned",
-  dest_file = "data/clean/alcohol_cleaned.csv"
+# Example usage:
+
+# Named vector of tables
+tables <- c(alcohol = "HIS15", health = "HIS01", smoking = "HIS09")
+
+# Download, clean, and combine
+data_list <- download_clean_combine_cso(
+  tables,
+  filter_sex = NULL,   # set to c("Both sexes") if you want
+  filter_age = NULL,   # set to c("All ages") if needed
+  filter_years = NULL  # set to c("2019", "2020") if needed
 )
 
-#For HIS09
-smoking_cleaned <- download_and_clean_cso(
-  table_id = "smoking_cleaned",
-  dest_file = "data/clean/smoking_cleaned.csv"
-)
-
-#For HIS01
-health_cleaned <- download_and_clean_cso(
-  table_id = "health",
-  dest_file = "data/clean/health_cleaned.csv"
-)
-
-
-#Combined function
-tables <- c("alcohol_cleaned", "health_cleaned", "smoking_cleaned")  # Add more tables as needed
-data_list <- download_clean_combine_cso(tables)
+# Access combined dataset
+combined_data <- data_list$combined
+dim(combined_data)
+head(combined_data)
