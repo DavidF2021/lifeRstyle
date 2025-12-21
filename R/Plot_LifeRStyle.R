@@ -1,4 +1,16 @@
-#Function to create plots for combined CSO data
+# These plots should probably be derived from the models fitted,
+#this will probably need to be changed :(
+
+#' Create plots for combined CSO data
+#'
+#' @param data
+#'
+#' @returns Three cool ggplots
+#'
+#' @importFrom ggplot2 "ggplot" "aes" "geom_histogram" "facet_wrap" "labs" "theme_minimal"
+#' "geom_boxplot" "geom_point" "stat_summary" "scale_color_viridis_c"
+#'
+#' @examples
 plot_combined_data <- function(data) {
 
 #Histogram by table
@@ -24,7 +36,7 @@ plot_combined_data <- function(data) {
 
 #Scatter points + mean line
   scatter_plot <- ggplot2::ggplot(data, ggplot2::aes(x = table_name, y = value)) +
-    ggplot2::geom_point(aes(color = value), position = position_jitter(width = 0.2)) +
+    ggplot2::geom_point(ggplot2::aes(color = value), position = position_jitter(width = 0.2)) +
     ggplot2::stat_summary(fun = mean, geom = "line", color = "red", size = 1) +
     ggplot2::labs(
       title = "Scatter of Age by Table with Mean Line",
