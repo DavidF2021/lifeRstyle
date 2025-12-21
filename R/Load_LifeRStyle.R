@@ -5,7 +5,25 @@ library(readr)
 library(ggplot2)
 library(lme4) # For mixed models
 
-# Function to download and clean any table from CSO
+#' Download and clean any table from CSO
+#'
+#' This function downloads and cleans data downloaded from the CSO website.
+#'
+#'
+#' @param table_id An array of numbers which corresponds to a specific data set on the CSO website.
+#' @param dest_file The destination of the downloaded and cleaned data set.
+#' @param filter_sex A parameter to filter the sex column of the data set.
+#' @param filter_age A parameter to filter the age column of the data set.
+#' @param filter_years A parameter to filter the years of which the data was.
+#'
+#' @returns An object of class \code{"lifeRstyle"} which is a list of \code{\link[tibble]{tibble}}s which
+#' contain the downloaded and cleaned data from the CSO website.
+#'
+#' @importFrom dplyr "filter"
+#' @importFrom readr "write_csv"
+#'
+#' @examples
+#' alcohol <- download_and_clean_cso("HIS15")
 download_and_clean_cso <- function(table_id,
                                    dest_file = NULL,
                                    filter_sex = NULL,
@@ -19,13 +37,13 @@ download_and_clean_cso <- function(table_id,
 
   # Apply filters only if specified
   if (!is.null(filter_sex)) {
-    df <- df %>% filter(Sex %in% filter_sex)
+    df <- df %>% dplyr::filter(Sex %in% filter_sex)
   }
   if (!is.null(filter_age)) {
-    df <- df %>% filter(Age.Group %in% filter_age)
+    df <- df %>% dplyr::filter(Age.Group %in% filter_age)
   }
   if (!is.null(filter_years)) {
-    df <- df %>% filter(Year %in% filter_years)
+    df <- df %>% dplyr::filter(Year %in% filter_years)
   }
 
   message("After cleaning: ", nrow(df), " rows remain.")
@@ -40,7 +58,39 @@ download_and_clean_cso <- function(table_id,
   return(df)
 }
 
-# Function to download, clean, and combine multiple CSO tables
+#' Download, clean, and combine multiple CSO tables
+#'
+#' This function downloads,cleans and combines data sets downloaded from the CSO website.
+#'
+#' @param table_ids An array of numbers which corresponds to a specific data
+#' set on the CSO website.This parameter can accept multiple \code{table_id}'s.
+#' @param filter_sex A parameter to filter the sex column of the data set.
+#' @param filter_age A parameter to filter the age column of the data set.
+#' @param filter_years A parameter to filter the years of which the data was.
+#' @param combine An operator set to \code{"TRUE"} by default which combines all specified \code{table_ids}.
+#' @param save_dir
+#'
+#' @returns An object of class \code{"lifeRstyle"} which is a list of \code{\link[tibble]{tibble}}s which
+#' contain the downloaded,cleaned and combined data from the CSO website.
+#'
+#' @importFrom dplyr "bind_rows"
+#' @importFrom readr "write_csv"
+#'
+#' @examples
+#' # Named vector of tables
+#' tables <- c(alcohol = "HIS15", health = "HIS01", smoking = "HIS09")
+#'
+#' # Download, clean, and combine
+#' data_list <- download_clean_combine_cso(
+#' tables,
+#' filter_sex = NULL,   # set to c("Both sexes") if you want
+#' filter_age = NULL,   # set to c("All ages") if needed
+#' filter_years = NULL  # set to c("2019", "2020") if needed
+#' )
+#' # Access combined dataset
+#' combined_data <- data_list$combined
+#' dim(combined_data)
+#' head(combined_data)
 download_clean_combine_cso <- function(table_ids,
                                        filter_sex = NULL,
                                        filter_age = NULL,
@@ -84,20 +134,3 @@ download_clean_combine_cso <- function(table_ids,
   return(list(individual = cleaned_list, combined = combined_df))
 }
 
-# Example usage:
-
-# Named vector of tables
-tables <- c(alcohol = "HIS15", health = "HIS01", smoking = "HIS09")
-
-# Download, clean, and combine
-data_list <- download_clean_combine_cso(
-  tables,
-  filter_sex = NULL,   # set to c("Both sexes") if you want
-  filter_age = NULL,   # set to c("All ages") if needed
-  filter_years = NULL  # set to c("2019", "2020") if needed
-)
-
-# Access combined dataset
-combined_data <- data_list$combined
-dim(combined_data)
-head(combined_data)
