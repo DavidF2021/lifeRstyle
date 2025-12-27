@@ -6,15 +6,18 @@ lm_fit    <- fit(his15, fit_type = "lm")
 anova_fit <- fit(his15, fit_type = "anova")
 mixed_fit <- fit(combined_data, fit_type = "mixed")
 
+## shouldn't have random pieces of code lying within the coding document
 plot(lm_fit)
 plot(mixed_fit)
 
-library(lme4)
+library(lme4) # shouldn't call libraries within the coding document
+# imports are stated within the description
 
 ############################################################
 # 1. Generic fit() (shared by climr and data.frame objects)
 ############################################################
 
+# remove
 fit <- function(obj,
                 data_type = c("yearly", "quarterly", "monthly"),
                 fit_type  = c("lm", "loess", "smooth.spline"),
@@ -26,6 +29,8 @@ fit <- function(obj,
 # 2. fit.climr()  (your climate object method)
 ############################################################
 
+
+# needs to be removed, this is climr functions, not relevant here
 fit.climr <- function(obj,
                       data_type = c("yearly", "quarterly", "monthly"),
                       fit_type  = c("lm", "loess", "smooth.spline"),
@@ -73,6 +78,7 @@ fit.climr <- function(obj,
   invisible(out)
 }
 
+# remove
 ## Optional: plot method for climr fits --------------------
 plot.climr_fit <- function(x, ...) {
   if (inherits(x$model, "lm") || inherits(x$model, "loess")) {
@@ -86,7 +92,7 @@ plot.climr_fit <- function(x, ...) {
     plot(x$model, main = "climr smooth.spline fit", ...)
   }
   invisible(x)
-}
+]
 
 ############################################################
 # 3. fit.data.frame(): ST403 models on data frames

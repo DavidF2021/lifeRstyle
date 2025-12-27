@@ -37,7 +37,7 @@ standardise_cso_names <- function(df) {
   if ("Age.Group" %in% names(df)) df$Age.Group <- as.factor(df$Age.Group)
   if ("value" %in% names(df)) {
     suppressWarnings(df$value <- as.numeric(df$value))
-  }
+  } # should we be suppressing warnings if it is part of the marking scheme
 
   df
 }
@@ -71,6 +71,8 @@ combine_his_tables <- function(his15, his01,
 # 2. Generic fit() (S3 dispatch)
 ############################################################
 
+
+# remove
 fit <- function(obj,
                 data_type = c("yearly", "quarterly", "monthly"),
                 fit_type  = c("lm", "loess", "smooth.spline"),
