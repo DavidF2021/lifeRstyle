@@ -20,8 +20,15 @@ knitr::opts_chunk$set(
 
 ## Description
 
-The **lifeRstyle** package is being developed as part of a group project for an Advanced R Programming module. 
-More information to come. 
+**lifeRstyle** Is an R package which downloads data about smoking habits, alcohol 
+consumption and general health from the Central Statistics Office (CSO). Plots can be created 
+and basic modelling can be performed of said data. Three functions are provided:
+
+  1.  `Load_LifeRStyle`: for loading in the data in a tidy format.
+  
+  2. a `plot()` method: for producing visualisations of the data based on `ggplot()`
+  
+  3. a `fit()` method: for fitting statistical models (linear regression, ANOVA, mixed models) to said data. 
 
 ## Installation
 
