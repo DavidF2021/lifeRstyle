@@ -17,7 +17,6 @@ library(lme4) # shouldn't call libraries within the coding document
 # 1. Generic fit() (shared by climr and data.frame objects)
 ############################################################
 
-# remove
 fit <- function(obj,
                 data_type = c("yearly", "quarterly", "monthly"),
                 fit_type  = c("lm", "loess", "smooth.spline"),
@@ -30,13 +29,11 @@ fit <- function(obj,
 ############################################################
 
 
-# needs to be removed, this is climr functions, not relevant here
 fit.climr <- function(obj,
                       data_type = c("yearly", "quarterly", "monthly"),
                       fit_type  = c("lm", "loess", "smooth.spline"),
                       ...) {
 
-  ## Ensure the input is of class "climr"
   if (!inherits(obj, "climr"))
     stop("This function only works on objects of class \"climr\"")
 
@@ -52,7 +49,6 @@ fit.climr <- function(obj,
   )
   dat <- obj[[dat_choose]]
 
-  ## Fit model
   mod <- switch(
     fit_type,
     lm = {
@@ -78,7 +74,6 @@ fit.climr <- function(obj,
   invisible(out)
 }
 
-# remove
 ## Optional: plot method for climr fits --------------------
 plot.climr_fit <- function(x, ...) {
   if (inherits(x$model, "lm") || inherits(x$model, "loess")) {
@@ -91,15 +86,14 @@ plot.climr_fit <- function(x, ...) {
   } else if (inherits(x$model, "smooth.spline")) {
     plot(x$model, main = "climr smooth.spline fit", ...)
   }
-  invisible(x)
-]
+  invisible(x)}
 
 ############################################################
 # 3. fit.data.frame(): ST403 models on data frames
 ############################################################
 
 fit.data.frame <- function(obj,
-                           data_type = NULL,   # kept for compatibility; unused
+                           data_type = NULL,
                            fit_type  = c("lm", "anova", "mixed"),
                            ...) {
 
@@ -153,13 +147,11 @@ plot.st403_fit <- function(x, ...) {
   model <- x$model
 
   if (inherits(model, "lm")) {
-    ## Standard lm diagnostic plots
     op <- par(mfrow = c(2, 2))
     on.exit(par(op))
     plot(model, ...)
 
   } else if (inherits(model, "aov")) {
-    ## Convert to lm for diagnostics
     mod_lm <- lm(model)
     op <- par(mfrow = c(2, 2))
     on.exit(par(op))
@@ -183,29 +175,22 @@ plot.st403_fit <- function(x, ...) {
 }
 
 ############################################################
-# 5. Example usage (uncomment to run)
+# 5. Example usage
 ############################################################
 
 ## Assume:
-##   his15         : data.frame with value, Sex, Age.Group, Year
-##   combined_data : data.frame with value, Sex, Age.Group, table_id
-
+## his15         : data.frame with value, Sex, Age.Group, Year
+## combined_data : data.frame with value, Sex, Age.Group, table_id
 # Linear regression model
 # lm_fit <- fit(his15, fit_type = "lm")
-# lm_fit              # prints summary
-# plot(lm_fit)        # diagnostic plots
-
+# lm_fit
+# plot(lm_fit)
 # One-way ANOVA model
 # anova_fit <- fit(his15, fit_type = "anova")
 # anova_fit
 # plot(anova_fit)
-
 # Mixed-effects model
-
 # mixed_fit <- fit(combined_data, fit_type = "mixed")
 # mixed_fit
 # plot(mixed_fit)
-
-# I need to add comments on these functions
-# or add any other thing I need that will improve
 
