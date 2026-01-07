@@ -2,7 +2,11 @@
 .Rhistory
 .RData
 .Ruserdata
+HEAD
 Test_LifeRStyle.R
 .httr-oauth
 .DS_Store
 .quarto
+test_stuff.R
+inst/doc
+47cc001 (Update .gitignore and DESCRIPTION with small edits of spelling)
