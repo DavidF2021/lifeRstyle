@@ -30,7 +30,7 @@ through worked examples.
 The examples in this vignette use datasets that were cleaned and prepared as
 part of the lifeRstyle package development process.
 
-In particular, his15 refers to a cleaned dataset derived from the CSO his15
+In particular, HIS15_cleaned refers to a cleaned dataset derived from the CSO HIS15_cleaned
 table, which focuses on alcohol consumption, smoking behaviour, and reported
 health status. The dataset contains variables such as sex, age group, year, and
 a numeric response variable used for modelling.
@@ -57,12 +57,12 @@ analysis of variance model(aov), or mixed-effects model, allowing users to apply
 
 ## Linear regression example:
 
-We begin by fitting a simple linear regression model to the his15 dataset.
+We begin by fitting a simple linear regression model to the HIS15_cleaned dataset.
 The fit() function is applied with fit_type = "lm" to specify a standard
 linear model.
 
 ```{}
-lm_fit<-fit(his15,fit_type="lm")
+lm_fit<-fit(HIS15_cleaned,fit_type="lm")
 lm_fit
 ```
 
@@ -76,7 +76,7 @@ Next, we fit a one-way analysis of variance (ANOVA) model to examine differences
 in the response variable across age groups.
 
 ```{}
-anova_fit<-fit(his15,fit_type="anova")
+anova_fit<-fit(HIS15_cleaned,fit_type="anova")
 anova_fit
 ```
 

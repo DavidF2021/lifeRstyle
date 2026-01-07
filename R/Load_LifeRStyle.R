@@ -23,7 +23,9 @@ library(lme4) # For mixed models
 #' @importFrom readr "write_csv"
 #'
 #' @examples
-#' alcohol <- download_and_clean_cso("HIS15")
+#' \dontrun{
+#' alcohol <- download_and_clean_cso("HIS15_cleaned")
+#' }
 download_and_clean_cso <- function(table_id,
                                    dest_file = NULL,
                                    filter_sex = NULL,
@@ -32,7 +34,7 @@ download_and_clean_cso <- function(table_id,
   message("Downloading table: ", table_id)
 
   # Download table from CSO (tall format)
-  df <- cso_get_data(table_id, pivot_format = "tall")
+  df <- csodata::cso_get_data(table_id, pivot_format = "tall")
   message("Downloaded table has ", nrow(df), " rows and ", ncol(df), " columns.")
 
   # Apply filters only if specified
@@ -68,7 +70,7 @@ download_and_clean_cso <- function(table_id,
 #' @param filter_age A parameter to filter the age column of the data set.
 #' @param filter_years A parameter to filter the years of which the data was.
 #' @param combine An operator set to \code{"TRUE"} by default which combines all specified \code{table_ids}.
-#' @param save_dir
+#' @param save_dir Directory where cleaned CSV files will be saved
 #'
 #' @returns An object of class \code{"lifeRstyle"} which is a list of \code{\link[tibble]{tibble}}s which
 #' contain the downloaded,cleaned and combined data from the CSO website.
@@ -77,8 +79,9 @@ download_and_clean_cso <- function(table_id,
 #' @importFrom readr "write_csv"
 #'
 #' @examples
+#' \dontrun{}
 #' # Named vector of tables
-#' tables <- c(alcohol = "HIS15", health = "HIS01", smoking = "HIS09")
+#' tables <- c(alcohol = "HIS15_cleaned", health = "HIS01", smoking = "HIS09")
 #'
 #' # Download, clean, and combine
 #' data_list <- download_clean_combine_cso(
@@ -91,6 +94,7 @@ download_and_clean_cso <- function(table_id,
 #' combined_data <- data_list$combined
 #' dim(combined_data)
 #' head(combined_data)
+#' }
 download_clean_combine_cso <- function(table_ids,
                                        filter_sex = NULL,
                                        filter_age = NULL,
