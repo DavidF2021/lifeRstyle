@@ -23,7 +23,8 @@ Imports:
     dplyr,
     ggplot2,
     lme4,
-    readr
+    readr, 
+    stats
 Encoding: UTF-8
 Language: en-GB
 LazyData: true

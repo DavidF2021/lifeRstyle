@@ -12,6 +12,9 @@
 #'   and associated metadata.
 #' @export
 #'
+#' @importFrom stats "lm" "aov"
+#' @importFrom lme4 "lmer"
+#'
 #' @examples
 #' \dontrun{
 #' lm_fit <- fit_lifeRstyle(HIS15_cleaned, fit_type = "lm")
@@ -67,8 +70,6 @@ fit_lifeRstyle <- function(obj,
 #' @param object An object of class \code{st403_fit}.
 #' @param ... Further arguments passed to methods.
 #' @export
-NULL
-
 #' @rdname st403_fit-methods
 #' @export
 print.st403_fit <- function(x, ...) {
@@ -84,6 +85,8 @@ summary.st403_fit <- function(object, ...) {
 
 #' @rdname st403_fit-methods
 #' @export
+#'
+#' @importFrom stats "fitted" "resid"
 plot.st403_fit <- function(x, ...) {
   model <- x$model
 
@@ -105,6 +108,8 @@ plot.st403_fit <- function(x, ...) {
 #'
 #' @return A data frame containing the ANOVA table.
 #' @export
+#'
+#' @importFrom stats "anova"
 #'
 #' @examples
 #' \dontrun{
