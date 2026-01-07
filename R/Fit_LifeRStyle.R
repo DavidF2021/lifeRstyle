@@ -13,8 +13,10 @@
 #' @export
 #'
 #' @examples
+#' \dontrun{
 #' lm_fit <- fit_lifeRstyle(HIS15_cleaned, fit_type = "lm")
 #' anova_fit <- fit_lifeRstyle(HIS15_cleaned, fit_type = "anova")
+#' }
 fit_lifeRstyle <- function(obj,
                            data_type = NULL,
                            fit_type  = c("lm", "anova", "mixed"),
@@ -58,17 +60,29 @@ fit_lifeRstyle <- function(obj,
   out
 }
 
+#' Methods for st403_fit objects
+#'
+#' @name st403_fit-methods
+#' @param x An object of class \code{st403_fit}.
+#' @param object An object of class \code{st403_fit}.
+#' @param ... Further arguments passed to methods.
+#' @export
+NULL
+
+#' @rdname st403_fit-methods
 #' @export
 print.st403_fit <- function(x, ...) {
   print(summary(x$model))
   invisible(x)
 }
 
+#' @rdname st403_fit-methods
 #' @export
 summary.st403_fit <- function(object, ...) {
   summary(object$model, ...)
 }
 
+#' @rdname st403_fit-methods
 #' @export
 plot.st403_fit <- function(x, ...) {
   model <- x$model
@@ -76,10 +90,10 @@ plot.st403_fit <- function(x, ...) {
   if (inherits(model, "lm") || inherits(model, "aov")) {
     plot(model, ...)
   } else if (inherits(model, "merMod")) {
-    plot(fitted(model), resid(model),
+    plot(stats::fitted(model), stats::resid(model),
          xlab = "Fitted values",
          ylab = "Residuals")
-    abline(h = 0, col = "red")
+    graphics::abline(h = 0, col = "red")
   }
 
   invisible(x)
@@ -93,8 +107,10 @@ plot.st403_fit <- function(x, ...) {
 #' @export
 #'
 #' @examples
+#' \dontrun{
 #' fit_obj <- fit_lifeRstyle(HIS15_cleaned, fit_type = "anova")
 #' anova_table(fit_obj)
+#' }
 anova_table <- function(fit_obj) {
   if (!inherits(fit_obj, "st403_fit")) {
     stop("anova_table() expects an object of class 'st403_fit'.")

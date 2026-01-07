@@ -16,6 +16,8 @@ A data frame containing the ANOVA table.
 Extract an ANOVA table from a fitted LifeRstyle model
 }
 \examples{
+\dontrun{
 fit_obj <- fit_lifeRstyle(HIS15_cleaned, fit_type = "anova")
 anova_table(fit_obj)
+}
 }

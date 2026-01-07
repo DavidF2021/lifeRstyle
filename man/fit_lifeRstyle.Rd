@@ -29,6 +29,8 @@ Fits linear regression, ANOVA, or mixed-effects models to a cleaned
 LifeRstyle data frame.
 }
 \examples{
+\dontrun{
 lm_fit <- fit_lifeRstyle(HIS15_cleaned, fit_type = "lm")
 anova_fit <- fit_lifeRstyle(HIS15_cleaned, fit_type = "anova")
+}
 }
