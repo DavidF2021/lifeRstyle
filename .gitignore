@@ -3,3 +3,6 @@
 .RData
 .Ruserdata
 Test_LifeRStyle.R
+.httr-oauth
+.DS_Store
+.quarto
