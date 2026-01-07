@@ -1,9 +1,3 @@
-# Load packages
-library(csodata)
-library(dplyr)
-library(readr)
-library(ggplot2)
-library(lme4) # For mixed models
 
 #' Download and clean any table from CSO
 #'
@@ -79,7 +73,7 @@ download_and_clean_cso <- function(table_id,
 #' @importFrom readr "write_csv"
 #'
 #' @examples
-#' \dontrun{}
+#' \dontrun{
 #' # Named vector of tables
 #' tables <- c(alcohol = "HIS15_cleaned", health = "HIS01", smoking = "HIS09")
 #'
