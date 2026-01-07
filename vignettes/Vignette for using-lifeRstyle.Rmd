@@ -1,0 +1,105 @@
+---
+title: "Vignette for using the lifeRstyle Package"
+output: rmarkdown::html_vignette
+vignette: >
+ %\VignetteIndexEntry{Using the lifeRstyle Package}
+ %\VignetteEngine{knitr::rmarkdown}
+ %\VignetteEncoding{UTF-8}
+---
+```{r}
+knitr::opts_chunk$set(
+collapse=TRUE,
+comment="#>")
+library(lifeRstyle)
+```
+
+## Introduction:
+The lifeRstyle package provides tools for downloading, cleaning, analysing,
+and visualising data on smoking habits, alcohol consumption, and reported health
+status from the Irish Central Statistics Office (CSO).
+
+The package is designed to simplify access to CSO health survey data by allowing
+users to filter datasets by sex, age group, and year, combine multiple related
+tables, and apply common statistical models through a consistent interface.
+
+This vignette demonstrates the core modelling functionality of the package
+through worked examples.
+
+## Data used in this vignette 
+
+The examples in this vignette use datasets that were cleaned and prepared as
+part of the lifeRstyle package development process.
+
+In particular, his15 refers to a cleaned dataset derived from the CSO his15
+table, which focuses on alcohol consumption, smoking behaviour, and reported
+health status. The dataset contains variables such as sex, age group, year, and
+a numeric response variable used for modelling.
+
+The object combined_data represents multiple cleaned CSO tables combined into
+a single dataset and includes an additional grouping variable, table_name,
+which enables mixed-effects modelling.
+
+      The datasets used below are shown for illustrative purposes only and were not
+      evaluated when building this vignette.
+
+## Overview of modelling functionality:
+
+In addition to data access and preparation tools, lifeRstyle provides a
+unified interface for fitting common statistical models.
+
+The main function for this purpose is fit(), which selects and fits an
+appropriate model based on user input. The function returns a structured model
+object with associated print(), summary(), and plot() methods, allowing
+users to easily inspect and visualise results.
+
+Depending on the selected model type, the returned object may be a linear model(lm),
+analysis of variance model(aov), or mixed-effects model, allowing users to apply familiar R methods.
+
+## Linear regression example:
+
+We begin by fitting a simple linear regression model to the his15 dataset.
+The fit() function is applied with fit_type = "lm" to specify a standard
+linear model.
+
+```{}
+lm_fit<-fit(his15,fit_type="lm")
+lm_fit
+```
+
+The printed output shows the estimated regression coefficients and associated
+model diagnostics, allowing users to assess relationships between health
+outcomes and lifestyle-related predictors.
+
+## One-way ANOVA example:
+
+Next, we fit a one-way analysis of variance (ANOVA) model to examine differences
+in the response variable across age groups.
+
+```{}
+anova_fit<-fit(his15,fit_type="anova")
+anova_fit
+```
+
+## Mixed-effects model example:
+
+Finally, a mixed-effects model is demonstrated. This is particularly useful when
+working with combined datasets that contain repeated measurements across multiple
+CSO tables.
+
+The combined_data dataset includes a grouping variable, table_name, which is
+used to specify random effects.
+
+```{}
+mixed_fit<-fit(combined_data,fit_type="mixed")
+mixed_fit
+```
+## Summary:
+
+The lifeRstyle package provides a simple and consistent framework for
+accessing, analysing, and modelling smoking, alcohol consumption, and health
+status data from the CSO.
+
+By offering an intuitive modelling interface and built-in plotting tools, the
+package enables users with limited statistical background to efficiently explore
+health-related CSO data while retaining access to familiar R modelling methods.
+
