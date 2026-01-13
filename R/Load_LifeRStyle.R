@@ -15,6 +15,7 @@
 #'
 #' @importFrom dplyr "filter"
 #' @importFrom readr "write_csv"
+#' @importFrom magrittr %>%
 #'
 #' @examples
 #' \dontrun{

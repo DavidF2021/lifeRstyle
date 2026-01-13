@@ -24,7 +24,8 @@ Imports:
     ggplot2,
     lme4,
     readr, 
-    stats
+    stats, 
+    magrittr
 Encoding: UTF-8
 Language: en-GB
 LazyData: true
