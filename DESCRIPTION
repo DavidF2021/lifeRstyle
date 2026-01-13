@@ -23,16 +23,17 @@ Imports:
     dplyr,
     ggplot2,
     lme4,
-    readr, 
-    stats, 
-    magrittr
-Encoding: UTF-8
-Language: en-GB
-LazyData: true
-RoxygenNote: 7.3.3
+    magrittr,
+    readr,
+    stats
 Suggests: 
     knitr,
     rmarkdown,
     testthat (>= 3.0.0)
-VignetteBuilder: knitr
+VignetteBuilder: 
+    knitr
 Config/testthat/edition: 3
+Encoding: UTF-8
+Language: en-GB
+LazyData: true
+RoxygenNote: 7.3.3
