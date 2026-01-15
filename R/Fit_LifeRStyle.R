@@ -123,3 +123,4 @@ anova_table <- function(fit_obj) {
 
   as.data.frame(stats::anova(fit_obj$model))
 }
+

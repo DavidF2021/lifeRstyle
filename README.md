@@ -12,15 +12,23 @@
 **lifeRstyle** Is an R package which downloads data about smoking
 habits, alcohol consumption and general health from the Central
 Statistics Office (CSO). Plots can be created and basic modelling can be
-performed of said data. Three functions are provided:
+performed of said data. The package focuses on indicators such as smoking habits,
+alcohol consumption, and general health and wellbeing. 
+Three functions are provided:
 
-1.  `Load_LifeRStyle`: for loading in the data in a tidy format.
+## Features
 
-2.  a `plot()` method: for producing visualisations of the data based on
+1.  `Load_LifeRStyle`:
+     Download, clean, and combine CSO datasets
+     Output data in a tidy format suitable for analysis
+
+2.  `Visualisation`
+    `plot()` method: for producing visualisations of the data based on
     `ggplot()`
 
-3.  a `fit()` method: for fitting statistical models (linear regression,
-    ANOVA, mixed models) to said data.
+3.  `Statistical modelling`
+    `fit()` method: for fitting statistical models (linear regression,
+     ANOVA, mixed models) to said data.
 
 ## Installation
 
