@@ -87,6 +87,7 @@ summary.st403_fit <- function(object, ...) {
 #' @export
 #'
 #' @importFrom stats "fitted" "resid"
+#' @importFrom graphics "abline"
 plot.st403_fit <- function(x, ...) {
   model <- x$model
 
