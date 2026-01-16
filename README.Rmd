@@ -59,7 +59,6 @@ pak::pak("DavidF2021/lifeRstyle")
 We are showing how to load lifestyle data and perform a simple analysis:
 
 ```{r}
-
 library(lifeRstyle)
 
 data <- Load_LifeRStyle()

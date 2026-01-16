@@ -48,6 +48,3 @@ This is a basic example which shows you how to solve a common problem:
 library(lifeRstyle)
 ## basic example code
 ```
-# Readme-files-updates
-# Readme-files-updates
-# Readme-files-updates
