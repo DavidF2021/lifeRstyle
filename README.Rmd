@@ -61,15 +61,27 @@ We are showing how to load lifestyle data and perform a simple analysis:
 ```{r}
 library(lifeRstyle)
 
-# data <- Load_LifeRStyle()
+data <- lifeRstyle::combined_cleaned
 ```
 Once loaded, the data can be visualised easily:
 ```{r plot}
-# plot(data)
+ plot_combined_data(data)
 ```
 Statistical models
-```{r example}
-# model <- fit(data)
-# summary(model)
+```{r lm}
+model <- fit_lifeRstyle(data, fit_type = "lm")
+summary(model) 
+
+```
+
+Anova model
+```{r anova}
+model_anova <- fit_lifeRstyle(data, fit_type = "anova")
+summary(model_anova)
+```
+Mixed models
+```{r mixed}
+model_mixed <- fit_lifeRstyle(data, fit_type = "mixed")
+summary(model_mixed)
 
 ```
