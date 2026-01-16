@@ -63,34 +63,27 @@ library(lifeRstyle)
 data <- lifeRstyle::combined_cleaned
 ```
 
-Once loaded, the data can be visualised easily:
+Once loaded, the data can be visualized easily:
 
 ``` r
- plot_combined_data(data)
-#> Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
-#> ℹ Please use `linewidth` instead.
-#> ℹ The deprecated feature was likely used in the lifeRstyle package.
-#>   Please report the issue to the authors.
-#> This warning is displayed once every 8 hours.
-#> Call `lifecycle::last_lifecycle_warnings()` to see where this warning was
-#> generated.
+suppressWarnings(
+  plot_combined_data(data)
+)
 #> $histogram
 ```
 
-<img src="man/figures/README-plot-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-4-1.png" width="100%" />
 
     #> 
     #> $boxplot
 
-<img src="man/figures/README-plot-2.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-4-2.png" width="100%" />
 
     #> 
     #> $scatter
-    #> `geom_line()`: Each group consists of only one observation.
-    #> ℹ Do you need to adjust the group aesthetic?
 
-<img src="man/figures/README-plot-3.png" width="100%" /> Statistical
-models
+<img src="man/figures/README-unnamed-chunk-4-3.png" width="100%" />
+Statistical models
 
 ``` r
 model <- fit_lifeRstyle(data, fit_type = "lm")
