@@ -66,9 +66,7 @@ data <- lifeRstyle::combined_cleaned
 Once loaded, the data can be visualized easily:
 
 ``` r
-suppressWarnings(
-  plot_combined_data(data)
-)
+plot_combined_data(data)
 #> $histogram
 ```
 
