@@ -63,9 +63,12 @@ library(lifeRstyle)
 
 data <- lifeRstyle::combined_cleaned
 ```
-Once loaded, the data can be visualised easily:
-```{r plot}
- plot_combined_data(data)
+Once loaded, the data can be visualized easily:
+```{r plot, warning=FALSE}
+suppressWarnings(
+  plot_combined_data(data)
+)
+
 ```
 Statistical models
 ```{r lm}
