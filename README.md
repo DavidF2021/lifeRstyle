@@ -1,38 +1,52 @@
----
-output: github_document
----
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-```{r, include = FALSE}
+``` r
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
   fig.path = "man/figures/README-",
-  out.width = "100%"
+  out.width = "100%"   
 )
 ```
 
 # lifeRstyle
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
 ## Description
 
-**lifeRstyle** Is an R package which downloads data about smoking habits, alcohol 
-consumption and general health from the Central Statistics Office (CSO). Plots can be created 
-and basic modelling can be performed of said data. Three functions are provided:
+lifeRstyle is an R package designed to download, clean, and analyse
+Irish lifestyle and health data from the Central Statistics Office
+(CSO). The package focuses on indicators such as:
 
-  1.  `Load_LifeRStyle`: for loading in the data in a tidy format.
-  
-  2. a `plot()` method: for producing visualisations of the data based on `ggplot()`
-  
-  3. a `fit()` method: for fitting statistical models (linear regression, ANOVA, mixed models) to said data. 
+Smoking habits
+
+Alcohol consumption
+
+General health and wellbeing
+
+It provides a tidy, user-friendly workflow for loading data, visualising
+trends, and fitting statistical models.
+
+Three core functions are provided:
+
+1.  Load_LifeRStyle() – for downloading and preparing CSO lifestyle data
+
+2.  plot() – for producing visualisations using ggplot2
+
+3.  fit() – for fitting statistical models (linear regression, ANOVA,
+    mixed-effects models)
+
+Typically, these functions are applied sequentially. A demonstration of
+the typical workflow is shown below.
 
 ## Installation
 
-You can install the development version of lifeRstyle from [GitHub](https://github.com/) with:
+Install the development version of lifeRstyle from
+[GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("pak")
@@ -41,11 +55,23 @@ pak::pak("DavidF2021/lifeRstyle")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+We are showing how to load lifestyle data and perform a simple analysis:
 
-```{r example}
+``` r
 library(lifeRstyle)
-## basic example code
+
+# data <- Load_LifeRStyle()
 ```
 
-# first-version
+Once loaded, the data can be visualised easily:
+
+``` r
+# plot(data)
+```
+
+Statistical models
+
+``` r
+# model <- fit(data)
+# summary(model)
+```

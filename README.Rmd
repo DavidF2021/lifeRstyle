@@ -49,7 +49,7 @@ A demonstration of the typical workflow is shown below.
 
 Install the development version of lifeRstyle from [GitHub](https://github.com/) with:
 
-``` {r}
+``` {r, eval=FALSE}
 # install.packages("pak")
 pak::pak("DavidF2021/lifeRstyle")
 
@@ -61,15 +61,15 @@ We are showing how to load lifestyle data and perform a simple analysis:
 ```{r}
 library(lifeRstyle)
 
-data <- Load_LifeRStyle()
+# data <- Load_LifeRStyle()
 ```
 Once loaded, the data can be visualised easily:
-```{r example}
-plot(data)
+```{r plot}
+# plot(data)
 ```
 Statistical models
 ```{r example}
-model <- fit(data)
-summary(model)
+# model <- fit(data)
+# summary(model)
 
 ```
