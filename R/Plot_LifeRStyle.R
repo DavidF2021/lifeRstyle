@@ -6,8 +6,8 @@
 #'
 #' @return A list containing three ggplot objects: histogram, boxplot, and scatter plot.
 #'
-#' @importFrom ggplot2 ggplot aes geom_histogram facet_wrap labs theme_minimal
-#'   geom_boxplot geom_point stat_summary scale_color_viridis_c
+#' @importFrom ggplot2 "ggplot" "aes" "geom_histogram" "facet_wrap" "labs" "theme_minimal"
+#'   "geom_boxplot" "geom_point" "stat_summary" "scale_color_viridis_c"
 #'
 #' @export
 #'
