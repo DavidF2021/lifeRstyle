@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 
 ## Description
 
-lifeRstyle is an R package designed to download, clean, and analyse
+**lifeRstyle** is an R package designed to download, clean, and analyse
 Irish lifestyle and health data from the Central Statistics Office
 (CSO). The package focuses on indicators such as:
 
@@ -33,19 +33,20 @@ trends, and fitting statistical models.
 
 Three core functions are provided:
 
-1.  Load_LifeRStyle() – for downloading and preparing CSO lifestyle data
+1.  `Load_LifeRStyle()` – for downloading and preparing CSO lifestyle
+    data.
 
-2.  plot() – for producing visualisations using ggplot2
+2.  A `plot()` function – for producing visualisations using `ggplot2`.
 
-3.  fit() – for fitting statistical models (linear regression, ANOVA,
-    mixed-effects models)
+3.  A `fit()` method – for fitting statistical models (linear
+    regression, ANOVA, mixed-effects models) to said data.
 
 Typically, these functions are applied sequentially. A demonstration of
 the typical workflow is shown below.
 
 ## Installation
 
-Install the development version of lifeRstyle from
+You can install the development version of lifeRstyle from
 [GitHub](https://github.com/) with:
 
 ``` r
@@ -81,6 +82,7 @@ plot_combined_data(data)
     #> $scatter
 
 <img src="man/figures/README-unnamed-chunk-4-3.png" width="100%" />
+
 Statistical models
 
 ``` r
