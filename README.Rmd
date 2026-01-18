@@ -73,7 +73,7 @@ Boxplot of Values by Age.
 This boxplot compares the Age distribution across alcohol, health, and smoking using summary statistics rather than individual points. The median line shows the typical age in each table, and the box shows the middle 50% of ages (IQR). The whiskers extend to the main range of the data, while dots represent outliers. It highlights that the health table has a much wider age range than the others. This plot is useful for quickly spotting differences in spread and unusual age values between tables.
 
 
-Scatter of Age by Table with Mean Line
+Scatter of Age by Table with Mean Line.
 
 This scatter plot shows individual observations of Age grouped by table (alcohol, health, smoking) along the x-axis. Each point represents one record, and the colour scale reflects the Value column, allowing patterns between age and value to be seen. The clustering of points indicates which age ranges dominate each table and where the data is concentrated. The mean line provides a reference for the average trend within each table group. Overall, it gives a detailed view of variability and how values change across ages in the combined dataset.
 
