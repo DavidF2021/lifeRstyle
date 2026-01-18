@@ -86,7 +86,7 @@ has a much wider age range than the others. This plot is useful for
 quickly spotting differences in spread and unusual age values between
 tables.
 
-Scatter of Age by Table with Mean Line
+Scatter of Age by Table with Mean Line.
 
 This scatter plot shows individual observations of Age grouped by table
 (alcohol, health, smoking) along the x-axis. Each point represents one
