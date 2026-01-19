@@ -4,15 +4,6 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-```{r}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"   
-)
-```
-
 # lifeRstyle
 
 <!-- badges: start -->
@@ -24,11 +15,11 @@ knitr::opts_chunk$set(
 Irish lifestyle and health data from the Central Statistics Office (CSO).
 The package focuses on indicators such as:
 
-Smoking habits
+-Smoking habits
 
-Alcohol consumption
+-Alcohol consumption
 
-General health and wellbeing
+-General health and well-being
 
 It provides a tidy, user-friendly workflow for loading data, visualising trends,
 and fitting statistical models.

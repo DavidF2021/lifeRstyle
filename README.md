@@ -1,15 +1,6 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-``` r
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"   
-)
-```
-
 # lifeRstyle
 
 <!-- badges: start -->
@@ -22,11 +13,11 @@ knitr::opts_chunk$set(
 Irish lifestyle and health data from the Central Statistics Office
 (CSO). The package focuses on indicators such as:
 
-Smoking habits
+-Smoking habits
 
-Alcohol consumption
+-Alcohol consumption
 
-General health and wellbeing
+-General health and well-being
 
 It provides a tidy, user-friendly workflow for loading data, visualising
 trends, and fitting statistical models.
@@ -99,20 +90,21 @@ variability and how values change across ages in the combined dataset.
 
 ``` r
 plot_combined_data(data)
-#> $histogram
 ```
 
-<img src="man/figures/README-unnamed-chunk-4-1.png" width="100%" />
+    ## $histogram
 
-    #> 
-    #> $boxplot
+![](README_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
 
-<img src="man/figures/README-unnamed-chunk-4-2.png" width="100%" />
+    ## 
+    ## $boxplot
 
-    #> 
-    #> $scatter
+![](README_files/figure-gfm/unnamed-chunk-3-2.png)<!-- -->
 
-<img src="man/figures/README-unnamed-chunk-4-3.png" width="100%" />
+    ## 
+    ## $scatter
+
+![](README_files/figure-gfm/unnamed-chunk-3-3.png)<!-- -->
 
 This output shows the results of a linear regression model fitted as
 value ~ Sex + Age.Group + Year. The residual summary (Min, 1Q, Median,
@@ -128,38 +120,39 @@ and explains almost none of the variability in value.
 ``` r
 model <- fit_lifeRstyle(data, fit_type = "lm")
 summary(model) 
-#> 
-#> Call:
-#> stats::lm(formula = value ~ Sex + Age.Group + Year, data = obj)
-#> 
-#> Residuals:
-#>     Min      1Q  Median      3Q     Max 
-#> -29.894 -17.129  -9.828   0.661  70.149 
-#> 
-#> Coefficients:
-#>                             Estimate Std. Error t value Pr(>|t|)
-#> (Intercept)                230.30539  247.86456   0.929    0.353
-#> SexFemale                   -0.20653    1.01806  -0.203    0.839
-#> SexMale                      0.21313    1.01806   0.209    0.834
-#> Age.Group20 - 24 years       1.07206    2.19927   0.487    0.626
-#> Age.Group25 - 29 years       1.41492    2.19927   0.643    0.520
-#> Age.Group30 - 34 years       1.31079    2.19927   0.596    0.551
-#> Age.Group35 - 39 years       0.91651    2.19927   0.417    0.677
-#> Age.Group40 - 44 years       0.57048    2.19927   0.259    0.795
-#> Age.Group45 - 49 years       0.34857    2.19927   0.158    0.874
-#> Age.Group50 - 54 years       0.12063    2.19927   0.055    0.956
-#> Age.Group55 - 59 years      -0.39397    2.19927  -0.179    0.858
-#> Age.Group60 - 64 years      -0.79016    2.19927  -0.359    0.719
-#> Age.Group65 - 69 years      -1.13016    2.19927  -0.514    0.607
-#> Age.Group70 - 74 years      -1.78825    2.19927  -0.813    0.416
-#> Age.Group75 years and over  -2.50698    2.19927  -1.140    0.254
-#> Age.GroupAll ages            0.08127    2.19927   0.037    0.971
-#> Year                        -0.10012    0.12270  -0.816    0.415
-#> 
-#> Residual standard error: 27.6 on 4393 degrees of freedom
-#> Multiple R-squared:  0.00185,    Adjusted R-squared:  -0.001785 
-#> F-statistic: 0.509 on 16 and 4393 DF,  p-value: 0.9443
 ```
+
+    ## 
+    ## Call:
+    ## stats::lm(formula = value ~ Sex + Age.Group + Year, data = obj)
+    ## 
+    ## Residuals:
+    ##     Min      1Q  Median      3Q     Max 
+    ## -29.894 -17.129  -9.828   0.661  70.149 
+    ## 
+    ## Coefficients:
+    ##                             Estimate Std. Error t value Pr(>|t|)
+    ## (Intercept)                230.30539  247.86456   0.929    0.353
+    ## SexFemale                   -0.20653    1.01806  -0.203    0.839
+    ## SexMale                      0.21313    1.01806   0.209    0.834
+    ## Age.Group20 - 24 years       1.07206    2.19927   0.487    0.626
+    ## Age.Group25 - 29 years       1.41492    2.19927   0.643    0.520
+    ## Age.Group30 - 34 years       1.31079    2.19927   0.596    0.551
+    ## Age.Group35 - 39 years       0.91651    2.19927   0.417    0.677
+    ## Age.Group40 - 44 years       0.57048    2.19927   0.259    0.795
+    ## Age.Group45 - 49 years       0.34857    2.19927   0.158    0.874
+    ## Age.Group50 - 54 years       0.12063    2.19927   0.055    0.956
+    ## Age.Group55 - 59 years      -0.39397    2.19927  -0.179    0.858
+    ## Age.Group60 - 64 years      -0.79016    2.19927  -0.359    0.719
+    ## Age.Group65 - 69 years      -1.13016    2.19927  -0.514    0.607
+    ## Age.Group70 - 74 years      -1.78825    2.19927  -0.813    0.416
+    ## Age.Group75 years and over  -2.50698    2.19927  -1.140    0.254
+    ## Age.GroupAll ages            0.08127    2.19927   0.037    0.971
+    ## Year                        -0.10012    0.12270  -0.816    0.415
+    ## 
+    ## Residual standard error: 27.6 on 4393 degrees of freedom
+    ## Multiple R-squared:  0.00185,    Adjusted R-squared:  -0.001785 
+    ## F-statistic: 0.509 on 16 and 4393 DF,  p-value: 0.9443
 
 This output is a one-way ANOVA testing whether the mean value differs
 across Age.Group categories. The table splits total variation into
@@ -173,10 +166,11 @@ predictor of value in this dataset.
 ``` r
 model_anova <- fit_lifeRstyle(data, fit_type = "anova")
 summary(model_anova)
-#>               Df  Sum Sq Mean Sq F value Pr(>F)
-#> Age.Group     13    5567   428.3   0.562  0.885
-#> Residuals   4396 3347191   761.4
 ```
+
+    ##               Df  Sum Sq Mean Sq F value Pr(>F)
+    ## Age.Group     13    5567   428.3   0.562  0.885
+    ## Residuals   4396 3347191   761.4
 
 This mixed-effects model explains value using Sex and Age.Group, while
 allowing the baseline level to vary by table_name through a random
@@ -193,42 +187,44 @@ differences across Sex or Age.Group for predicting value.
 ``` r
 model_mixed <- fit_lifeRstyle(data, fit_type = "mixed")
 summary(model_mixed)
-#> Linear mixed model fit by REML ['lmerMod']
-#> Formula: value ~ Sex + Age.Group + (1 | table_name)
-#>    Data: obj
-#> 
-#> REML criterion at convergence: 41312.9
-#> 
-#> Scaled residuals: 
-#>     Min      1Q  Median      3Q     Max 
-#> -1.6811 -0.5953 -0.1507  0.2998  2.5860 
-#> 
-#> Random effects:
-#>  Groups     Name        Variance Std.Dev.
-#>  table_name (Intercept) 128.2    11.32   
-#>  Residual               692.5    26.32   
-#> Number of obs: 4410, groups:  table_name, 3
-#> 
-#> Fixed effects:
-#>                            Estimate Std. Error t value
-#> (Intercept)                30.81754    6.72788   4.581
-#> SexFemale                  -0.20653    0.97067  -0.213
-#> SexMale                     0.21313    0.97067   0.220
-#> Age.Group20 - 24 years      1.07206    2.09689   0.511
-#> Age.Group25 - 29 years      1.41492    2.09689   0.675
-#> Age.Group30 - 34 years      1.31079    2.09689   0.625
-#> Age.Group35 - 39 years      0.91651    2.09689   0.437
-#> Age.Group40 - 44 years      0.57048    2.09689   0.272
-#> Age.Group45 - 49 years      0.34857    2.09689   0.166
-#> Age.Group50 - 54 years      0.12063    2.09689   0.058
-#> Age.Group55 - 59 years     -0.39397    2.09689  -0.188
-#> Age.Group60 - 64 years     -0.79016    2.09689  -0.377
-#> Age.Group65 - 69 years     -1.13016    2.09689  -0.539
-#> Age.Group70 - 74 years     -1.78825    2.09689  -0.853
-#> Age.Group75 years and over -2.50698    2.09689  -1.196
-#> Age.GroupAll ages           0.08127    2.09689   0.039
-#> 
-#> Correlation matrix not shown by default, as p = 16 > 12.
-#> Use print(x, correlation=TRUE)  or
-#>     vcov(x)        if you need it
 ```
+
+    ## Linear mixed model fit by REML ['lmerMod']
+    ## Formula: value ~ Sex + Age.Group + (1 | table_name)
+    ##    Data: obj
+    ## 
+    ## REML criterion at convergence: 41312.9
+    ## 
+    ## Scaled residuals: 
+    ##     Min      1Q  Median      3Q     Max 
+    ## -1.6811 -0.5953 -0.1507  0.2998  2.5860 
+    ## 
+    ## Random effects:
+    ##  Groups     Name        Variance Std.Dev.
+    ##  table_name (Intercept) 128.2    11.32   
+    ##  Residual               692.5    26.32   
+    ## Number of obs: 4410, groups:  table_name, 3
+    ## 
+    ## Fixed effects:
+    ##                            Estimate Std. Error t value
+    ## (Intercept)                30.81754    6.72788   4.581
+    ## SexFemale                  -0.20653    0.97067  -0.213
+    ## SexMale                     0.21313    0.97067   0.220
+    ## Age.Group20 - 24 years      1.07206    2.09689   0.511
+    ## Age.Group25 - 29 years      1.41492    2.09689   0.675
+    ## Age.Group30 - 34 years      1.31079    2.09689   0.625
+    ## Age.Group35 - 39 years      0.91651    2.09689   0.437
+    ## Age.Group40 - 44 years      0.57048    2.09689   0.272
+    ## Age.Group45 - 49 years      0.34857    2.09689   0.166
+    ## Age.Group50 - 54 years      0.12063    2.09689   0.058
+    ## Age.Group55 - 59 years     -0.39397    2.09689  -0.188
+    ## Age.Group60 - 64 years     -0.79016    2.09689  -0.377
+    ## Age.Group65 - 69 years     -1.13016    2.09689  -0.539
+    ## Age.Group70 - 74 years     -1.78825    2.09689  -0.853
+    ## Age.Group75 years and over -2.50698    2.09689  -1.196
+    ## Age.GroupAll ages           0.08127    2.09689   0.039
+
+    ## 
+    ## Correlation matrix not shown by default, as p = 16 > 12.
+    ## Use print(x, correlation=TRUE)  or
+    ##     vcov(x)        if you need it

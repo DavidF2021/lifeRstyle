@@ -1,4 +1,3 @@
-
 #' Download and clean any table from CSO
 #'
 #' This function downloads and cleans data downloaded from the CSO website.
@@ -26,13 +25,19 @@ download_and_clean_cso <- function(table_id,
                                    filter_sex = NULL,
                                    filter_age = NULL,
                                    filter_years = NULL) {
+
+  if (missing(table_id) || !is.character(table_id) || length(table_id) != 1) {
+    stop("table_id must be a single character string")
+  }
+
   message("Downloading table: ", table_id)
 
-  # Download table from CSO (tall format)
   df <- csodata::cso_get_data(table_id, pivot_format = "tall")
-  message("Downloaded table has ", nrow(df), " rows and ", ncol(df), " columns.")
 
-  # Apply filters only if specified
+  if (!is.data.frame(df)) {
+    stop("Downloaded data is not a data frame")
+  }
+
   if (!is.null(filter_sex)) {
     df <- df %>% dplyr::filter(Sex %in% filter_sex)
   }
@@ -43,13 +48,9 @@ download_and_clean_cso <- function(table_id,
     df <- df %>% dplyr::filter(Year %in% filter_years)
   }
 
-  message("After cleaning: ", nrow(df), " rows remain.")
-
-  # Save to CSV if requested
   if (!is.null(dest_file)) {
     if (!dir.exists(dirname(dest_file))) dir.create(dirname(dest_file), recursive = TRUE)
     readr::write_csv(df, dest_file)
-    message("Cleaned data saved to: ", dest_file)
   }
 
   return(df)
@@ -75,20 +76,8 @@ download_and_clean_cso <- function(table_id,
 #'
 #' @examples
 #' \dontrun{
-#' # Named vector of tables
 #' tables <- c(alcohol = "HIS15_cleaned", health = "HIS01", smoking = "HIS09")
-#'
-#' # Download, clean, and combine
-#' data_list <- download_clean_combine_cso(
-#' tables,
-#' filter_sex = NULL,   # set to c("Both sexes") if you want
-#' filter_age = NULL,   # set to c("All ages") if needed
-#' filter_years = NULL  # set to c("2019", "2020") if needed
-#' )
-#' # Access combined dataset
-#' combined_data <- data_list$combined
-#' dim(combined_data)
-#' head(combined_data)
+#' data_list <- download_clean_combine_cso(tables)
 #' }
 download_clean_combine_cso <- function(table_ids,
                                        filter_sex = NULL,
@@ -97,39 +86,35 @@ download_clean_combine_cso <- function(table_ids,
                                        combine = TRUE,
                                        save_dir = "data/clean") {
 
+  if (missing(table_ids) || !is.character(table_ids) || length(table_ids) < 1) {
+    stop("table_ids must be a character vector")
+  }
+
   if (!dir.exists(save_dir)) dir.create(save_dir, recursive = TRUE)
 
-  # Ensure table_ids have names
   if (is.null(names(table_ids))) {
     names(table_ids) <- table_ids
   }
 
-  # Download and clean each table
   cleaned_list <- lapply(names(table_ids), function(name) {
     tid <- table_ids[[name]]
     dest_file <- file.path(save_dir, paste0(name, "_cleaned.csv"))
-    df <- download_and_clean_cso(
+    download_and_clean_cso(
       table_id = tid,
       dest_file = dest_file,
       filter_sex = filter_sex,
       filter_age = filter_age,
       filter_years = filter_years
     )
-    return(df)
   })
 
-  # Name the list properly
   names(cleaned_list) <- names(table_ids)
 
-  # Combine if requested
   combined_df <- NULL
   if (combine) {
     combined_df <- dplyr::bind_rows(cleaned_list, .id = "table_name")
-    combined_file <- file.path(save_dir, "combined_cleaned.csv")
-    readr::write_csv(combined_df, combined_file)
-    message("Saved combined cleaned dataset with ", nrow(combined_df), " rows.")
+    readr::write_csv(combined_df, file.path(save_dir, "combined_cleaned.csv"))
   }
 
   return(list(individual = cleaned_list, combined = combined_df))
 }
-

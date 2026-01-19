@@ -15,7 +15,3 @@ A list containing three ggplot objects: histogram, boxplot, and scatter plot.
 \description{
 Generates a histogram, boxplot, and scatter plot for combined CSO data.
 }
-\examples{
-plots <- plot_combined_data(combined_cleaned)
-plots$histogram
-}

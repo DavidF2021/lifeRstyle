@@ -10,11 +10,15 @@
 #'   "geom_boxplot" "geom_point" "stat_summary" "scale_color_viridis_c"
 #'
 #' @export
-#'
-#' @examples
-#' plots <- plot_combined_data(combined_cleaned)
-#' plots$histogram
 plot_combined_data <- function(data) {
+
+  if (!is.data.frame(data)) {
+    stop("data must be a data frame")
+  }
+
+  if (!all(c("table_name", "value") %in% names(data))) {
+    stop("data must contain columns: table_name and value")
+  }
 
   hist_plot <- ggplot2::ggplot(data, ggplot2::aes(x = value, fill = table_name)) +
     ggplot2::geom_histogram(binwidth = 10, color = "white") +
@@ -40,7 +44,7 @@ plot_combined_data <- function(data) {
       ggplot2::aes(color = value),
       position = ggplot2::position_jitter(width = 0.2)
     ) +
-    ggplot2::stat_summary(fun = mean, geom = "line", color = "red", size = 1) +
+    ggplot2::stat_summary(fun = mean, geom = "line", color = "red", linewidth = 1) +
     ggplot2::labs(
       title = "Scatter of Age by Table with Mean Line",
       x = "Table",

@@ -36,19 +36,7 @@ This function downloads,cleans and combines data sets downloaded from the CSO we
 }
 \examples{
 \dontrun{
-# Named vector of tables
 tables <- c(alcohol = "HIS15_cleaned", health = "HIS01", smoking = "HIS09")
-
-# Download, clean, and combine
-data_list <- download_clean_combine_cso(
-tables,
-filter_sex = NULL,   # set to c("Both sexes") if you want
-filter_age = NULL,   # set to c("All ages") if needed
-filter_years = NULL  # set to c("2019", "2020") if needed
-)
-# Access combined dataset
-combined_data <- data_list$combined
-dim(combined_data)
-head(combined_data)
+data_list <- download_clean_combine_cso(tables)
 }
 }
